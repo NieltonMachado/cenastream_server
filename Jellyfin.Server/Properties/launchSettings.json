@@ -1,0 +1,49 @@
+{
+  "profiles": {
+    "Jellyfin.Server": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:8096",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "commandLineArgs": "--datadir D:\\cena-data\\data --configdir D:\\cena-data\\config --cachedir D:\\cena-data\\cache --logdir D:\\cena-data\\log --ffmpeg \"C:\\caminho\\ffmpeg.exe\""
+    },
+    "Jellyfin.Server (nowebclient)": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "commandLineArgs": "--datadir D:\\cena-data\\data --configdir D:\\cena-data\\config --cachedir D:\\cena-data\\cache --logdir D:\\cena-data\\log --ffmpeg \"C:\\caminho\\ffmpeg.exe\" --nowebclient"
+    },
+    "Jellyfin.Server (API Docs)": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api-docs/swagger",
+      "applicationUrl": "http://localhost:8096",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "commandLineArgs": "--datadir D:\\cena-data\\data --configdir D:\\cena-data\\config --cachedir D:\\cena-data\\cache --logdir D:\\cena-data\\log --ffmpeg \"C:\\caminho\\ffmpeg.exe\" --nowebclient"
+    },
+    "cenastream (web)": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:8096",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "commandLineArgs": "--datadir D:\\cena-data\\data --configdir D:\\cena-data\\config --cachedir D:\\cena-data\\cache --logdir D:\\cena-data\\log --ffmpeg \"C:\\caminho\\ffmpeg.exe\" --webdir \"D:\\Development\\jellyfin-web\\dist\""
+    },
+    "cenastream (noweb)": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api-docs/swagger",
+      "applicationUrl": "http://localhost:8096",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "commandLineArgs": "--datadir D:\\cena-data\\data --configdir D:\\cena-data\\config --cachedir D:\\cena-data\\cache --logdir D:\\cena-data\\log --ffmpeg \"C:\\caminho\\ffmpeg.exe\" --nowebclient"
+    }
+  }
+}
