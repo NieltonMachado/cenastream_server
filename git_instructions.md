@@ -168,4 +168,12 @@ git remote set-url origin https://github.com/NieltonMachado/jellyfin_server.git
 - [ ] a branch correta está ativa (`master` ou `main`)
 - [ ] os commits não são enviados para o repositório original por acidente
 
-Se o seu objetivo é manter este fork sincronizado com um projeto externo e enviar apenas as alterações para o seu repositório privado, esta configuração é a forma correta de garantir isso.
+
+Começar do zero: o comando abaixo cria um histórico novo com um único commit.
+
+git checkout --orphan clean_main
+git add -A
+git commit -m "Initial commit"
+git branch -D master
+git branch -m master
+git push -f origin master
