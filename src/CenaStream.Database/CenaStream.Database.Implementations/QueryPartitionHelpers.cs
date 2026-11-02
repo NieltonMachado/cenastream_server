@@ -7,7 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace Jellyfin.Database.Implementations;
+namespace CenaStream.Database.Implementations;
 
 /// <summary>
 /// Contains helpers to partition EFCore queries.

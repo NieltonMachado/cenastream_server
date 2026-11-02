@@ -1,8 +1,8 @@
-using Jellyfin.Database.Implementations;
+using CenaStream.Database.Implementations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.Routines;
+namespace CenaStream.Server.Migrations.Routines;
 
 /// <summary>
 /// Drops keys that no current property reads or writes from the serialized <c>BaseItems.Data</c> blob.

@@ -6,11 +6,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using Jellyfin.Data;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Data;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Extensions;
 using MediaBrowser.Controller.Channels;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Dto;
@@ -22,7 +22,7 @@ using MediaBrowser.Model.Globalization;
 using MediaBrowser.Model.Library;
 using MediaBrowser.Model.Querying;
 
-namespace Emby.Server.Implementations.Library
+namespace CenaStream.Server.Core.Library
 {
     public class UserViewManager : IUserViewManager
     {

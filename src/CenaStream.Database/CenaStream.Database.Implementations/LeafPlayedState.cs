@@ -1,6 +1,6 @@
 using System;
 
-namespace Jellyfin.Database.Implementations;
+namespace CenaStream.Database.Implementations;
 
 /// <summary>
 /// An item's id paired with whether a given user has played it.

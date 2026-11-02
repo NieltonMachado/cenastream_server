@@ -6,11 +6,11 @@ using System.Linq;
 using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
-using Emby.Server.Implementations.Serialization;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Server.Implementations.SystemBackupService;
-using Jellyfin.Server.Migrations.Stages;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Database.Implementations;
+using CenaStream.Server.Core.Serialization;
+using CenaStream.Server.Implementations.SystemBackupService;
+using CenaStream.Server.Migrations.Stages;
+using CenaStream.Server.ServerSetupApp;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.SystemBackupService;
 using MediaBrowser.Model.Configuration;
@@ -20,7 +20,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations;
+namespace CenaStream.Server.Migrations;
 
 /// <summary>
 /// Handles Migration of the Jellyfin data structure.

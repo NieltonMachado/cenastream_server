@@ -1,6 +1,6 @@
 using SkiaSharp;
 
-namespace Jellyfin.Drawing.Skia;
+namespace CenaStream.Drawing.Skia;
 
 /// <summary>
 /// The SkiaSharp extensions.

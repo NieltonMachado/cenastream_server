@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities.Security;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities.Security;
 using MediaBrowser.Controller.Security;
 using Microsoft.EntityFrameworkCore;
 
-namespace Jellyfin.Server.Implementations.Security
+namespace CenaStream.Server.Implementations.Security
 {
     /// <inheritdoc />
     public class AuthenticationManager : IAuthenticationManager

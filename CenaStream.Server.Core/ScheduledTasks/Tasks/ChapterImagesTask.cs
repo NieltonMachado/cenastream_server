@@ -4,8 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Extensions;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Chapters;
 using MediaBrowser.Controller.Dto;
@@ -17,7 +17,7 @@ using MediaBrowser.Model.IO;
 using MediaBrowser.Model.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.ScheduledTasks.Tasks;
+namespace CenaStream.Server.Core.ScheduledTasks.Tasks;
 
 /// <summary>
 /// Class ChapterImagesTask.

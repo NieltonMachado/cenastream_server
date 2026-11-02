@@ -1,8 +1,8 @@
-using Emby.Naming.Common;
-using Emby.Naming.Video;
+using CenaStream.Naming.Common;
+using CenaStream.Naming.Video;
 using Xunit;
 
-namespace Jellyfin.Naming.Tests.Video
+namespace CenaStream.Naming.Tests.Video
 {
     public class StubTests
     {

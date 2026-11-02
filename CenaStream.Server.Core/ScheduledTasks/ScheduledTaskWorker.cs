@@ -8,15 +8,15 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Emby.Server.Implementations.ScheduledTasks.Triggers;
-using Jellyfin.Data.Events;
-using Jellyfin.Extensions.Json;
+using CenaStream.Data.Events;
+using CenaStream.Extensions.Json;
+using CenaStream.Server.Core.ScheduledTasks.Triggers;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Model.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.ScheduledTasks;
+namespace CenaStream.Server.Core.ScheduledTasks;
 
 /// <summary>
 /// Class ScheduledTaskWorker.

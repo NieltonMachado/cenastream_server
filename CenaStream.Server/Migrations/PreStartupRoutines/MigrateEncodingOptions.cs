@@ -2,12 +2,12 @@ using System;
 using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
-using Emby.Server.Implementations;
+using CenaStream.Server.Core;
 using MediaBrowser.Model.Configuration;
 using MediaBrowser.Model.Entities;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.PreStartupRoutines;
+namespace CenaStream.Server.Migrations.PreStartupRoutines;
 
 /// <inheritdoc />
 #pragma warning disable CS0618 // Type or member is obsolete

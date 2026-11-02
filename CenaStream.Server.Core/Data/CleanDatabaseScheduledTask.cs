@@ -5,8 +5,8 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.IO;
 using MediaBrowser.Controller.Library;
@@ -14,7 +14,7 @@ using MediaBrowser.Controller.Playlists;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Data;
+namespace CenaStream.Server.Core.Data;
 
 public class CleanDatabaseScheduledTask : ILibraryPostScanTask
 {

@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace Jellyfin.Server.HealthChecks;
+namespace CenaStream.Server.HealthChecks;
 
 /// <summary>
 /// Implementation of the <see cref="DbContextHealthCheck{TContext}"/> for a <see cref="IDbContextFactory{TContext}"/>.

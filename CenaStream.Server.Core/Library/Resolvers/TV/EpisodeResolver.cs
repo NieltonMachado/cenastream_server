@@ -3,16 +3,16 @@
 using System;
 using System.IO;
 using System.Linq;
-using Emby.Naming.Common;
-using Emby.Server.Implementations.Library;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Naming.Common;
+using CenaStream.Server.Core.Library;
 using MediaBrowser.Controller.Entities.TV;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Providers;
 using MediaBrowser.Model.Entities;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Library.Resolvers.TV
+namespace CenaStream.Server.Core.Library.Resolvers.TV
 {
     /// <summary>
     /// Class EpisodeResolver.

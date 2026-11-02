@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.LiveTv.Listings;
+using CenaStream.LiveTv.Listings;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.LiveTv;
@@ -16,7 +16,7 @@ using Moq;
 using Moq.Protected;
 using Xunit;
 
-namespace Jellyfin.LiveTv.Tests.Listings;
+namespace CenaStream.LiveTv.Tests.Listings;
 
 public sealed class XmlTvListingsProviderCacheTests : IDisposable
 {

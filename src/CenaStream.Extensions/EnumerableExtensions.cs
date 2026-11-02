@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Jellyfin.Extensions;
+namespace CenaStream.Extensions;
 
 /// <summary>
 /// Static extensions for the <see cref="IEnumerable{T}"/> interface.

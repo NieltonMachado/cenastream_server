@@ -5,9 +5,9 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Jellyfin.Api.Attributes;
-using Jellyfin.Extensions;
-using Jellyfin.Extensions.Json;
+using CenaStream.Api.Attributes;
+using CenaStream.Extensions;
+using CenaStream.Extensions.Json;
 using MediaBrowser.Common.Api;
 using MediaBrowser.Common.Plugins;
 using MediaBrowser.Common.Updates;
@@ -17,7 +17,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Jellyfin.Api.Controllers;
+namespace CenaStream.Api.Controllers;
 
 /// <summary>
 /// Plugins controller.

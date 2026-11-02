@@ -1,10 +1,10 @@
 using System;
 using System.IO;
-using Emby.Naming.Common;
-using Emby.Naming.Video;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
+using CenaStream.Naming.Common;
+using CenaStream.Naming.Video;
 
-namespace Emby.Naming.TV
+namespace CenaStream.Naming.TV
 {
     /// <summary>
     /// Used to resolve information about episode from path.

@@ -11,8 +11,8 @@ using System.Security.Cryptography;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Extensions;
-using Jellyfin.Extensions.Json;
+using CenaStream.Extensions;
+using CenaStream.Extensions.Json;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Common.Plugins;
@@ -25,7 +25,7 @@ using MediaBrowser.Model.Plugins;
 using MediaBrowser.Model.Updates;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Updates
+namespace CenaStream.Server.Core.Updates
 {
     /// <summary>
     /// Manages all install, uninstall, and update operations for the system and individual plugins.

@@ -1,9 +1,9 @@
 using System;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Jellyfin.Database.Implementations.ModelConfiguration;
+namespace CenaStream.Database.Implementations.ModelConfiguration;
 
 /// <summary>
 /// Configuration for BaseItem.

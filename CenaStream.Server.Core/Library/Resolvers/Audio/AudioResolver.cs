@@ -6,18 +6,18 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Emby.Naming.Audio;
-using Emby.Naming.AudioBook;
-using Emby.Naming.Common;
-using Emby.Naming.Video;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Naming.Audio;
+using CenaStream.Naming.AudioBook;
+using CenaStream.Naming.Common;
+using CenaStream.Naming.Video;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Providers;
 using MediaBrowser.Controller.Resolvers;
 using MediaBrowser.Model.IO;
 
-namespace Emby.Server.Implementations.Library.Resolvers.Audio
+namespace CenaStream.Server.Core.Library.Resolvers.Audio
 {
     /// <summary>
     /// Class AudioResolver.

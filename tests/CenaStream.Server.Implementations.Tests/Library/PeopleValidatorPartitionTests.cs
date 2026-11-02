@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Emby.Server.Implementations.Library.Validators;
+using CenaStream.Server.Core.Library.Validators;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Library;
+namespace CenaStream.Server.Implementations.Tests.Library;
 
 /// <summary>
 /// Tests for how the people validator decides which credits need a person item and which person items

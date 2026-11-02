@@ -5,7 +5,7 @@ using MediaBrowser.Controller.Events;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Implementations.Events
+namespace CenaStream.Server.Implementations.Events
 {
     /// <summary>
     /// Handles the firing of events.

@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.MediaEncoding.Keyframes;
+using CenaStream.MediaEncoding.Keyframes;
 using MediaBrowser.Controller.IO;
 using MediaBrowser.Controller.Persistence;
 
-namespace Emby.Server.Implementations.Library;
+namespace CenaStream.Server.Core.Library;
 
 /// <summary>
 /// Manager for Keyframe data.

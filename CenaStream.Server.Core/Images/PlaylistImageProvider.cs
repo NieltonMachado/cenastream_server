@@ -14,7 +14,7 @@ using MediaBrowser.Controller.Providers;
 using MediaBrowser.Model.Entities;
 using MediaBrowser.Model.IO;
 
-namespace Emby.Server.Implementations.Images
+namespace CenaStream.Server.Core.Images
 {
     public class PlaylistImageProvider : BaseDynamicImageProvider<Playlist>
     {

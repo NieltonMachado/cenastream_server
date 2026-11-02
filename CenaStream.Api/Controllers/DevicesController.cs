@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
-using Jellyfin.Api.Attributes;
-using Jellyfin.Api.Helpers;
-using Jellyfin.Api.ModelBinders;
-using Jellyfin.Data.Dtos;
-using Jellyfin.Data.Queries;
+using CenaStream.Api.Attributes;
+using CenaStream.Api.Helpers;
+using CenaStream.Api.ModelBinders;
+using CenaStream.Data.Dtos;
+using CenaStream.Data.Queries;
 using MediaBrowser.Common.Api;
 using MediaBrowser.Controller.Devices;
 using MediaBrowser.Controller.Session;
@@ -17,7 +17,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Jellyfin.Api.Controllers;
+namespace CenaStream.Api.Controllers;
 
 /// <summary>
 /// Devices Controller.

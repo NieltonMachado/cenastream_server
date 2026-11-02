@@ -1,15 +1,15 @@
 using System;
 using System.Linq;
-using Emby.Server.Implementations.Data;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Server.Implementations.Item;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Server.Core.Data;
+using CenaStream.Server.Implementations.Item;
 using MediaBrowser.Controller.Dto;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Model.Entities;
 using Xunit;
-using BaseItemKind = Jellyfin.Data.Enums.BaseItemKind;
+using BaseItemKind = CenaStream.Data.Enums.BaseItemKind;
 
-namespace Jellyfin.Server.Implementations.Tests.Item;
+namespace CenaStream.Server.Implementations.Tests.Item;
 
 /// <summary>
 /// Artists are by-name items: they live outside any library and carry no TopParentId, so a plain

@@ -2,7 +2,7 @@ using System;
 using Microsoft.OpenApi;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Jellyfin.Server.Filters;
+namespace CenaStream.Server.Filters;
 
 /// <summary>
 /// Schema filter to ensure flags enums are represented correctly in OpenAPI.

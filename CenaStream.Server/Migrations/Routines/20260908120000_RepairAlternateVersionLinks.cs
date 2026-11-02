@@ -4,13 +4,13 @@ using System.Globalization;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Database.Implementations;
+using CenaStream.Server.ServerSetupApp;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using LinkedChildType = Jellyfin.Database.Implementations.Entities.LinkedChildType;
+using LinkedChildType = CenaStream.Database.Implementations.Entities.LinkedChildType;
 
-namespace Jellyfin.Server.Migrations.Routines;
+namespace CenaStream.Server.Migrations.Routines;
 
 /// <summary>
 /// Re-points every video that is linked as an alternate version at the primary it belongs to.

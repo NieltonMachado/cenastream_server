@@ -3,8 +3,8 @@ using System.Globalization;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Api.Helpers;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Api.Helpers;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Configuration;
@@ -20,7 +20,7 @@ using Microsoft.Extensions.Logging;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Api.Tests.Helpers
+namespace CenaStream.Api.Tests.Helpers
 {
     public class MediaInfoHelperTests
     {
@@ -383,7 +383,7 @@ namespace Jellyfin.Api.Tests.Helpers
                 .ReturnsAsync(() =>
                 {
                     // MediaSourceManager.OpenLiveStream JSON-clones its internal MediaSourceInfo before returning
-                    // it (see Emby.Server.Implementations/Library/MediaSourceManager.cs:693-706); mirror that so
+                    // it (see CenaStream.Server.Core/Library/MediaSourceManager.cs:693-706); mirror that so
                     // the in-place rewrite below can't be observed on openedSource itself.
                     var clone = JsonSerializer.Deserialize<MediaSourceInfo>(JsonSerializer.SerializeToUtf8Bytes(openedSource))!;
                     return new LiveStreamResponse(clone);

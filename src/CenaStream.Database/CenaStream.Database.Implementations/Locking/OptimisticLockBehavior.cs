@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Logging;
 using Polly;
 
-namespace Jellyfin.Database.Implementations.Locking;
+namespace CenaStream.Database.Implementations.Locking;
 
 /// <summary>
 /// Defines a locking mechanism that will retry any write operation for a few times.

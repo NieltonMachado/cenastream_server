@@ -1,7 +1,7 @@
 using MediaBrowser.Model.Net;
 using Xunit;
 
-namespace Jellyfin.Model.Tests.Net
+namespace CenaStream.Model.Tests.Net
 {
     public class MimeTypesTests
     {

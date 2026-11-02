@@ -1,13 +1,13 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Api.Controllers;
+using CenaStream.Api.Controllers;
 using MediaBrowser.Controller.MediaEncoding;
 using MediaBrowser.Model.Entities;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
 
-namespace Jellyfin.Api.Tests.Controllers
+namespace CenaStream.Api.Tests.Controllers
 {
     public class DynamicHlsControllerTests
     {

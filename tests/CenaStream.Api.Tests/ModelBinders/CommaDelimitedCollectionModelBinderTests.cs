@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Threading.Tasks;
-using Jellyfin.Api.ModelBinders;
+using CenaStream.Api.ModelBinders;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Logging.Abstractions;
@@ -10,7 +10,7 @@ using Microsoft.Extensions.Primitives;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Api.Tests.ModelBinders
+namespace CenaStream.Api.Tests.ModelBinders
 {
     public sealed class CommaDelimitedCollectionModelBinderTests
     {

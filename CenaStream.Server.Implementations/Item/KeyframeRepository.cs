@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace Jellyfin.Server.Implementations.Item;
+namespace CenaStream.Server.Implementations.Item;
 
 /// <summary>
 /// Repository for obtaining Keyframe data.

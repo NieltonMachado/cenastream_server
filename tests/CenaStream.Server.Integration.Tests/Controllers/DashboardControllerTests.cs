@@ -5,11 +5,11 @@ using System.Net.Mime;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Jellyfin.Api.Models;
-using Jellyfin.Extensions.Json;
+using CenaStream.Api.Models;
+using CenaStream.Extensions.Json;
 using Xunit;
 
-namespace Jellyfin.Server.Integration.Tests.Controllers
+namespace CenaStream.Server.Integration.Tests.Controllers
 {
     public sealed class DashboardControllerTests : IClassFixture<JellyfinApplicationFactory>
     {
@@ -41,7 +41,7 @@ namespace Jellyfin.Server.Integration.Tests.Controllers
 
             Assert.Equal(HttpStatusCode.OK, response.StatusCode);
             Assert.Equal(MediaTypeNames.Text.Html, response.Content.Headers.ContentType?.MediaType);
-            StreamReader reader = new StreamReader(typeof(TestPlugin).Assembly.GetManifestResourceStream("Jellyfin.Server.Integration.Tests.TestPage.html")!);
+            StreamReader reader = new StreamReader(typeof(TestPlugin).Assembly.GetManifestResourceStream("CenaStream.Server.Integration.Tests.TestPage.html")!);
             Assert.Equal(await response.Content.ReadAsStringAsync(TestContext.Current.CancellationToken), await reader.ReadToEndAsync(TestContext.Current.CancellationToken));
         }
 

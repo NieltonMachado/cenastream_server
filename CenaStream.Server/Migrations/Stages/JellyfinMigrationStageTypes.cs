@@ -1,4 +1,4 @@
-namespace Jellyfin.Server.Migrations.Stages;
+namespace CenaStream.Server.Migrations.Stages;
 
 /// <summary>
 /// Defines the stages the <see cref="JellyfinMigrationService"/> supports.

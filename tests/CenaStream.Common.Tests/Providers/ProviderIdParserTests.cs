@@ -2,7 +2,7 @@ using System;
 using MediaBrowser.Common.Providers;
 using Xunit;
 
-namespace Jellyfin.Common.Tests.Providers
+namespace CenaStream.Common.Tests.Providers
 {
     public class ProviderIdParserTests
     {

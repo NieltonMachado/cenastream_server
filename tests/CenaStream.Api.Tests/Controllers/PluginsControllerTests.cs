@@ -1,6 +1,6 @@
 using System;
 using System.IO;
-using Jellyfin.Api.Controllers;
+using CenaStream.Api.Controllers;
 using MediaBrowser.Common.Plugins;
 using MediaBrowser.Common.Updates;
 using Microsoft.AspNetCore.Http;
@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Api.Tests.Controllers;
+namespace CenaStream.Api.Tests.Controllers;
 
 // Covers the path-traversal validation in GetPluginImage: a plugin's manifest ImagePath
 // must resolve to a file inside the plugin's own directory.

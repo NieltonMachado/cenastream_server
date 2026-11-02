@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 using SkiaSharp;
 using SkiaSharp.HarfBuzz;
 
-namespace Jellyfin.Drawing.Skia;
+namespace CenaStream.Drawing.Skia;
 
 /// <summary>
 /// Used to build collages of multiple images arranged in vertical strips.

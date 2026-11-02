@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Jellyfin.Api.Models.SyncPlayDtos;
+namespace CenaStream.Api.Models.SyncPlayDtos;
 
 /// <summary>
 /// Class NewGroupRequestDto.

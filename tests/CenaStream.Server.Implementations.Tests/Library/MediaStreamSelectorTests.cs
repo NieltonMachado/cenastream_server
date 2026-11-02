@@ -1,9 +1,9 @@
 using System;
-using Emby.Server.Implementations.Library;
+using CenaStream.Server.Core.Library;
 using MediaBrowser.Model.Entities;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Library;
+namespace CenaStream.Server.Implementations.Tests.Library;
 
 public class MediaStreamSelectorTests
 {

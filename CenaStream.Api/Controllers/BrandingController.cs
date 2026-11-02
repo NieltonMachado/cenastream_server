@@ -4,7 +4,7 @@ using MediaBrowser.Model.Branding;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Jellyfin.Api.Controllers;
+namespace CenaStream.Api.Controllers;
 
 /// <summary>
 /// Branding controller.

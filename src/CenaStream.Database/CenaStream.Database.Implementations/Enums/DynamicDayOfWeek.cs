@@ -1,4 +1,4 @@
-namespace Jellyfin.Database.Implementations.Enums;
+namespace CenaStream.Database.Implementations.Enums;
 
 /// <summary>
 /// An enum that represents a day of the week, weekdays, weekends, or all days.

@@ -1,9 +1,9 @@
 using System;
 using System.IO;
-using Emby.Naming.Common;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
+using CenaStream.Naming.Common;
 
-namespace Emby.Naming.Video
+namespace CenaStream.Naming.Video
 {
     /// <summary>
     /// Resolve if file is stub (.disc).

@@ -5,10 +5,10 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Jellyfin.Api.Auth.DefaultAuthorizationPolicy;
-using Jellyfin.Api.Constants;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Server.Implementations.Security;
+using CenaStream.Api.Auth.DefaultAuthorizationPolicy;
+using CenaStream.Api.Constants;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Server.Implementations.Security;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Library;
 using Microsoft.AspNetCore.Authorization;
@@ -16,7 +16,7 @@ using Microsoft.AspNetCore.Http;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Api.Tests.Auth.DefaultAuthorizationPolicy
+namespace CenaStream.Api.Tests.Auth.DefaultAuthorizationPolicy
 {
     public class DefaultAuthorizationHandlerTests
     {

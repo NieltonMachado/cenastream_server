@@ -2,15 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Server.Implementations.Tests.Item;
-using Jellyfin.Server.Implementations.Trickplay;
+using CenaStream.Database.Implementations;
+using CenaStream.Server.Implementations.Tests.Item;
+using CenaStream.Server.Implementations.Trickplay;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Trickplay;
+namespace CenaStream.Server.Implementations.Tests.Trickplay;
 
 public sealed class TrickplayManagerTests : SqliteDbTestFixture
 {

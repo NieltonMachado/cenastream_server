@@ -4,7 +4,7 @@ using System.Reflection;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Jellyfin.Extensions.Json.Converters;
+namespace CenaStream.Extensions.Json.Converters;
 
 /// <summary>
 /// Utilizes the JsonStringEnumConverter and sets a default value if not provided.

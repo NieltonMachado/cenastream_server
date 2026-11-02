@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using MediaBrowser.Model.Branding;
 using Xunit;
 
-namespace Jellyfin.Server.Integration.Tests
+namespace CenaStream.Server.Integration.Tests
 {
     public sealed class BrandingControllerTests : IClassFixture<JellyfinApplicationFactory>
     {

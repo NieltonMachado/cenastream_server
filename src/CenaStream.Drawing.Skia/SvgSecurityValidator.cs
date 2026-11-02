@@ -7,9 +7,9 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Xml;
 
-[assembly: InternalsVisibleTo("Jellyfin.Drawing.Skia.Tests")]
+[assembly: InternalsVisibleTo("CenaStream.Drawing.Skia.Tests")]
 
-namespace Jellyfin.Drawing.Skia;
+namespace CenaStream.Drawing.Skia;
 
 /// <summary>
 /// Validates that an SVG document does not reference external resources before it is rasterized.

@@ -29,7 +29,7 @@ using System;
 using System.Diagnostics.Contracts;
 using System.Runtime.InteropServices;
 
-namespace Jellyfin.Extensions
+namespace CenaStream.Extensions
 {
     /// <summary>
     /// Extension class for splitting lines without unnecessary allocations.

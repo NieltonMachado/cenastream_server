@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Text;
 using MediaBrowser.Controller.LiveTv;
 
-namespace Jellyfin.LiveTv.Recordings
+namespace CenaStream.LiveTv.Recordings
 {
     internal static class RecordingHelper
     {

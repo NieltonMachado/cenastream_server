@@ -4,7 +4,7 @@ using System.Threading;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 
-namespace Jellyfin.Server.ServerSetupApp;
+namespace CenaStream.Server.ServerSetupApp;
 
 /// <inheritdoc/>
 public class StartupLogger : IStartupLogger

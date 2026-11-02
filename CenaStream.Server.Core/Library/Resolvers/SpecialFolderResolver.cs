@@ -5,14 +5,14 @@
 using System;
 using System.IO;
 using System.Linq;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Resolvers;
 using MediaBrowser.Model.IO;
 
-namespace Emby.Server.Implementations.Library.Resolvers
+namespace CenaStream.Server.Core.Library.Resolvers
 {
     public class SpecialFolderResolver : GenericFolderResolver<Folder>
     {

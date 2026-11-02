@@ -1,7 +1,7 @@
 using MediaBrowser.Model.Entities;
 using Xunit;
 
-namespace Jellyfin.Model.Tests.Entities
+namespace CenaStream.Model.Tests.Entities
 {
     public class MediaStreamTests
     {

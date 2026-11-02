@@ -13,7 +13,7 @@ using MediaBrowser.Controller.Session;
 using MediaBrowser.Model.QuickConnect;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.QuickConnect
+namespace CenaStream.Server.Core.QuickConnect
 {
     /// <summary>
     /// Quick connect implementation.

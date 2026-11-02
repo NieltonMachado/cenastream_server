@@ -1,7 +1,7 @@
 #pragma warning disable SA1300 // The name of a C# element does not begin with an upper-case letter. - disabled due to legacy requirement.
-using Jellyfin.Data.Attributes;
+using CenaStream.Data.Attributes;
 
-namespace Jellyfin.Data.Enums;
+namespace CenaStream.Data.Enums;
 
 /// <summary>
 /// Collection type.

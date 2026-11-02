@@ -5,14 +5,14 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Database.Implementations;
+using CenaStream.Server.ServerSetupApp;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.Routines;
+namespace CenaStream.Server.Migrations.Routines;
 
 /// <summary>
 /// Removes on-disk external item data (attachments, subtitles, trickplay tiles, chapter images) for items that

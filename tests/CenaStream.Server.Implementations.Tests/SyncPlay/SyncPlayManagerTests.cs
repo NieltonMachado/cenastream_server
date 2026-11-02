@@ -1,7 +1,7 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Session;
@@ -11,10 +11,10 @@ using MediaBrowser.Model.SyncPlay;
 using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
-using SyncPlayGroup = Emby.Server.Implementations.SyncPlay.Group;
-using SyncPlayManager = Emby.Server.Implementations.SyncPlay.SyncPlayManager;
+using SyncPlayGroup = CenaStream.Server.Core.SyncPlay.Group;
+using SyncPlayManager = CenaStream.Server.Core.SyncPlay.SyncPlayManager;
 
-namespace Jellyfin.Server.Implementations.Tests.SyncPlay;
+namespace CenaStream.Server.Implementations.Tests.SyncPlay;
 
 public class SyncPlayManagerTests
 {

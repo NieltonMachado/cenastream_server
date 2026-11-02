@@ -3,7 +3,7 @@
 #pragma warning disable CA1819, CS1591
 
 using System;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 
 namespace MediaBrowser.Controller.Entities
 {

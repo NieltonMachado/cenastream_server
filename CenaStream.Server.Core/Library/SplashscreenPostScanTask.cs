@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Controller.Drawing;
 using MediaBrowser.Controller.Dto;
 using MediaBrowser.Controller.Entities;
@@ -13,7 +13,7 @@ using MediaBrowser.Controller.Persistence;
 using MediaBrowser.Model.Entities;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Library;
+namespace CenaStream.Server.Core.Library;
 
 /// <summary>
 /// The splashscreen post scan task.

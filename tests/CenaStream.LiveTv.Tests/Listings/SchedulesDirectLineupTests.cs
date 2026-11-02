@@ -10,9 +10,9 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Moq.Protected;
 using Xunit;
-using SchedulesDirectProvider = Jellyfin.LiveTv.Listings.SchedulesDirect;
+using SchedulesDirectProvider = CenaStream.LiveTv.Listings.SchedulesDirect;
 
-namespace Jellyfin.LiveTv.Tests.Listings;
+namespace CenaStream.LiveTv.Tests.Listings;
 
 public class SchedulesDirectLineupTests
 {

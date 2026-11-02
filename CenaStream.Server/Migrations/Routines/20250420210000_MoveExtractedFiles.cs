@@ -10,10 +10,10 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Server.ServerSetupApp;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.IO;
@@ -21,7 +21,7 @@ using MediaBrowser.Model.IO;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.Routines;
+namespace CenaStream.Server.Migrations.Routines;
 
 /// <summary>
 /// Migration to move extracted files to the new directories.

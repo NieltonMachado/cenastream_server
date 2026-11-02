@@ -2,16 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
-using Jellyfin.Api.Attributes;
-using Jellyfin.Api.Helpers;
-using Jellyfin.Api.Models.StreamingDtos;
+using CenaStream.Api.Attributes;
+using CenaStream.Api.Helpers;
+using CenaStream.Api.Models.StreamingDtos;
 using MediaBrowser.Controller.MediaEncoding;
 using MediaBrowser.Controller.Streaming;
 using MediaBrowser.Model.Dlna;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Jellyfin.Api.Controllers;
+namespace CenaStream.Api.Controllers;
 
 /// <summary>
 /// The audio controller.

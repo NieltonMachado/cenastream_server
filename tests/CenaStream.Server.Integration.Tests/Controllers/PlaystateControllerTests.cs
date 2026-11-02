@@ -3,7 +3,7 @@ using System.Net;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Jellyfin.Server.Integration.Tests.Controllers;
+namespace CenaStream.Server.Integration.Tests.Controllers;
 
 public class PlaystateControllerTests : IClassFixture<JellyfinApplicationFactory>
 {

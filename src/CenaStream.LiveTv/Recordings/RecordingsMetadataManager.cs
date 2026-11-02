@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
-using Jellyfin.Data.Enums;
-using Jellyfin.Extensions;
-using Jellyfin.LiveTv.Configuration;
+using CenaStream.Data.Enums;
+using CenaStream.Extensions;
+using CenaStream.LiveTv.Configuration;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.Dto;
@@ -18,7 +18,7 @@ using MediaBrowser.Controller.LiveTv;
 using MediaBrowser.Model.Entities;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv.Recordings;
+namespace CenaStream.LiveTv.Recordings;
 
 /// <summary>
 /// A service responsible for saving recording metadata.

@@ -2,9 +2,9 @@ using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data;
-using Jellyfin.Data.Events;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Data;
+using CenaStream.Data.Events;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.LiveTv;
 using MediaBrowser.Controller.Session;
@@ -12,7 +12,7 @@ using MediaBrowser.Model.Session;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv.Recordings
+namespace CenaStream.LiveTv.Recordings
 {
     /// <summary>
     /// <see cref="IHostedService"/> responsible for notifying users when a LiveTV recording is completed.

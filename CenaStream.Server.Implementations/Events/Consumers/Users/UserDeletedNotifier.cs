@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Events.Users;
+using CenaStream.Data.Events.Users;
 using MediaBrowser.Controller.Events;
 using MediaBrowser.Controller.Session;
 using MediaBrowser.Model.Session;
 
-namespace Jellyfin.Server.Implementations.Events.Consumers.Users
+namespace CenaStream.Server.Implementations.Events.Consumers.Users
 {
     /// <summary>
     /// Notifies the user's sessions when a user is deleted.

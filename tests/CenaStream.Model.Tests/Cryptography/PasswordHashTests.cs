@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using MediaBrowser.Model.Cryptography;
 using Xunit;
 
-namespace Jellyfin.Model.Tests.Cryptography
+namespace CenaStream.Model.Tests.Cryptography
 {
     public static class PasswordHashTests
     {

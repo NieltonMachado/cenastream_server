@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Xml;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.Routines;
+namespace CenaStream.Server.Migrations.Routines;
 
 /// <summary>
 /// Restores playlist entries from playlist.xml for playlists that lost all of their children.

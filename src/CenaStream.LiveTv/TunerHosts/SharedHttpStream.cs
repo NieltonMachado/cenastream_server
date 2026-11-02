@@ -17,7 +17,7 @@ using MediaBrowser.Model.LiveTv;
 using MediaBrowser.Model.MediaInfo;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv.TunerHosts
+namespace CenaStream.LiveTv.TunerHosts
 {
     public class SharedHttpStream : LiveStream, IDirectStreamProvider
     {

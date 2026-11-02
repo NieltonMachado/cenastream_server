@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Jellyfin.MediaEncoding.Keyframes.Matroska.Extensions;
-using Jellyfin.MediaEncoding.Keyframes.Matroska.Models;
+using CenaStream.MediaEncoding.Keyframes.Matroska.Extensions;
+using CenaStream.MediaEncoding.Keyframes.Matroska.Models;
 using NEbml.Core;
 
-namespace Jellyfin.MediaEncoding.Keyframes.Matroska;
+namespace CenaStream.MediaEncoding.Keyframes.Matroska;
 
 /// <summary>
 /// The keyframe extractor for the matroska container.

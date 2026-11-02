@@ -4,7 +4,7 @@ using MediaBrowser.Common.Net;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 
-namespace Jellyfin.Api.Auth.AnonymousLanAccessPolicy
+namespace CenaStream.Api.Auth.AnonymousLanAccessPolicy
 {
     /// <summary>
     /// LAN access handler. Allows anonymous users.

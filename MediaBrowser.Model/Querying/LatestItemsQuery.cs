@@ -2,8 +2,8 @@
 #pragma warning disable CS1591
 
 using System;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Model.Entities;
 
 namespace MediaBrowser.Model.Querying

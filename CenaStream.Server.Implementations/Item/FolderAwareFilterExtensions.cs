@@ -3,10 +3,10 @@
 using System;
 using System.Linq;
 using System.Linq.Expressions;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
 
-namespace Jellyfin.Server.Implementations.Item;
+namespace CenaStream.Server.Implementations.Item;
 
 /// <summary>
 /// Extension methods for applying folder-aware filters that check items and their descendants.

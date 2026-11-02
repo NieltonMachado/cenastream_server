@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Formatters;
 
-namespace Jellyfin.Api.Formatters;
+namespace CenaStream.Api.Formatters;
 
 /// <summary>
 /// Xml output formatter.

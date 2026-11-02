@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Database.Implementations.Locking;
+namespace CenaStream.Database.Implementations.Locking;
 
 /// <summary>
 /// A locking behavior that will always block any operation while a write is requested. Mimicks the old SqliteRepository behavior.

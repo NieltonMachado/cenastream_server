@@ -8,13 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Api.Attributes;
-using Jellyfin.Api.Extensions;
-using Jellyfin.Api.Helpers;
-using Jellyfin.Api.Models.StreamingDtos;
-using Jellyfin.Data.Enums;
-using Jellyfin.Extensions;
-using Jellyfin.MediaEncoding.Hls.Playlist;
+using CenaStream.Api.Attributes;
+using CenaStream.Api.Extensions;
+using CenaStream.Api.Helpers;
+using CenaStream.Api.Models.StreamingDtos;
+using CenaStream.Data.Enums;
+using CenaStream.Extensions;
+using CenaStream.MediaEncoding.Hls.Playlist;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Library;
@@ -30,7 +30,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Api.Controllers;
+namespace CenaStream.Api.Controllers;
 
 /// <summary>
 /// Dynamic hls controller.

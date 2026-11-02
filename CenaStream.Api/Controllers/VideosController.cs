@@ -6,11 +6,11 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Api.Attributes;
-using Jellyfin.Api.Extensions;
-using Jellyfin.Api.Helpers;
-using Jellyfin.Api.ModelBinders;
-using Jellyfin.Extensions;
+using CenaStream.Api.Attributes;
+using CenaStream.Api.Extensions;
+using CenaStream.Api.Helpers;
+using CenaStream.Api.ModelBinders;
+using CenaStream.Extensions;
 using MediaBrowser.Common.Api;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Net;
@@ -30,7 +30,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Jellyfin.Api.Controllers;
+namespace CenaStream.Api.Controllers;
 
 /// <summary>
 /// The videos controller.

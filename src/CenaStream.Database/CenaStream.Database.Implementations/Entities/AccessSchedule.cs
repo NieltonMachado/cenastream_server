@@ -1,9 +1,9 @@
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Xml.Serialization;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Database.Implementations.Enums;
 
-namespace Jellyfin.Database.Implementations.Entities
+namespace CenaStream.Database.Implementations.Entities
 {
     /// <summary>
     /// An entity representing a user's access schedule.

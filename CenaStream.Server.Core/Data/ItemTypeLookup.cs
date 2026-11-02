@@ -1,7 +1,7 @@
 using System.Collections.Frozen;
 using System.Collections.Generic;
-using Emby.Server.Implementations.Playlists;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Server.Core.Playlists;
 using MediaBrowser.Controller.Channels;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.Audio;
@@ -11,7 +11,7 @@ using MediaBrowser.Controller.LiveTv;
 using MediaBrowser.Controller.Persistence;
 using MediaBrowser.Controller.Playlists;
 
-namespace Emby.Server.Implementations.Data;
+namespace CenaStream.Server.Core.Data;
 
 /// <inheritdoc />
 public class ItemTypeLookup : IItemTypeLookup

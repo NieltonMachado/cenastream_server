@@ -5,7 +5,7 @@ using System.Globalization;
 using System.Net;
 using System.Net.Sockets;
 using System.Text.RegularExpressions;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
 using MediaBrowser.Model.Net;
 using Microsoft.Extensions.Logging;
 

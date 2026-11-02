@@ -1,5 +1,5 @@
-using Jellyfin.Api.Controllers;
-using Jellyfin.Server.Implementations.SystemBackupService;
+using CenaStream.Api.Controllers;
+using CenaStream.Server.Implementations.SystemBackupService;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller;
 using MediaBrowser.Model.IO;
@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Api.Tests.Controllers
+namespace CenaStream.Api.Tests.Controllers
 {
     public class SystemControllerTests
     {

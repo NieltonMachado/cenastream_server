@@ -1,12 +1,12 @@
 #pragma warning disable CS1591
 
 using System;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Sorting;
 using MediaBrowser.Model.Querying;
 
-namespace Emby.Server.Implementations.Sorting
+namespace CenaStream.Server.Core.Sorting
 {
     public class CommunityRatingComparer : IBaseItemComparer
     {

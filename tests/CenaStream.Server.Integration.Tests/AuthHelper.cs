@@ -5,19 +5,19 @@ using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Jellyfin.Api.Models.StartupDtos;
-using Jellyfin.Api.Models.UserDtos;
-using Jellyfin.Extensions;
-using Jellyfin.Extensions.Json;
+using CenaStream.Api.Models.StartupDtos;
+using CenaStream.Api.Models.UserDtos;
+using CenaStream.Extensions;
+using CenaStream.Extensions.Json;
 using MediaBrowser.Model.Dto;
 using Xunit;
 
-namespace Jellyfin.Server.Integration.Tests
+namespace CenaStream.Server.Integration.Tests
 {
     public static class AuthHelper
     {
         public const string AuthHeaderName = "Authorization";
-        public const string DummyAuthHeader = "MediaBrowser Client=\"Jellyfin.Server%20Integration%20Tests\", DeviceId=\"69420\", Device=\"Apple%20II\", Version=\"10.8.0\"";
+        public const string DummyAuthHeader = "MediaBrowser Client=\"CenaStream.Server%20Integration%20Tests\", DeviceId=\"69420\", Device=\"Apple%20II\", Version=\"10.8.0\"";
 
         public static async Task<string> CompleteStartupAsync(HttpClient client)
         {

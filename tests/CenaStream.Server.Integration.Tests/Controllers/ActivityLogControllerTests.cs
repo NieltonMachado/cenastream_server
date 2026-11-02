@@ -3,7 +3,7 @@ using System.Net.Mime;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Jellyfin.Server.Integration.Tests.Controllers
+namespace CenaStream.Server.Integration.Tests.Controllers
 {
     public sealed class ActivityLogControllerTests : IClassFixture<JellyfinApplicationFactory>
     {

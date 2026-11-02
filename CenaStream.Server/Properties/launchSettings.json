@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Jellyfin.Server": {
+    "CenaStream.Server": {
       "commandName": "Project",
       "launchBrowser": true,
       "applicationUrl": "http://localhost:8096",
@@ -9,14 +9,14 @@
       },
       "commandLineArgs": "--datadir D:\\cena-data\\data --configdir D:\\cena-data\\config --cachedir D:\\cena-data\\cache --logdir D:\\cena-data\\log --ffmpeg \"C:\\caminho\\ffmpeg.exe\""
     },
-    "Jellyfin.Server (nowebclient)": {
+    "CenaStream.Server (nowebclient)": {
       "commandName": "Project",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "commandLineArgs": "--datadir D:\\cena-data\\data --configdir D:\\cena-data\\config --cachedir D:\\cena-data\\cache --logdir D:\\cena-data\\log --ffmpeg \"C:\\caminho\\ffmpeg.exe\" --nowebclient"
     },
-    "Jellyfin.Server (API Docs)": {
+    "CenaStream.Server (API Docs)": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api-docs/swagger",

@@ -1,9 +1,9 @@
 using System.Collections.Generic;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 using MediaBrowser.Controller.Dto;
 using MediaBrowser.Model.Entities;
 
-namespace Jellyfin.Api.Extensions;
+namespace CenaStream.Api.Extensions;
 
 /// <summary>
 /// Dto Extensions.

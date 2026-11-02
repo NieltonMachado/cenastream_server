@@ -2,7 +2,7 @@ using System;
 using System.Globalization;
 using System.Text;
 
-namespace Jellyfin.Api.Helpers;
+namespace CenaStream.Api.Helpers;
 
 /// <summary>
 /// Helpers to generate HLS codec strings according to

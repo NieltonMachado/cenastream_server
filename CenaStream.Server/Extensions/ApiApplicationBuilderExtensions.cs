@@ -1,11 +1,11 @@
 using System.Collections.Generic;
-using Jellyfin.Api.Middleware;
+using CenaStream.Api.Middleware;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.OpenApi;
 
-namespace Jellyfin.Server.Extensions
+namespace CenaStream.Server.Extensions
 {
     /// <summary>
     /// Extensions for adding API specific functionality to the application pipeline.

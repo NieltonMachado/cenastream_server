@@ -2,7 +2,7 @@
 
 using System;
 
-namespace Jellyfin.LiveTv.TunerHosts.HdHomerun
+namespace CenaStream.LiveTv.TunerHosts.HdHomerun
 {
     internal class DiscoverResponse
     {

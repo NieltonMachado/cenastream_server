@@ -1,7 +1,7 @@
-using Emby.Naming.TV;
+using CenaStream.Naming.TV;
 using Xunit;
 
-namespace Jellyfin.Naming.Tests.TV;
+namespace CenaStream.Naming.Tests.TV;
 
 public class SeasonPathParserTests
 {

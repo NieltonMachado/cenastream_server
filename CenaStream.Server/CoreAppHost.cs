@@ -1,20 +1,20 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using Emby.Server.Implementations;
-using Emby.Server.Implementations.Session;
-using Jellyfin.Api.WebSocketListeners;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Drawing;
-using Jellyfin.Drawing.Skia;
-using Jellyfin.LiveTv;
-using Jellyfin.Server.Implementations.Activity;
-using Jellyfin.Server.Implementations.Devices;
-using Jellyfin.Server.Implementations.Events;
-using Jellyfin.Server.Implementations.Extensions;
-using Jellyfin.Server.Implementations.Security;
-using Jellyfin.Server.Implementations.Trickplay;
-using Jellyfin.Server.Implementations.Users;
+using CenaStream.Api.WebSocketListeners;
+using CenaStream.Database.Implementations;
+using CenaStream.Drawing;
+using CenaStream.Drawing.Skia;
+using CenaStream.LiveTv;
+using CenaStream.Server.Core;
+using CenaStream.Server.Core.Session;
+using CenaStream.Server.Implementations.Activity;
+using CenaStream.Server.Implementations.Devices;
+using CenaStream.Server.Implementations.Events;
+using CenaStream.Server.Implementations.Extensions;
+using CenaStream.Server.Implementations.Security;
+using CenaStream.Server.Implementations.Trickplay;
+using CenaStream.Server.Implementations.Users;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Authentication;
 using MediaBrowser.Controller.BaseItemManager;
@@ -32,7 +32,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server
+namespace CenaStream.Server
 {
     /// <summary>
     /// Implementation of the abstract <see cref="ApplicationHost" /> class.
@@ -114,16 +114,16 @@ namespace Jellyfin.Server
         /// <inheritdoc />
         protected override IEnumerable<Assembly> GetAssembliesWithPartsInternal()
         {
-            // Jellyfin.Server
+            // CenaStream.Server
             yield return typeof(CoreAppHost).Assembly;
 
-            // Jellyfin.Database.Implementations
+            // CenaStream.Database.Implementations
             yield return typeof(JellyfinDbContext).Assembly;
 
-            // Jellyfin.Server.Implementations
+            // CenaStream.Server.Implementations
             yield return typeof(ServiceCollectionExtensions).Assembly;
 
-            // Jellyfin.LiveTv
+            // CenaStream.LiveTv
             yield return typeof(LiveTvManager).Assembly;
         }
     }

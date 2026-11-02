@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Jellyfin.Api.Models.StartupDtos;
+namespace CenaStream.Api.Models.StartupDtos;
 
 /// <summary>
 /// Startup remote access dto.

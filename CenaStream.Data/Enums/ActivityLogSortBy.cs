@@ -1,4 +1,4 @@
-namespace Jellyfin.Data.Enums;
+namespace CenaStream.Data.Enums;
 
 /// <summary>
 /// Activity log sorting options.

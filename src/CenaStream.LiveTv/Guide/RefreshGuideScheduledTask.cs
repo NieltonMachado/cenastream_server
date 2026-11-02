@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.LiveTv.Configuration;
+using CenaStream.LiveTv.Configuration;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.LiveTv;
 using MediaBrowser.Model.Tasks;
 
-namespace Jellyfin.LiveTv.Guide;
+namespace CenaStream.LiveTv.Guide;
 
 /// <summary>
 /// The "Refresh Guide" scheduled task.

@@ -4,12 +4,12 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading;
-using Jellyfin.MediaEncoding.Hls.Extractors;
-using Jellyfin.MediaEncoding.Keyframes;
+using CenaStream.MediaEncoding.Hls.Extractors;
+using CenaStream.MediaEncoding.Keyframes;
 using MediaBrowser.Controller.Persistence;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.MediaEncoding.Hls.Cache;
+namespace CenaStream.MediaEncoding.Hls.Cache;
 
 /// <inheritdoc />
 public class CacheDecorator : IKeyframeExtractor

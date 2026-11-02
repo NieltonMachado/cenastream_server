@@ -1,4 +1,4 @@
-namespace Jellyfin.MediaEncoding.Tests
+namespace CenaStream.MediaEncoding.Tests
 {
     internal static class EncoderValidatorTestsData
     {

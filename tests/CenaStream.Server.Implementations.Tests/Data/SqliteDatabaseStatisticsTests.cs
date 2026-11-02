@@ -2,14 +2,14 @@ using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Providers.Sqlite;
-using Jellyfin.Server.Implementations.Tests.Item;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Providers.Sqlite;
+using CenaStream.Server.Implementations.Tests.Item;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Data;
+namespace CenaStream.Server.Implementations.Tests.Data;
 
 /// <summary>
 /// Statistics taken on a freshly created database describe every table as a single row, and SQLite then plans

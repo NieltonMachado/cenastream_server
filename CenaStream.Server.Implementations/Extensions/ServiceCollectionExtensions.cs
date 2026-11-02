@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.DbConfiguration;
-using Jellyfin.Database.Implementations.Locking;
-using Jellyfin.Database.Providers.Sqlite;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.DbConfiguration;
+using CenaStream.Database.Implementations.Locking;
+using CenaStream.Database.Providers.Sqlite;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using JellyfinDbProviderFactory = System.Func<System.IServiceProvider, Jellyfin.Database.Implementations.IJellyfinDatabaseProvider>;
+using JellyfinDbProviderFactory = System.Func<System.IServiceProvider, CenaStream.Database.Implementations.IJellyfinDatabaseProvider>;
 
-namespace Jellyfin.Server.Implementations.Extensions;
+namespace CenaStream.Server.Implementations.Extensions;
 
 /// <summary>
 /// Extensions for the <see cref="IServiceCollection"/> interface.

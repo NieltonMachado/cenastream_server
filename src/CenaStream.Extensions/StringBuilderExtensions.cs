@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Jellyfin.Extensions
+namespace CenaStream.Extensions
 {
     /// <summary>
     /// Extension methods for the <see cref="StringBuilder"/> class.

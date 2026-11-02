@@ -1,7 +1,7 @@
 using System;
 using MediaBrowser.Controller.Configuration;
 
-namespace Jellyfin.Server.Migrations.Routines;
+namespace CenaStream.Server.Migrations.Routines;
 
 /// <summary>
 /// Migration to update the default Jellyfin plugin repository.

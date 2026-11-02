@@ -2,14 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.IO;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Library;
+namespace CenaStream.Server.Core.Library;
 
 /// <summary>
 /// IPathManager implementation.

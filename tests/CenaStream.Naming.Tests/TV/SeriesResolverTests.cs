@@ -1,8 +1,8 @@
-using Emby.Naming.Common;
-using Emby.Naming.TV;
+using CenaStream.Naming.Common;
+using CenaStream.Naming.TV;
 using Xunit;
 
-namespace Jellyfin.Naming.Tests.TV
+namespace CenaStream.Naming.Tests.TV
 {
     public class SeriesResolverTests
     {

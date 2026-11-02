@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 using MediaBrowser.Model.Cryptography;
 using static MediaBrowser.Model.Cryptography.Constants;
 
-namespace Emby.Server.Implementations.Cryptography
+namespace CenaStream.Server.Core.Cryptography
 {
     /// <summary>
     /// Class providing abstractions over cryptographic functions.

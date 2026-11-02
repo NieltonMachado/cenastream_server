@@ -1,18 +1,18 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data;
-using Jellyfin.Data.Events;
-using Jellyfin.Data.Queries;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Data;
+using CenaStream.Data.Events;
+using CenaStream.Data.Queries;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Controller.Devices;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Session;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Implementations.Users;
+namespace CenaStream.Server.Implementations.Users;
 
 /// <summary>
 /// <see cref="IHostedService"/> responsible for managing user device permissions.

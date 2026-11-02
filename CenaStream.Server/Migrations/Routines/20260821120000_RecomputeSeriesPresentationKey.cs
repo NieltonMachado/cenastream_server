@@ -5,16 +5,16 @@ using System.Globalization;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations;
+using CenaStream.Server.ServerSetupApp;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.TV;
 using MediaBrowser.Controller.Library;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.Routines;
+namespace CenaStream.Server.Migrations.Routines;
 
 /// <summary>
 /// Recomputes the presentation unique key of every series and season so merged series are scoped to their own library.

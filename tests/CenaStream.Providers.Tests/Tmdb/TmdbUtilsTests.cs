@@ -6,7 +6,7 @@ using MediaBrowser.Providers.Plugins.Tmdb;
 using TMDbLib.Objects.Search;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.Tmdb
+namespace CenaStream.Providers.Tests.Tmdb
 {
     public static class TmdbUtilsTests
     {

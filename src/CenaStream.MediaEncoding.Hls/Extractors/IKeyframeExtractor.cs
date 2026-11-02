@@ -1,8 +1,8 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
-using Jellyfin.MediaEncoding.Keyframes;
+using CenaStream.MediaEncoding.Keyframes;
 
-namespace Jellyfin.MediaEncoding.Hls.Extractors;
+namespace CenaStream.MediaEncoding.Hls.Extractors;
 
 /// <summary>
 /// Keyframe extractor.

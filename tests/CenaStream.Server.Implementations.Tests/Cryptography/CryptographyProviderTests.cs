@@ -1,9 +1,9 @@
 using System;
-using Emby.Server.Implementations.Cryptography;
+using CenaStream.Server.Core.Cryptography;
 using MediaBrowser.Model.Cryptography;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Cryptography;
+namespace CenaStream.Server.Implementations.Tests.Cryptography;
 
 public class CryptographyProviderTests
 {

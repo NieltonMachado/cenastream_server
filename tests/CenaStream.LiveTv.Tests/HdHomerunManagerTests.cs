@@ -1,9 +1,9 @@
 using System;
 using System.Text;
-using Jellyfin.LiveTv.TunerHosts.HdHomerun;
+using CenaStream.LiveTv.TunerHosts.HdHomerun;
 using Xunit;
 
-namespace Jellyfin.LiveTv.Tests
+namespace CenaStream.LiveTv.Tests
 {
     public class HdHomerunManagerTests
     {

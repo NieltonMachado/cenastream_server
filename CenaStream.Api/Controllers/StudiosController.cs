@@ -1,11 +1,11 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-using Jellyfin.Api.Extensions;
-using Jellyfin.Api.Helpers;
-using Jellyfin.Api.ModelBinders;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Extensions;
+using CenaStream.Api.Extensions;
+using CenaStream.Api.Helpers;
+using CenaStream.Api.ModelBinders;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Extensions;
 using MediaBrowser.Controller.Dto;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
@@ -16,7 +16,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Jellyfin.Api.Controllers;
+namespace CenaStream.Api.Controllers;
 
 /// <summary>
 /// Studios controller.

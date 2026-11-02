@@ -1,11 +1,11 @@
 using System;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Server.Implementations.Item;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Server.Implementations.Item;
 using MediaBrowser.Controller.Entities;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Item;
+namespace CenaStream.Server.Implementations.Tests.Item;
 
 public class OrderMapperTests
 {

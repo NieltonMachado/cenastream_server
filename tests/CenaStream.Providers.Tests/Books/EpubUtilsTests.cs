@@ -4,7 +4,7 @@ using System.Text;
 using MediaBrowser.Providers.Books.OpenPackagingFormat;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.Books;
+namespace CenaStream.Providers.Tests.Books;
 
 public class EpubUtilsTests
 {

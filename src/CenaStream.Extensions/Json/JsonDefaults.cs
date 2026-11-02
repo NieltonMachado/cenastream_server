@@ -1,9 +1,9 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Text.Json.Serialization.Metadata;
-using Jellyfin.Extensions.Json.Converters;
+using CenaStream.Extensions.Json.Converters;
 
-namespace Jellyfin.Extensions.Json
+namespace CenaStream.Extensions.Json
 {
     /// <summary>
     /// Helper class for having compatible JSON throughout the codebase.
@@ -22,7 +22,7 @@ namespace Jellyfin.Extensions.Json
 
         /// <summary>
         /// When changing these options, update
-        ///  Jellyfin.Server/Extensions/ApiServiceCollectionExtensions.cs
+        ///  CenaStream.Server/Extensions/ApiServiceCollectionExtensions.cs
         ///   -> AddJellyfinApi
         ///    -> AddJsonOptions.
         /// </summary>

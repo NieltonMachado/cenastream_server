@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 
-namespace Jellyfin.Server.ServerSetupApp;
+namespace CenaStream.Server.ServerSetupApp;
 
 internal static class StartupLoggerExtensions
 {

@@ -1,7 +1,7 @@
 using Microsoft.OpenApi;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Jellyfin.Server.Filters;
+namespace CenaStream.Server.Filters;
 
 /// <summary>
 /// Document filter that fixes security scheme references after document generation.

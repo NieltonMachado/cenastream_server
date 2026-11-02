@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using MediaBrowser.Model.SyncPlay;
 
-namespace Jellyfin.Api.Models.SyncPlayDtos;
+namespace CenaStream.Api.Models.SyncPlayDtos;
 
 /// <summary>
 /// Class QueueRequestDto.

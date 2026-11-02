@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
 using System.IO;
-using Jellyfin.Drawing;
+using CenaStream.Drawing;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Drawing;
@@ -12,7 +12,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Integration.Tests;
+namespace CenaStream.Server.Integration.Tests;
 
 public sealed class ImageProcessorTests : IDisposable
 {

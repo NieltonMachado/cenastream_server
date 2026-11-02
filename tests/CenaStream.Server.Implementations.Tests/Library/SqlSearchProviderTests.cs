@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Emby.Server.Implementations.Data;
-using Emby.Server.Implementations.Library.Search;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Server.Implementations.Item;
-using Jellyfin.Server.Implementations.Tests.Item;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Server.Core.Data;
+using CenaStream.Server.Core.Library.Search;
+using CenaStream.Server.Implementations.Item;
+using CenaStream.Server.Implementations.Tests.Item;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
@@ -16,9 +16,9 @@ using MediaBrowser.Model.Configuration;
 using Microsoft.Extensions.Configuration;
 using Moq;
 using Xunit;
-using BaseItemKind = Jellyfin.Data.Enums.BaseItemKind;
+using BaseItemKind = CenaStream.Data.Enums.BaseItemKind;
 
-namespace Jellyfin.Server.Implementations.Tests.Library;
+namespace CenaStream.Server.Implementations.Tests.Library;
 
 /// <summary>
 /// Covers what <see cref="SqlSearchProvider"/> returns for a version group merged across two

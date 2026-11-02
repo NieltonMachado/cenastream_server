@@ -5,7 +5,7 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 
-namespace Jellyfin.MediaEncoding.Keyframes.FfProbe;
+namespace CenaStream.MediaEncoding.Keyframes.FfProbe;
 
 /// <summary>
 /// FfProbe based keyframe extractor.

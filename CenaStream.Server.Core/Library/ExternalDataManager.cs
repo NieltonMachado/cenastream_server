@@ -9,7 +9,7 @@ using MediaBrowser.Controller.MediaSegments;
 using MediaBrowser.Controller.Trickplay;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Library;
+namespace CenaStream.Server.Core.Library;
 
 /// <summary>
 /// IExternalDataManager implementation.

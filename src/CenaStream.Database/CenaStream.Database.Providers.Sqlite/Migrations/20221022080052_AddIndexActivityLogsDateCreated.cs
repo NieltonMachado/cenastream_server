@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Jellyfin.Server.Implementations.Migrations
+namespace CenaStream.Server.Implementations.Migrations
 {
     public partial class AddIndexActivityLogsDateCreated : Migration
     {

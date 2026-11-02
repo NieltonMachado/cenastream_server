@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace Jellyfin.Database.Implementations.DbConfiguration;
+namespace CenaStream.Database.Implementations.DbConfiguration;
 
 /// <summary>
 /// Defines the options for a custom database connector.

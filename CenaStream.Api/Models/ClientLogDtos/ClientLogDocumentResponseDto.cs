@@ -1,4 +1,4 @@
-namespace Jellyfin.Api.Models.ClientLogDtos;
+namespace CenaStream.Api.Models.ClientLogDtos;
 
 /// <summary>
 /// Client log document response dto.

@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using AsyncKeyedLock;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Configuration;
@@ -23,7 +23,7 @@ using MediaBrowser.Model.Net;
 using Microsoft.Extensions.Logging;
 using Photo = MediaBrowser.Controller.Entities.Photo;
 
-namespace Jellyfin.Drawing;
+namespace CenaStream.Drawing;
 
 /// <summary>
 /// Class ImageProcessor.

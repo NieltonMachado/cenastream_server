@@ -1,8 +1,8 @@
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller.Authentication;
 
-namespace Jellyfin.Server.Implementations.Users
+namespace CenaStream.Server.Implementations.Users
 {
     /// <summary>
     /// An invalid authentication provider.

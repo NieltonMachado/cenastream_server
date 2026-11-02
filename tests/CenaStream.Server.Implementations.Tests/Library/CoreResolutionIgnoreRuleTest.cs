@@ -1,8 +1,8 @@
 using System;
 using System.IO;
-using Emby.Naming.Common;
-using Emby.Naming.Video;
-using Emby.Server.Implementations.Library;
+using CenaStream.Naming.Common;
+using CenaStream.Naming.Video;
+using CenaStream.Server.Core.Library;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Model.Entities;
@@ -10,7 +10,7 @@ using MediaBrowser.Model.IO;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Library;
+namespace CenaStream.Server.Implementations.Tests.Library;
 
 public class CoreResolutionIgnoreRuleTest
 {

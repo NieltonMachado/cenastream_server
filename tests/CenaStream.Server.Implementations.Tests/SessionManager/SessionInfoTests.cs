@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.SessionManager;
+namespace CenaStream.Server.Implementations.Tests.SessionManager;
 
 public class SessionInfoTests
 {

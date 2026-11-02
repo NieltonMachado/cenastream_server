@@ -1,4 +1,4 @@
-namespace Jellyfin.Api.Models.UserDtos;
+namespace CenaStream.Api.Models.UserDtos;
 
 /// <summary>
 /// The authenticate user by name request body.

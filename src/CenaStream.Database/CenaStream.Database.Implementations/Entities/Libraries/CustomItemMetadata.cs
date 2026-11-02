@@ -1,4 +1,4 @@
-namespace Jellyfin.Database.Implementations.Entities.Libraries
+namespace CenaStream.Database.Implementations.Entities.Libraries
 {
     /// <summary>
     /// An entity containing metadata for a custom item.

@@ -1,8 +1,8 @@
 using System.Globalization;
 using System.Text.RegularExpressions;
-using Emby.Naming.Common;
+using CenaStream.Naming.Common;
 
-namespace Emby.Naming.AudioBook
+namespace CenaStream.Naming.AudioBook
 {
     /// <summary>
     /// Helper class to retrieve name and year from audiobook previously retrieved name.

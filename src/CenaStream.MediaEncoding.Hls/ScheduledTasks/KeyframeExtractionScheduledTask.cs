@@ -4,15 +4,15 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Enums;
-using Jellyfin.MediaEncoding.Hls.Extractors;
+using CenaStream.Data.Enums;
+using CenaStream.MediaEncoding.Hls.Extractors;
 using MediaBrowser.Controller.Dto;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Model.Globalization;
 using MediaBrowser.Model.Tasks;
 
-namespace Jellyfin.MediaEncoding.Hls.ScheduledTasks;
+namespace CenaStream.MediaEncoding.Hls.ScheduledTasks;
 
 /// <inheritdoc />
 public class KeyframeExtractionScheduledTask : IScheduledTask

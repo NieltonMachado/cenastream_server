@@ -1,11 +1,11 @@
 using System.Threading.Tasks;
-using Jellyfin.Api.Constants;
+using CenaStream.Api.Constants;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Common.Net;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 
-namespace Jellyfin.Api.Auth.LocalAccessOrRequiresElevationPolicy
+namespace CenaStream.Api.Auth.LocalAccessOrRequiresElevationPolicy
 {
     /// <summary>
     /// Local access or require elevated privileges handler.

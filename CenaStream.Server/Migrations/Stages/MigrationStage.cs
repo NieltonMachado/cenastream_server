@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace Jellyfin.Server.Migrations.Stages;
+namespace CenaStream.Server.Migrations.Stages;
 
 /// <summary>
 /// Defines a Stage that can be Invoked and Handled at different times from the code.

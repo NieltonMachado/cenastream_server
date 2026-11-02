@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Jellyfin.Api.Models.SyncPlayDtos;
+namespace CenaStream.Api.Models.SyncPlayDtos;
 
 /// <summary>
 /// Class RemoveFromPlaylistRequestDto.

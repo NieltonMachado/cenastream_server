@@ -1,7 +1,7 @@
-using Jellyfin.Api.Auth.DefaultAuthorizationPolicy;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Api.Auth.DefaultAuthorizationPolicy;
+using CenaStream.Database.Implementations.Enums;
 
-namespace Jellyfin.Api.Auth.UserPermissionPolicy
+namespace CenaStream.Api.Auth.UserPermissionPolicy
 {
     /// <summary>
     /// The user permission requirement.

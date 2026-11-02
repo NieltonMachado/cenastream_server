@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Jellyfin.Server.Integration.Tests
+namespace CenaStream.Server.Integration.Tests
 {
     public sealed class WebSocketTests : IClassFixture<JellyfinApplicationFactory>
     {

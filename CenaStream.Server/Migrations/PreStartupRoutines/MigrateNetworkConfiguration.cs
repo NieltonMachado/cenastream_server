@@ -4,11 +4,11 @@ using System;
 using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
-using Emby.Server.Implementations;
+using CenaStream.Server.Core;
 using MediaBrowser.Common.Net;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.PreStartupRoutines;
+namespace CenaStream.Server.Migrations.PreStartupRoutines;
 
 /// <inheritdoc />
 [JellyfinMigration("2025-04-20T01:00:00", nameof(MigrateNetworkConfiguration), "4FB5C950-1991-11EE-9B4B-0800200C9A66", Stage = Stages.JellyfinMigrationStageTypes.PreInitialisation)]

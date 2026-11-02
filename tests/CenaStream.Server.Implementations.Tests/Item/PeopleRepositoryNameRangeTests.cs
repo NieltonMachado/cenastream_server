@@ -1,14 +1,14 @@
 using System;
 using System.Linq;
-using Emby.Server.Implementations.Data;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Server.Implementations.Item;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Server.Core.Data;
+using CenaStream.Server.Implementations.Item;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Persistence;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Item;
+namespace CenaStream.Server.Implementations.Tests.Item;
 
 /// <summary>
 /// The letter picker on the person list filters with <c>NameStartsWithOrGreater</c> and <c>NameLessThan</c>.

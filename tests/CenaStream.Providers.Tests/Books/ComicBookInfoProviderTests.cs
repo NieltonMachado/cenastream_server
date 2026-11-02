@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.Books;
+namespace CenaStream.Providers.Tests.Books;
 
 public sealed class ComicBookInfoProviderTests : IDisposable
 {

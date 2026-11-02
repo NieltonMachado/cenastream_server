@@ -1,14 +1,14 @@
 using System;
-using Emby.Server.Implementations.Data;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Server.Implementations.Item;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Server.Core.Data;
+using CenaStream.Server.Implementations.Item;
 using MediaBrowser.Controller.Dto;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Model.Querying;
 using Xunit;
-using BaseItemKind = Jellyfin.Data.Enums.BaseItemKind;
+using BaseItemKind = CenaStream.Data.Enums.BaseItemKind;
 
-namespace Jellyfin.Server.Implementations.Tests.Item;
+namespace CenaStream.Server.Implementations.Tests.Item;
 
 /// <summary>
 /// The by-name listings count what a cleaned value is attached to by joining ItemValuesMap to

@@ -6,9 +6,9 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Text.Json;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Extensions;
-using Jellyfin.Extensions.Json;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Extensions;
+using CenaStream.Extensions.Json;
 using MediaBrowser.Common;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Entities;
@@ -19,9 +19,9 @@ using MediaBrowser.Model.Entities;
 using MediaBrowser.Model.LiveTv;
 using Microsoft.Extensions.Logging;
 using BaseItemDto = MediaBrowser.Controller.Entities.BaseItem;
-using BaseItemEntity = Jellyfin.Database.Implementations.Entities.BaseItemEntity;
+using BaseItemEntity = CenaStream.Database.Implementations.Entities.BaseItemEntity;
 
-namespace Jellyfin.Server.Implementations.Item;
+namespace CenaStream.Server.Implementations.Item;
 
 /// <summary>
 /// Handles mapping between BaseItemEntity (database) and BaseItemDto (domain) objects.

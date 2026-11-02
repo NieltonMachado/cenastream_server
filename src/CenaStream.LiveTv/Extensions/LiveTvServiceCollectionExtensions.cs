@@ -1,17 +1,17 @@
-using Jellyfin.LiveTv.Channels;
-using Jellyfin.LiveTv.Guide;
-using Jellyfin.LiveTv.IO;
-using Jellyfin.LiveTv.Listings;
-using Jellyfin.LiveTv.Recordings;
-using Jellyfin.LiveTv.Timers;
-using Jellyfin.LiveTv.TunerHosts;
-using Jellyfin.LiveTv.TunerHosts.HdHomerun;
+using CenaStream.LiveTv.Channels;
+using CenaStream.LiveTv.Guide;
+using CenaStream.LiveTv.IO;
+using CenaStream.LiveTv.Listings;
+using CenaStream.LiveTv.Recordings;
+using CenaStream.LiveTv.Timers;
+using CenaStream.LiveTv.TunerHosts;
+using CenaStream.LiveTv.TunerHosts.HdHomerun;
 using MediaBrowser.Controller.Channels;
 using MediaBrowser.Controller.LiveTv;
 using MediaBrowser.Model.IO;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Jellyfin.LiveTv.Extensions;
+namespace CenaStream.LiveTv.Extensions;
 
 /// <summary>
 /// Live TV extensions for <see cref="IServiceCollection"/>.

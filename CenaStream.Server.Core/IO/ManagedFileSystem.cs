@@ -4,13 +4,13 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Security;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.IO;
 using MediaBrowser.Model.IO;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.IO
+namespace CenaStream.Server.Core.IO
 {
     /// <summary>
     /// Class ManagedFileSystem.

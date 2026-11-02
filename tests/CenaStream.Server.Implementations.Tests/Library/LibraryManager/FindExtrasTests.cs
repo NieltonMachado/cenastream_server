@@ -5,8 +5,8 @@ using System.Linq;
 using System.Text.Json;
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Emby.Naming.Common;
-using Emby.Server.Implementations.Library.Resolvers.Audio;
+using CenaStream.Naming.Common;
+using CenaStream.Server.Core.Library.Resolvers.Audio;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.Audio;
@@ -23,11 +23,11 @@ using MediaBrowser.Model.IO;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Library.LibraryManager;
+namespace CenaStream.Server.Implementations.Tests.Library.LibraryManager;
 
 public class FindExtrasTests
 {
-    private readonly Emby.Server.Implementations.Library.LibraryManager _libraryManager;
+    private readonly CenaStream.Server.Core.Library.LibraryManager _libraryManager;
     private readonly Mock<IFileSystem> _fileSystemMock;
     private readonly Mock<IItemRepository> _itemRepositoryMock;
 
@@ -47,7 +47,7 @@ public class FindExtrasTests
             .Setup(l => l.GetServerLocalizedString(It.IsAny<string>()))
             .Returns<string>(key => strings.TryGetValue(key, out var value) ? value : key);
 
-        _libraryManager = fixture.Build<Emby.Server.Implementations.Library.LibraryManager>().Do(s => s.AddParts(
+        _libraryManager = fixture.Build<CenaStream.Server.Core.Library.LibraryManager>().Do(s => s.AddParts(
                 fixture.Create<IEnumerable<IResolverIgnoreRule>>(),
                 [new AudioResolver(fixture.Create<NamingOptions>())],
                 fixture.Create<IEnumerable<IIntroProvider>>(),
@@ -62,8 +62,8 @@ public class FindExtrasTests
 
     private static Dictionary<string, string> LoadCoreStrings()
     {
-        using var stream = typeof(Emby.Server.Implementations.Library.LibraryManager).Assembly
-            .GetManifestResourceStream("Emby.Server.Implementations.Localization.Core.en-US.json")
+        using var stream = typeof(CenaStream.Server.Core.Library.LibraryManager).Assembly
+            .GetManifestResourceStream("CenaStream.Server.Core.Localization.Core.en-US.json")
             ?? throw new InvalidOperationException("Core localization resource is missing");
 
         return JsonSerializer.Deserialize<Dictionary<string, string>>(stream)

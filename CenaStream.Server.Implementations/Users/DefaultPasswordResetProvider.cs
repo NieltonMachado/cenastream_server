@@ -5,7 +5,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Common;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.Authentication;
@@ -14,7 +14,7 @@ using MediaBrowser.Controller.Library;
 using MediaBrowser.Model.IO;
 using MediaBrowser.Model.Users;
 
-namespace Jellyfin.Server.Implementations.Users
+namespace CenaStream.Server.Implementations.Users
 {
     /// <summary>
     /// The default password reset provider.

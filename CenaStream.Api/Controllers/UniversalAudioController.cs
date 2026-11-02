@@ -4,12 +4,12 @@ using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
-using Jellyfin.Api.Attributes;
-using Jellyfin.Api.Helpers;
-using Jellyfin.Api.ModelBinders;
-using Jellyfin.Api.Models.StreamingDtos;
-using Jellyfin.Data.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Api.Attributes;
+using CenaStream.Api.Helpers;
+using CenaStream.Api.ModelBinders;
+using CenaStream.Api.Models.StreamingDtos;
+using CenaStream.Data.Enums;
+using CenaStream.Extensions;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
@@ -23,7 +23,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Api.Controllers;
+namespace CenaStream.Api.Controllers;
 
 /// <summary>
 /// The universal audio controller.

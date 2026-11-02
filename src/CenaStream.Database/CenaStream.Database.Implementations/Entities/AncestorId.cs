@@ -1,6 +1,6 @@
 using System;
 
-namespace Jellyfin.Database.Implementations.Entities;
+namespace CenaStream.Database.Implementations.Entities;
 
 /// <summary>
 /// Represents the relational information for an <see cref="BaseItemEntity"/>.

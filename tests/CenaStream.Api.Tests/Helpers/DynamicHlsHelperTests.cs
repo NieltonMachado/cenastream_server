@@ -1,7 +1,7 @@
-using Jellyfin.Api.Helpers;
+using CenaStream.Api.Helpers;
 using Xunit;
 
-namespace Jellyfin.Api.Tests.Helpers
+namespace CenaStream.Api.Tests.Helpers
 {
     public static class DynamicHlsHelperTests
     {

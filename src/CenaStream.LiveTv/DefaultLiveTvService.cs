@@ -9,12 +9,12 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Enums;
-using Jellyfin.Data.Events;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Extensions;
-using Jellyfin.LiveTv.Configuration;
-using Jellyfin.LiveTv.Timers;
+using CenaStream.Data.Enums;
+using CenaStream.Data.Events;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Extensions;
+using CenaStream.LiveTv.Configuration;
+using CenaStream.LiveTv.Timers;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Dto;
@@ -25,7 +25,7 @@ using MediaBrowser.Model.Dto;
 using MediaBrowser.Model.LiveTv;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv
+namespace CenaStream.LiveTv
 {
     public sealed class DefaultLiveTvService : ILiveTvService, ISupportsDirectStreamProvider, ISupportsNewTimerIds
     {

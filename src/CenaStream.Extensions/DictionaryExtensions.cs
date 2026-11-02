@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Jellyfin.Extensions
+namespace CenaStream.Extensions
 {
     /// <summary>
     /// Static extensions for the <see cref="IReadOnlyDictionary{TKey,TValue}"/> interface.

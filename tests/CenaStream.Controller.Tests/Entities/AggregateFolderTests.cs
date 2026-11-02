@@ -7,7 +7,7 @@ using MediaBrowser.Controller.Persistence;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Controller.Tests.Entities;
+namespace CenaStream.Controller.Tests.Entities;
 
 [Collection("LibraryManagerTests")]
 public class AggregateFolderTests

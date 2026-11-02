@@ -4,12 +4,12 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
-using Emby.Naming.Common;
-using Emby.Naming.TV;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Naming.Common;
+using CenaStream.Naming.TV;
 using MediaBrowser.Model.IO;
 
-namespace Emby.Naming.Video
+namespace CenaStream.Naming.Video
 {
     /// <summary>
     /// Resolves alternative versions and extras from list of video files.

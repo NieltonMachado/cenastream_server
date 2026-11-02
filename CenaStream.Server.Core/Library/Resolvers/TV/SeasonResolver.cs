@@ -4,16 +4,16 @@ using System;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using Emby.Naming.Common;
-using Emby.Naming.TV;
-using Emby.Server.Implementations.Library;
+using CenaStream.Naming.Common;
+using CenaStream.Naming.TV;
+using CenaStream.Server.Core.Library;
 using MediaBrowser.Controller.Entities.TV;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Model.Entities;
 using MediaBrowser.Model.Globalization;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Library.Resolvers.TV
+namespace CenaStream.Server.Core.Library.Resolvers.TV
 {
     /// <summary>
     /// Class SeasonResolver.

@@ -22,13 +22,13 @@ dotnet --list-sdks
 dotnet restore .\Jellyfin.sln
 
 # 4. Compilar o servidor em Release (ver "Erro CS9057" abaixo)
-dotnet build .\Jellyfin.Server\Jellyfin.Server.csproj -c Release
+dotnet build .\CenaStream.Server\CenaStream.Server.csproj -c Release
 
 # 5a. Executar COM interface web (requer o build do jellyfin-web, ver seção abaixo)
-dotnet run -c Release --no-build --project .\Jellyfin.Server\Jellyfin.Server.csproj -- --webdir "D:\Development\jellyfin-web\dist" --ffmpeg "C:\temp\bin\ffmpeg.exe"
+dotnet run -c Release --no-build --project .\CenaStream.Server\CenaStream.Server.csproj -- --webdir "D:\Development\jellyfin-web\dist" --ffmpeg "C:\temp\bin\ffmpeg.exe"
 
 # 5b. OU executar SEM interface web (apenas API)
-dotnet run -c Release --no-build --project .\Jellyfin.Server\Jellyfin.Server.csproj -- --nowebclient --ffmpeg "C:\temp\bin\ffmpeg.exe"
+dotnet run -c Release --no-build --project .\CenaStream.Server\CenaStream.Server.csproj -- --nowebclient --ffmpeg "C:\temp\bin\ffmpeg.exe"
 ```
 
 ## Build do cliente web (jellyfin-web)
@@ -45,7 +45,7 @@ npm run build:production   # gera dist\index.html (~3 min)
 
 Se ainda não existir, clone antes com `git clone https://github.com/jellyfin/jellyfin-web.git`.
 
-## Erro CS9057 (analyzer `Jellyfin.CodeAnalysis.dll` requer compilador 5.9.0.0)
+## Erro CS9057 (analyzer `CenaStream.CodeAnalysis.dll` requer compilador 5.9.0.0)
 
 O build em Debug carrega o analisador do projeto, compilado contra o Roslyn 5.9, mas o SDK instalado
 (10.0.103) traz o Roslyn 5.0. Soluções:

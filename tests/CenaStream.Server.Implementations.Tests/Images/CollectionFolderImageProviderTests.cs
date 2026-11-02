@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
-using Emby.Server.Implementations.Images;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Server.Core.Images;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Drawing;
 using MediaBrowser.Controller.Entities;
@@ -15,7 +15,7 @@ using MediaBrowser.Model.Querying;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Images;
+namespace CenaStream.Server.Implementations.Tests.Images;
 
 /// <summary>
 /// A music library is collaged from its artists' backdrops. Artists are by-name items with no

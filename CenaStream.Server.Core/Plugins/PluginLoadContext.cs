@@ -1,7 +1,7 @@
 using System.Reflection;
 using System.Runtime.Loader;
 
-namespace Emby.Server.Implementations.Plugins;
+namespace CenaStream.Server.Core.Plugins;
 
 /// <summary>
 /// A custom <see cref="AssemblyLoadContext"/> for loading Jellyfin plugins.

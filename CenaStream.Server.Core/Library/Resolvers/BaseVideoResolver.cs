@@ -5,16 +5,16 @@
 using System;
 using System.IO;
 using System.Linq;
+using CenaStream.Naming.Common;
+using CenaStream.Naming.Video;
 using DiscUtils.Udf;
-using Emby.Naming.Common;
-using Emby.Naming.Video;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Providers;
 using MediaBrowser.Model.Entities;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Library.Resolvers
+namespace CenaStream.Server.Core.Library.Resolvers
 {
     /// <summary>
     /// Resolves a Path into a Video or Video subclass.

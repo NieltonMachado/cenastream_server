@@ -1,15 +1,15 @@
 using System.Threading.Tasks;
-using Jellyfin.Api.Controllers;
-using Jellyfin.Api.Models.StartupDtos;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Server.Implementations.Users;
+using CenaStream.Api.Controllers;
+using CenaStream.Api.Models.StartupDtos;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Server.Implementations.Users;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Library;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Api.Tests.Controllers;
+namespace CenaStream.Api.Tests.Controllers;
 
 public class StartupControllerTests
 {

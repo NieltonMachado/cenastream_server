@@ -1,12 +1,12 @@
 using System;
 using System.IO;
 using System.Linq;
-using Emby.Naming.Common;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
+using CenaStream.Naming.Common;
 using MediaBrowser.Model.Dlna;
 using MediaBrowser.Model.Globalization;
 
-namespace Emby.Naming.ExternalFiles
+namespace CenaStream.Naming.ExternalFiles
 {
     /// <summary>
     /// External media file parser class.

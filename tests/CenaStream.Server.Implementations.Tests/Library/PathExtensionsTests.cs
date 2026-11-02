@@ -1,9 +1,9 @@
 using System;
 using System.IO;
-using Emby.Server.Implementations.Library;
+using CenaStream.Server.Core.Library;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Library
+namespace CenaStream.Server.Implementations.Tests.Library
 {
     public class PathExtensionsTests
     {

@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
-using Emby.Server.Implementations.EntryPoints;
+using CenaStream.Server.Core.EntryPoints;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Session;
@@ -11,7 +11,7 @@ using MediaBrowser.Model.Session;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.EntryPoints;
+namespace CenaStream.Server.Implementations.Tests.EntryPoints;
 
 public class UserDataChangeNotifierTests
 {

@@ -6,15 +6,15 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.DbConfiguration;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.DbConfiguration;
 using MediaBrowser.Common.Configuration;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Database.Providers.Sqlite;
+namespace CenaStream.Database.Providers.Sqlite;
 
 /// <summary>
 /// Configures jellyfin to use an SQLite database.

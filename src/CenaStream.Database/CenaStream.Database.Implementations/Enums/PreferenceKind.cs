@@ -1,4 +1,4 @@
-namespace Jellyfin.Database.Implementations.Enums;
+namespace CenaStream.Database.Implementations.Enums;
 
 /// <summary>
 /// The types of user preferences.

@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Emby.Server.Implementations.Library.Validators;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Server.Core.Library.Validators;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Persistence;
@@ -18,7 +18,7 @@ using MediaBrowser.Model.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.ScheduledTasks.Tasks;
+namespace CenaStream.Server.Core.ScheduledTasks.Tasks;
 
 /// <summary>
 /// Class PeopleValidationTask.

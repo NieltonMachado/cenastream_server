@@ -17,7 +17,7 @@ using Microsoft.Extensions.Logging;
 using static MediaBrowser.Controller.Extensions.ConfigurationExtensions;
 using IConfigurationManager = MediaBrowser.Common.Configuration.IConfigurationManager;
 
-namespace Jellyfin.Networking.Manager;
+namespace CenaStream.Networking.Manager;
 
 /// <summary>
 /// Class to take care of network interface management.

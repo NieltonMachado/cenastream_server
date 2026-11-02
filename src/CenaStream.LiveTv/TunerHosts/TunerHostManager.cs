@@ -6,8 +6,8 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.LiveTv.Configuration;
-using Jellyfin.LiveTv.Guide;
+using CenaStream.LiveTv.Configuration;
+using CenaStream.LiveTv.Guide;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.LiveTv;
@@ -16,7 +16,7 @@ using MediaBrowser.Model.LiveTv;
 using MediaBrowser.Model.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv.TunerHosts;
+namespace CenaStream.LiveTv.TunerHosts;
 
 /// <inheritdoc />
 public class TunerHostManager : ITunerHostManager

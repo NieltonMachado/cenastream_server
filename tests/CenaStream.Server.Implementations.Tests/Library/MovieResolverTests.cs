@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using Emby.Naming.Common;
-using Emby.Naming.Video;
-using Emby.Server.Implementations.Library.Resolvers.Movies;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Naming.Common;
+using CenaStream.Naming.Video;
+using CenaStream.Server.Core.Library.Resolvers.Movies;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Drawing;
 using MediaBrowser.Controller.Entities;
@@ -16,7 +16,7 @@ using Microsoft.Extensions.Logging;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Library;
+namespace CenaStream.Server.Implementations.Tests.Library;
 
 public class MovieResolverTests
 {

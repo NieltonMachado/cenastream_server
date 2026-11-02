@@ -6,7 +6,7 @@ using System.Data;
 using System.Globalization;
 using Microsoft.Data.Sqlite;
 
-namespace Emby.Server.Implementations.Data
+namespace CenaStream.Server.Core.Data
 {
     public static class SqliteExtensions
     {

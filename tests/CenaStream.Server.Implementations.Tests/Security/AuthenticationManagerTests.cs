@@ -1,17 +1,17 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Locking;
-using Jellyfin.Database.Providers.Sqlite;
-using Jellyfin.Server.Implementations.Security;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Locking;
+using CenaStream.Database.Providers.Sqlite;
+using CenaStream.Server.Implementations.Security;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Security
+namespace CenaStream.Server.Implementations.Tests.Security
 {
     public sealed class AuthenticationManagerTests : IDisposable
     {

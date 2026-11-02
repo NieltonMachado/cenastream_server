@@ -2,13 +2,13 @@ using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 using MediaBrowser.Controller.Channels;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv.Channels
+namespace CenaStream.LiveTv.Channels
 {
     /// <summary>
     /// A task to remove all non-installed channels from the database.

@@ -1,4 +1,4 @@
-namespace Jellyfin.Database.Implementations.MatchCriteria;
+namespace CenaStream.Database.Implementations.MatchCriteria;
 
 /// <summary>
 /// Matches folders containing descendants with subtitles.

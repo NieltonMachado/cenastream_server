@@ -1,6 +1,6 @@
 using System;
 
-namespace Jellyfin.MediaEncoding.Keyframes.FfTool;
+namespace CenaStream.MediaEncoding.Keyframes.FfTool;
 
 /// <summary>
 /// FfTool based keyframe extractor.

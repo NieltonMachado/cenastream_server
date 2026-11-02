@@ -3,7 +3,7 @@ using MediaBrowser.Controller.MediaEncoding;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
 
-namespace Jellyfin.Controller.Tests.MediaEncoding;
+namespace CenaStream.Controller.Tests.MediaEncoding;
 
 public class TranscodingJobTests
 {

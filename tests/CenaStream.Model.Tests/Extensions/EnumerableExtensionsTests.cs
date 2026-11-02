@@ -3,7 +3,7 @@ using MediaBrowser.Model.Extensions;
 using MediaBrowser.Model.Providers;
 using Xunit;
 
-namespace Jellyfin.Model.Tests.Extensions;
+namespace CenaStream.Model.Tests.Extensions;
 
 public class EnumerableExtensionsTests
 {

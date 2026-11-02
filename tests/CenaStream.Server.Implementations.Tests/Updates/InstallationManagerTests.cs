@@ -6,13 +6,13 @@ using System.Threading;
 using System.Threading.Tasks;
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Emby.Server.Implementations.Updates;
+using CenaStream.Server.Core.Updates;
 using MediaBrowser.Model.Updates;
 using Moq;
 using Moq.Protected;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Updates
+namespace CenaStream.Server.Implementations.Tests.Updates
 {
     public class InstallationManagerTests
     {

@@ -6,9 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Jellyfin.Api.Extensions;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Api.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Drawing;
 using MediaBrowser.Controller.Dto;
@@ -18,7 +18,7 @@ using MediaBrowser.Controller.Providers;
 using MediaBrowser.Model.Entities;
 using MediaBrowser.Model.IO;
 
-namespace Emby.Server.Implementations.Images
+namespace CenaStream.Server.Core.Images
 {
     public class CollectionFolderImageProvider : BaseDynamicImageProvider<CollectionFolder>
     {

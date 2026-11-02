@@ -3,7 +3,7 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace Jellyfin.LiveTv.TunerHosts.HdHomerun
+namespace CenaStream.LiveTv.TunerHosts.HdHomerun
 {
     public partial class LegacyHdHomerunChannelCommands : IHdHomerunChannelCommands
     {

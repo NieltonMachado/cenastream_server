@@ -2,12 +2,12 @@
 
 using System;
 using System.Globalization;
-using Jellyfin.Data.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Extensions;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Sorting;
 
-namespace Emby.Server.Implementations.Sorting
+namespace CenaStream.Server.Core.Sorting
 {
     public class StudioComparer : IBaseItemComparer
     {

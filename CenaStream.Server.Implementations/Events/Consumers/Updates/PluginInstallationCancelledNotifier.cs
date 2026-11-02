@@ -5,7 +5,7 @@ using MediaBrowser.Controller.Events.Updates;
 using MediaBrowser.Controller.Session;
 using MediaBrowser.Model.Session;
 
-namespace Jellyfin.Server.Implementations.Events.Consumers.Updates
+namespace CenaStream.Server.Implementations.Events.Consumers.Updates
 {
     /// <summary>
     /// Notifies admin users when a plugin installation is cancelled.

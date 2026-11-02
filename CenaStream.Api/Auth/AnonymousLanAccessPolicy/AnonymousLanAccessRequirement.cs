@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 
-namespace Jellyfin.Api.Auth.AnonymousLanAccessPolicy
+namespace CenaStream.Api.Auth.AnonymousLanAccessPolicy
 {
     /// <summary>
     /// The local network authorization requirement. Allows anonymous users.

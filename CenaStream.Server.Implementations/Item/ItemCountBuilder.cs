@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 using MediaBrowser.Controller.Persistence;
 using MediaBrowser.Model.Dto;
 
-namespace Jellyfin.Server.Implementations.Item;
+namespace CenaStream.Server.Implementations.Item;
 
 /// <summary>
 /// Turns per-type counts into an <see cref="ItemCounts"/>.

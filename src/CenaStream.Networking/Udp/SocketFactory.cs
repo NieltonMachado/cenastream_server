@@ -3,7 +3,7 @@ using System.Net;
 using System.Net.Sockets;
 using MediaBrowser.Model.Net;
 
-namespace Jellyfin.Networking.Udp;
+namespace CenaStream.Networking.Udp;
 
 /// <summary>
 /// Factory class to create different kinds of sockets.

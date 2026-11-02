@@ -1,4 +1,4 @@
-namespace Jellyfin.Database.Implementations.Enums;
+namespace CenaStream.Database.Implementations.Enums;
 
 /// <summary>
 /// An enum representing a person's role in a specific media item.

@@ -1,6 +1,6 @@
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities;
 
-namespace Jellyfin.Database.Implementations.Enums;
+namespace CenaStream.Database.Implementations.Enums;
 
 /// <summary>
 /// Defines the types of content an individual <see cref="MediaSegment"/> represents.

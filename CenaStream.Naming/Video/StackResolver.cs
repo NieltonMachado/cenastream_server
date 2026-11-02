@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Emby.Naming.AudioBook;
-using Emby.Naming.Common;
+using CenaStream.Naming.AudioBook;
+using CenaStream.Naming.Common;
 using MediaBrowser.Model.IO;
 
-namespace Emby.Naming.Video
+namespace CenaStream.Naming.Video
 {
     /// <summary>
     /// Resolve <see cref="FileStack"/> from list of paths.

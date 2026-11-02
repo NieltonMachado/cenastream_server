@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using MediaBrowser.Controller.Entities;
 using Xunit;
 
-namespace Jellyfin.Controller.Tests.Entities;
+namespace CenaStream.Controller.Tests.Entities;
 
 /// <summary>
 /// Covers <see cref="Folder.ReleaseCachedChildren"/>, which a recursive scan calls as it unwinds so

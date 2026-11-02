@@ -8,7 +8,7 @@ using System.Globalization;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.LiveTv.IO;
+using CenaStream.LiveTv.IO;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Entities;
@@ -20,7 +20,7 @@ using MediaBrowser.Model.LiveTv;
 using MediaBrowser.Model.MediaInfo;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv
+namespace CenaStream.LiveTv
 {
     public class LiveTvMediaSourceProvider : IMediaSourceProvider
     {

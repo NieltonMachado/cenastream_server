@@ -1,10 +1,10 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
-using Emby.Naming.Common;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
+using CenaStream.Naming.Common;
 
-namespace Emby.Naming.Video
+namespace CenaStream.Naming.Video
 {
     /// <summary>
     /// Resolves <see cref="VideoFileInfo"/> from file path.

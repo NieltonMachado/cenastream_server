@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using MediaBrowser.Model.Dlna;
 using MediaBrowser.Model.MediaInfo;
 
-namespace Jellyfin.Api.Models.MediaInfoDtos;
+namespace CenaStream.Api.Models.MediaInfoDtos;
 
 /// <summary>
 /// Open live stream dto.

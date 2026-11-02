@@ -6,10 +6,10 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using Jellyfin.Data;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Extensions;
+using CenaStream.Data;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Extensions;
 using MediaBrowser.Common;
 using MediaBrowser.Controller.Channels;
 using MediaBrowser.Controller.Chapters;
@@ -35,7 +35,7 @@ using Photo = MediaBrowser.Controller.Entities.Photo;
 using Season = MediaBrowser.Controller.Entities.TV.Season;
 using Series = MediaBrowser.Controller.Entities.TV.Series;
 
-namespace Emby.Server.Implementations.Dto
+namespace CenaStream.Server.Core.Dto
 {
     public class DtoService : IDtoService
     {

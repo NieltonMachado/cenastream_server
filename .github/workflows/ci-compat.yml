@@ -23,7 +23,7 @@ jobs:
 
       - name: Build
         run: |
-          dotnet build Jellyfin.Server -o ./out
+          dotnet build CenaStream.Server -o ./out
 
       - name: Upload Head
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
@@ -62,7 +62,7 @@ jobs:
 
       - name: Build
         run: |
-          dotnet build Jellyfin.Server -o ./out
+          dotnet build CenaStream.Server -o ./out
 
       - name: Upload Head
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
@@ -105,7 +105,7 @@ jobs:
         run: |
           {
             echo 'body<<EOF'
-            for file in Jellyfin.Data.dll MediaBrowser.Common.dll MediaBrowser.Controller.dll MediaBrowser.Model.dll Emby.Naming.dll Jellyfin.Extensions.dll Jellyfin.MediaEncoding.Keyframes.dll Jellyfin.Database.Implementations.dll; do
+            for file in CenaStream.Data.dll MediaBrowser.Common.dll MediaBrowser.Controller.dll MediaBrowser.Model.dll CenaStream.Naming.dll CenaStream.Extensions.dll CenaStream.MediaEncoding.Keyframes.dll CenaStream.Database.Implementations.dll; do
               COMPAT_OUTPUT="$( { apicompat --left ./abi-base/${file} --right ./abi-head/${file}; } 2>&1 || true )"
               if [ "APICompat ran successfully without finding any breaking changes." != "${COMPAT_OUTPUT}" ]; then
                 printf "\n${file}\n${COMPAT_OUTPUT}\n"

@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 using MediaBrowser.Model.Entities;
 using MediaBrowser.Providers.Plugins.Tmdb;
 using TMDbLib.Objects.TvShows;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.Tmdb
+namespace CenaStream.Providers.Tests.Tmdb
 {
     public class TmdbUtilsCastTests
     {

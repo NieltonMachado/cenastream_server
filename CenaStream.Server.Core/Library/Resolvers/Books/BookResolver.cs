@@ -3,14 +3,14 @@
 using System;
 using System.IO;
 using System.Linq;
-using Emby.Naming.Book;
-using Jellyfin.Data.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Extensions;
+using CenaStream.Naming.Book;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Resolvers;
 
-namespace Emby.Server.Implementations.Library.Resolvers.Books
+namespace CenaStream.Server.Core.Library.Resolvers.Books
 {
     public class BookResolver : ItemResolver<Book>
     {

@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Jellyfin.Extensions.Json.Converters
+namespace CenaStream.Extensions.Json.Converters
 {
     /// <summary>
     /// Convert delimited string to array of type.

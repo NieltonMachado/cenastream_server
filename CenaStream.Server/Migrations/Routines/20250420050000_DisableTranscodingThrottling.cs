@@ -2,7 +2,7 @@ using System;
 using MediaBrowser.Common.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.Routines
+namespace CenaStream.Server.Migrations.Routines
 {
     /// <summary>
     /// Disable transcode throttling for all installations since it is currently broken for certain video formats.

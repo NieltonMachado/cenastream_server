@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
-using Jellyfin.Extensions.Json.Converters;
+using CenaStream.Extensions.Json.Converters;
 using MediaBrowser.Model.Entities;
 
-namespace Jellyfin.Api.Models.PlaylistDtos;
+namespace CenaStream.Api.Models.PlaylistDtos;
 
 /// <summary>
 /// Update existing playlist dto. Fields set to `null` will not be updated and keep their current values.

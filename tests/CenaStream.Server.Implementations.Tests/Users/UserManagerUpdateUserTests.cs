@@ -4,13 +4,13 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Database.Implementations.Locking;
-using Jellyfin.Database.Providers.Sqlite;
-using Jellyfin.Server.Implementations.Users;
+using CenaStream.Data;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Database.Implementations.Locking;
+using CenaStream.Database.Providers.Sqlite;
+using CenaStream.Server.Implementations.Users;
 using MediaBrowser.Common;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller;
@@ -25,7 +25,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Users;
+namespace CenaStream.Server.Implementations.Tests.Users;
 
 public sealed class UserManagerUpdateUserTests : IDisposable
 {

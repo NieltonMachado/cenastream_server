@@ -3,7 +3,7 @@ using MediaBrowser.Model.Entities;
 using MediaBrowser.Providers.Music;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.Music;
+namespace CenaStream.Providers.Tests.Music;
 
 public static class AlbumInfoExtensionsTests
 {

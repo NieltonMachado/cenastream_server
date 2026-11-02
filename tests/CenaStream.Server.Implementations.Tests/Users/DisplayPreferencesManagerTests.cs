@@ -1,10 +1,10 @@
 using System;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Server.Implementations.Tests.Item;
-using Jellyfin.Server.Implementations.Users;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Server.Implementations.Tests.Item;
+using CenaStream.Server.Implementations.Users;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Users;
+namespace CenaStream.Server.Implementations.Tests.Users;
 
 /// <summary>
 /// Item display preferences are looked up by the item they belong to, so they have to be stored under it as well:

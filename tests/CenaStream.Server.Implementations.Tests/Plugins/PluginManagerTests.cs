@@ -4,18 +4,18 @@ using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
 using AutoFixture;
-using Emby.Server.Implementations.Library;
-using Emby.Server.Implementations.Plugins;
-using Jellyfin.Extensions;
-using Jellyfin.Extensions.Json;
-using Jellyfin.Extensions.Json.Converters;
+using CenaStream.Extensions;
+using CenaStream.Extensions.Json;
+using CenaStream.Extensions.Json.Converters;
+using CenaStream.Server.Core.Library;
+using CenaStream.Server.Core.Plugins;
 using MediaBrowser.Common.Plugins;
 using MediaBrowser.Model.Plugins;
 using MediaBrowser.Model.Updates;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Plugins
+namespace CenaStream.Server.Implementations.Tests.Plugins
 {
     public class PluginManagerTests
     {
@@ -170,7 +170,7 @@ namespace Jellyfin.Server.Implementations.Tests.Plugins
                 AutoUpdate = false, // Turn off AutoUpdate
                 Status = PluginStatus.Restart,
                 Version = new Version(1, 0, 0).ToString(),
-                Assemblies = new[] { "Jellyfin.Test.dll" }
+                Assemblies = new[] { "CenaStream.Test.dll" }
             };
 
             var expectedManifest = new PluginManifest

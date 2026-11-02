@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Jellyfin.Api.Auth.DefaultAuthorizationPolicy;
-using Jellyfin.Api.Constants;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Api.Auth.DefaultAuthorizationPolicy;
+using CenaStream.Api.Constants;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Library;
 using Microsoft.AspNetCore.Authorization;
@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Http;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Api.Tests.Auth.IgnoreSchedulePolicy
+namespace CenaStream.Api.Tests.Auth.IgnoreSchedulePolicy
 {
     public class IgnoreScheduleHandlerTests
     {

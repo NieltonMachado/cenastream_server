@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations;
+using CenaStream.Database.Implementations;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Model.Globalization;
 using MediaBrowser.Model.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.ScheduledTasks.Tasks;
+namespace CenaStream.Server.Core.ScheduledTasks.Tasks;
 
 /// <summary>
 /// Optimizes Jellyfin's database by issuing VACUUM and ANALYZE commands.

@@ -12,7 +12,7 @@ using MediaBrowser.Model.Configuration;
 using MediaBrowser.Model.Serialization;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.AppBase
+namespace CenaStream.Server.Core.AppBase
 {
     /// <summary>
     /// Class BaseConfigurationManager.

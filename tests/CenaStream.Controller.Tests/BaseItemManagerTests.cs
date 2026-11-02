@@ -7,7 +7,7 @@ using MediaBrowser.Model.Configuration;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Controller.Tests
+namespace CenaStream.Controller.Tests
 {
     public class BaseItemManagerTests
     {

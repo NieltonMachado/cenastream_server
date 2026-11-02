@@ -1,13 +1,13 @@
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations;
+using CenaStream.Server.ServerSetupApp;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.Routines;
+namespace CenaStream.Server.Migrations.Routines;
 
 /// <summary>
 /// Cleans up all Music artists that have been migrated in the 10.11 RC migrations.

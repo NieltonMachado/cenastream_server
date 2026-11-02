@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 using MediaBrowser.Providers.Plugins.Omdb;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.Omdb
+namespace CenaStream.Providers.Tests.Omdb
 {
     public class JsonOmdbConverterTests
     {

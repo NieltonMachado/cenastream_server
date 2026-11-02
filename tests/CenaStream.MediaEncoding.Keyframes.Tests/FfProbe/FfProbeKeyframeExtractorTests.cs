@@ -2,7 +2,7 @@ using System.IO;
 using System.Text.Json;
 using Xunit;
 
-namespace Jellyfin.MediaEncoding.Keyframes.FfProbe
+namespace CenaStream.MediaEncoding.Keyframes.FfProbe
 {
     public class FfProbeKeyframeExtractorTests
     {

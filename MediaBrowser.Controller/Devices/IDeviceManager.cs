@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
-using Jellyfin.Data.Dtos;
-using Jellyfin.Data.Events;
-using Jellyfin.Data.Queries;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Entities.Security;
+using CenaStream.Data.Dtos;
+using CenaStream.Data.Events;
+using CenaStream.Data.Queries;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities.Security;
 using MediaBrowser.Model.Devices;
 using MediaBrowser.Model.Dto;
 using MediaBrowser.Model.Querying;

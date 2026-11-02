@@ -4,10 +4,10 @@ using System.Linq;
 using AutoFixture;
 using AutoFixture.AutoMoq;
 using Castle.Components.DictionaryAdapter;
-using Emby.Server.Implementations.IO;
-using Emby.Server.Implementations.Library;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Server.Core.IO;
+using CenaStream.Server.Core.Library;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.Audio;
 using MediaBrowser.Controller.Library;
@@ -21,7 +21,7 @@ using MediaBrowser.Model.MediaInfo;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Library
+namespace CenaStream.Server.Implementations.Tests.Library
 {
     public class MediaSourceManagerTests
     {

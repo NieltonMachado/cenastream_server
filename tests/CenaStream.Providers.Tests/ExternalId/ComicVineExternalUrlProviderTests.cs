@@ -4,7 +4,7 @@ using MediaBrowser.Model.Entities;
 using MediaBrowser.Providers.Books.ComicVine;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.ExternalId
+namespace CenaStream.Providers.Tests.ExternalId
 {
     public sealed class ComicVineExternalUrlProviderTests
     {

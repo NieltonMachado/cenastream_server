@@ -2,10 +2,10 @@ using System;
 using System.Globalization;
 using System.IO;
 using System.Text.RegularExpressions;
-using Emby.Naming.Common;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
+using CenaStream.Naming.Common;
 
-namespace Emby.Naming.Audio
+namespace CenaStream.Naming.Audio
 {
     /// <summary>
     /// Helper class to determine if Album is multipart.

@@ -3,7 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using MediaBrowser.Common.Providers;
 
-namespace Emby.Server.Implementations.Library
+namespace CenaStream.Server.Core.Library
 {
     /// <summary>
     /// Class providing extension methods for working with paths.

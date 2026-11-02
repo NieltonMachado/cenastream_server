@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.Playlists;
+namespace CenaStream.Providers.Tests.Playlists;
 
 public sealed class PlaylistItemsProviderTests : IDisposable
 {

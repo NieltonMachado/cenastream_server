@@ -5,14 +5,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Server.Implementations.Item;
+using CenaStream.Database.Implementations;
+using CenaStream.Server.Implementations.Item;
 using MediaBrowser.Model.Globalization;
 using MediaBrowser.Model.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.ScheduledTasks.Tasks;
+namespace CenaStream.Server.Core.ScheduledTasks.Tasks;
 
 /// <summary>
 /// Task to clean up any detached userdata from the database.

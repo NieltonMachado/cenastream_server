@@ -5,10 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Extensions;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Dto;
 using MediaBrowser.Controller.Entities;
@@ -19,7 +19,7 @@ using MediaBrowser.Model.Configuration;
 using Microsoft.EntityFrameworkCore;
 using BaseItemDto = MediaBrowser.Controller.Entities.BaseItem;
 
-namespace Emby.Server.Implementations.Library.SimilarItems;
+namespace CenaStream.Server.Core.Library.SimilarItems;
 
 /// <summary>
 /// Provides similar items for movies and trailers using weighted scoring.

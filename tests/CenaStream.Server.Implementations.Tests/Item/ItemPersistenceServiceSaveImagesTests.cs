@@ -1,8 +1,8 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Server.Implementations.Item;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Server.Implementations.Item;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Model.Entities;
@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Item;
+namespace CenaStream.Server.Implementations.Tests.Item;
 
 public class ItemPersistenceServiceSaveImagesTests : SqliteDbTestFixture
 {

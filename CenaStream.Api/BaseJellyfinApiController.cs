@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Net.Mime;
-using Jellyfin.Api.Results;
-using Jellyfin.Extensions.Json;
+using CenaStream.Api.Results;
+using CenaStream.Extensions.Json;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Jellyfin.Api;
+namespace CenaStream.Api;
 
 /// <summary>
 /// Base api controller for the API setting a default route.

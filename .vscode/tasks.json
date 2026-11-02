@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Jellyfin.Server/Jellyfin.Server.csproj"
+                "${workspaceFolder}/CenaStream.Server/CenaStream.Server.csproj"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "test",
-                "${workspaceFolder}/tests/Jellyfin.Api.Tests/Jellyfin.Api.Tests.csproj"
+                "${workspaceFolder}/tests/CenaStream.Api.Tests/CenaStream.Api.Tests.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

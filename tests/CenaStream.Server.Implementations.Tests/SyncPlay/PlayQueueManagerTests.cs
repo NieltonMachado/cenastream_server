@@ -5,7 +5,7 @@ using MediaBrowser.Controller.SyncPlay.Queue;
 using MediaBrowser.Model.SyncPlay;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.SyncPlay;
+namespace CenaStream.Server.Implementations.Tests.SyncPlay;
 
 public class PlayQueueManagerTests
 {

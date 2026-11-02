@@ -2,7 +2,7 @@ using System;
 using System.Collections.ObjectModel;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.ServerSetupApp;
+namespace CenaStream.Server.ServerSetupApp;
 
 /// <summary>
 /// Defines a topic for the Startup UI.

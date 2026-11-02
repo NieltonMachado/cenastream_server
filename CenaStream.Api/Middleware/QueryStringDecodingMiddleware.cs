@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Features;
 
-namespace Jellyfin.Api.Middleware;
+namespace CenaStream.Api.Middleware;
 
 /// <summary>
 /// URL decodes the querystring before binding.

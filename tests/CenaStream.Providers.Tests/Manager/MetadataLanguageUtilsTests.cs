@@ -1,7 +1,7 @@
 using MediaBrowser.Providers.Manager;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.Manager
+namespace CenaStream.Providers.Tests.Manager
 {
     public class MetadataLanguageUtilsTests
     {

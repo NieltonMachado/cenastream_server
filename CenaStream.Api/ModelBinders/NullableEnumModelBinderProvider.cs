@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Api.ModelBinders;
+namespace CenaStream.Api.ModelBinders;
 
 /// <summary>
 /// Nullable enum model binder provider.

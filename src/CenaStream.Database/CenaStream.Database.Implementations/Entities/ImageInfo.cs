@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Jellyfin.Database.Implementations.Entities
+namespace CenaStream.Database.Implementations.Entities
 {
     /// <summary>
     /// An entity representing an image.

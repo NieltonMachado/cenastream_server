@@ -3,9 +3,9 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
-using Jellyfin.Data.Enums;
-using Jellyfin.Extensions.Json;
-using Jellyfin.Extensions.Json.Converters;
+using CenaStream.Data.Enums;
+using CenaStream.Extensions.Json;
+using CenaStream.Extensions.Json.Converters;
 using MediaBrowser.MediaEncoding.Probing;
 using MediaBrowser.Model.Entities;
 using MediaBrowser.Model.Globalization;
@@ -14,7 +14,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.MediaEncoding.Tests.Probing
+namespace CenaStream.MediaEncoding.Tests.Probing
 {
     public class ProbeResultNormalizerTests
     {

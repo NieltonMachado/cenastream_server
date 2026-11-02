@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Emby.Naming.Common;
-using Emby.Naming.Video;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Naming.Common;
+using CenaStream.Naming.Video;
 using MediaBrowser.Model.Entities;
 using Xunit;
 
-namespace Jellyfin.Naming.Tests.Video
+namespace CenaStream.Naming.Tests.Video
 {
     public class MultiVersionTests
     {

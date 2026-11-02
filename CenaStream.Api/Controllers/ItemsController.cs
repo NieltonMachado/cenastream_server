@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
-using Jellyfin.Api.Extensions;
-using Jellyfin.Api.Helpers;
-using Jellyfin.Api.ModelBinders;
-using Jellyfin.Data;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Api.Extensions;
+using CenaStream.Api.Helpers;
+using CenaStream.Api.ModelBinders;
+using CenaStream.Data;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Extensions;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.Dto;
 using MediaBrowser.Controller.Entities;
@@ -26,7 +26,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Api.Controllers;
+namespace CenaStream.Api.Controllers;
 
 /// <summary>
 /// The items controller.

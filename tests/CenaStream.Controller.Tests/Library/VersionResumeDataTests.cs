@@ -4,7 +4,7 @@ using MediaBrowser.Controller.Library;
 using MediaBrowser.Model.Dto;
 using Xunit;
 
-namespace Jellyfin.Controller.Tests.Library;
+namespace CenaStream.Controller.Tests.Library;
 
 public class VersionResumeDataTests
 {

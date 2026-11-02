@@ -6,7 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using BlurHashSharp.SkiaSharp;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.Drawing;
@@ -16,7 +16,7 @@ using SkiaSharp;
 using Svg;
 using Svg.Skia;
 
-namespace Jellyfin.Drawing.Skia;
+namespace CenaStream.Drawing.Skia;
 
 /// <summary>
 /// Image encoder that uses <see cref="SkiaSharp"/> to manipulate images.

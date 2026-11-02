@@ -3,15 +3,15 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Emby.Server.Implementations.Data;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Database.Implementations;
+using CenaStream.Server.Core.Data;
+using CenaStream.Server.ServerSetupApp;
 using MediaBrowser.Controller;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.Routines;
+namespace CenaStream.Server.Migrations.Routines;
 
 [JellyfinMigration("2025-07-30T21:50:00", nameof(ReseedFolderFlag))]
 [JellyfinMigrationBackup(JellyfinDb = true)]

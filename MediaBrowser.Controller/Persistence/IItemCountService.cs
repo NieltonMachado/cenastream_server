@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Model.Dto;
 

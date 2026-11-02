@@ -1,10 +1,10 @@
 using System;
 using System.IO;
 using System.Linq;
-using Emby.Naming.Common;
-using Emby.Naming.Video;
-using Jellyfin.Data.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Extensions;
+using CenaStream.Naming.Common;
+using CenaStream.Naming.Video;
 using MediaBrowser.Controller.Drawing;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
@@ -12,7 +12,7 @@ using MediaBrowser.Controller.Providers;
 using MediaBrowser.Controller.Resolvers;
 using MediaBrowser.Model.Entities;
 
-namespace Emby.Server.Implementations.Library.Resolvers
+namespace CenaStream.Server.Core.Library.Resolvers
 {
     /// <summary>
     /// Class PhotoResolver.

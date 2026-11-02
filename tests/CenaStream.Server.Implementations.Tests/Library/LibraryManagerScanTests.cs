@@ -3,16 +3,16 @@ using System.Threading;
 using System.Threading.Tasks;
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Emby.Naming.Common;
-using Emby.Server.Implementations.ScheduledTasks.Tasks;
+using CenaStream.Naming.Common;
+using CenaStream.Server.Core.ScheduledTasks.Tasks;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Model.Configuration;
 using MediaBrowser.Model.Tasks;
 using Moq;
 using Xunit;
-using ServerLibraryManager = Emby.Server.Implementations.Library.LibraryManager;
+using ServerLibraryManager = CenaStream.Server.Core.Library.LibraryManager;
 
-namespace Jellyfin.Server.Implementations.Tests.Library;
+namespace CenaStream.Server.Implementations.Tests.Library;
 
 public class LibraryManagerScanTests
 {

@@ -2,12 +2,12 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller.Authentication;
 using MediaBrowser.Model.Cryptography;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Implementations.Users
+namespace CenaStream.Server.Implementations.Users
 {
     /// <summary>
     /// The default authentication provider.

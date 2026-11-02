@@ -5,13 +5,13 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Jellyfin.Api.Models.UserDtos;
-using Jellyfin.Extensions.Json;
+using CenaStream.Api.Models.UserDtos;
+using CenaStream.Extensions.Json;
 using MediaBrowser.Model.Dto;
 using Xunit;
 using Xunit.v3.Priority;
 
-namespace Jellyfin.Server.Integration.Tests.Controllers
+namespace CenaStream.Server.Integration.Tests.Controllers
 {
     [TestCaseOrderer(typeof(PriorityOrderer))]
     public sealed class UserControllerTests : IClassFixture<JellyfinApplicationFactory>

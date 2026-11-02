@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using Jellyfin.Extensions.Tests.Json.Models;
+using CenaStream.Extensions.Tests.Json.Models;
 using MediaBrowser.Model.Session;
 using Xunit;
 
-namespace Jellyfin.Extensions.Tests.Json.Converters
+namespace CenaStream.Extensions.Tests.Json.Converters
 {
     public class JsonCommaDelimitedIReadOnlyListTests
     {

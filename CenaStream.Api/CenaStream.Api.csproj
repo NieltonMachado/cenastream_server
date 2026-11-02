@@ -20,8 +20,8 @@
   <ItemGroup>
     <ProjectReference Include="..\MediaBrowser.Controller\MediaBrowser.Controller.csproj" />
     <ProjectReference Include="..\MediaBrowser.MediaEncoding\MediaBrowser.MediaEncoding.csproj" />
-    <ProjectReference Include="..\src\Jellyfin.MediaEncoding.Hls\Jellyfin.MediaEncoding.Hls.csproj" />
-    <ProjectReference Include="..\src\Jellyfin.Networking\Jellyfin.Networking.csproj" />
+    <ProjectReference Include="..\src\CenaStream.MediaEncoding.Hls\CenaStream.MediaEncoding.Hls.csproj" />
+    <ProjectReference Include="..\src\CenaStream.Networking\CenaStream.Networking.csproj" />
   </ItemGroup>
 
   <!-- Code Analyzers -->
@@ -41,7 +41,7 @@
 
   <ItemGroup>
     <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
-      <_Parameter1>Jellyfin.Api.Tests</_Parameter1>
+      <_Parameter1>CenaStream.Api.Tests</_Parameter1>
     </AssemblyAttribute>
   </ItemGroup>
 

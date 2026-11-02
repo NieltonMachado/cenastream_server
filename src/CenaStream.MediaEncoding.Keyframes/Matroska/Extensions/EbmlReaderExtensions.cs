@@ -1,9 +1,9 @@
 using System;
 using System.Buffers.Binary;
-using Jellyfin.MediaEncoding.Keyframes.Matroska.Models;
+using CenaStream.MediaEncoding.Keyframes.Matroska.Models;
 using NEbml.Core;
 
-namespace Jellyfin.MediaEncoding.Keyframes.Matroska.Extensions;
+namespace CenaStream.MediaEncoding.Keyframes.Matroska.Extensions;
 
 /// <summary>
 /// Extension methods for the <see cref="EbmlReader"/> class.

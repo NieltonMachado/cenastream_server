@@ -1,14 +1,14 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Server.Migrations;
-using Jellyfin.Server.Migrations.Stages;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Server.Migrations;
+using CenaStream.Server.Migrations.Stages;
+using CenaStream.Server.ServerSetupApp;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
 
-namespace Jellyfin.Server.Tests.Migrations;
+namespace CenaStream.Server.Tests.Migrations;
 
 public class CodeMigrationTests
 {

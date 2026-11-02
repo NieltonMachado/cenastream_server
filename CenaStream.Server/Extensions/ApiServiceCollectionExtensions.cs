@@ -6,23 +6,23 @@ using System.Net.Sockets;
 using System.Reflection;
 using System.Security.Claims;
 using System.Text.Json.Nodes;
-using Emby.Server.Implementations;
-using Jellyfin.Api.Auth;
-using Jellyfin.Api.Auth.AnonymousLanAccessPolicy;
-using Jellyfin.Api.Auth.DefaultAuthorizationPolicy;
-using Jellyfin.Api.Auth.FirstTimeSetupPolicy;
-using Jellyfin.Api.Auth.LocalAccessOrRequiresElevationPolicy;
-using Jellyfin.Api.Auth.SyncPlayAccessPolicy;
-using Jellyfin.Api.Auth.UserPermissionPolicy;
-using Jellyfin.Api.Constants;
-using Jellyfin.Api.Controllers;
-using Jellyfin.Api.Formatters;
-using Jellyfin.Api.ModelBinders;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Extensions.Json;
-using Jellyfin.Server.Configuration;
-using Jellyfin.Server.Filters;
+using CenaStream.Api.Auth;
+using CenaStream.Api.Auth.AnonymousLanAccessPolicy;
+using CenaStream.Api.Auth.DefaultAuthorizationPolicy;
+using CenaStream.Api.Auth.FirstTimeSetupPolicy;
+using CenaStream.Api.Auth.LocalAccessOrRequiresElevationPolicy;
+using CenaStream.Api.Auth.SyncPlayAccessPolicy;
+using CenaStream.Api.Auth.UserPermissionPolicy;
+using CenaStream.Api.Constants;
+using CenaStream.Api.Controllers;
+using CenaStream.Api.Formatters;
+using CenaStream.Api.ModelBinders;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Extensions.Json;
+using CenaStream.Server.Configuration;
+using CenaStream.Server.Core;
+using CenaStream.Server.Filters;
 using MediaBrowser.Common.Api;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Model.Entities;
@@ -36,9 +36,9 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.OpenApi;
 using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
-using AuthenticationSchemes = Jellyfin.Api.Constants.AuthenticationSchemes;
+using AuthenticationSchemes = CenaStream.Api.Constants.AuthenticationSchemes;
 
-namespace Jellyfin.Server.Extensions
+namespace CenaStream.Server.Extensions
 {
     /// <summary>
     /// API specific extensions for the service collection.

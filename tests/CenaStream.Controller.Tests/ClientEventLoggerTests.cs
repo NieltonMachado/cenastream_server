@@ -7,7 +7,7 @@ using MediaBrowser.Controller.ClientEvent;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Controller.Tests
+namespace CenaStream.Controller.Tests
 {
     public class ClientEventLoggerTests
     {

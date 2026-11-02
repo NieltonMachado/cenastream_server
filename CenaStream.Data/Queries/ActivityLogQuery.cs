@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Enums;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Data.Queries;
+namespace CenaStream.Data.Queries;
 
 /// <summary>
 /// A class representing a query to the activity logs.

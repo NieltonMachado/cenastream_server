@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using ICU4N.Text;
 
-namespace Jellyfin.Extensions
+namespace CenaStream.Extensions
 {
     /// <summary>
     /// Provides extensions methods for <see cref="string" />.

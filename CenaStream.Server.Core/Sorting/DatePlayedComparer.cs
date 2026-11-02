@@ -1,14 +1,14 @@
 #nullable disable
 
 using System;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Sorting;
 using MediaBrowser.Model.Querying;
 
-namespace Emby.Server.Implementations.Sorting
+namespace CenaStream.Server.Core.Sorting
 {
     /// <summary>
     /// Class DatePlayedComparer.

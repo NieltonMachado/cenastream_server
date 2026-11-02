@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 
-namespace Jellyfin.Api.Auth.DefaultAuthorizationPolicy
+namespace CenaStream.Api.Auth.DefaultAuthorizationPolicy
 {
     /// <summary>
     /// The default authorization requirement.

@@ -5,13 +5,13 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Jellyfin.MediaEncoding.Hls.Extractors;
-using Jellyfin.MediaEncoding.Keyframes;
+using CenaStream.MediaEncoding.Hls.Extractors;
+using CenaStream.MediaEncoding.Keyframes;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.MediaEncoding;
 
-namespace Jellyfin.MediaEncoding.Hls.Playlist;
+namespace CenaStream.MediaEncoding.Hls.Playlist;
 
 /// <inheritdoc />
 public class DynamicHlsPlaylistGenerator : IDynamicHlsPlaylistGenerator

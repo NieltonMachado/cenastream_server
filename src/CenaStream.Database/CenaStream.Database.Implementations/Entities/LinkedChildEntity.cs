@@ -1,6 +1,6 @@
 using System;
 
-namespace Jellyfin.Database.Implementations.Entities;
+namespace CenaStream.Database.Implementations.Entities;
 
 /// <summary>
 /// Represents a linked child relationship between items (e.g., BoxSet to Movies, Playlist to tracks).

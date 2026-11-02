@@ -1,4 +1,4 @@
-namespace Jellyfin.Database.Implementations.DbConfiguration;
+namespace CenaStream.Database.Implementations.DbConfiguration;
 
 /// <summary>
 /// Defines all possible methods for locking database access for concurrent queries.

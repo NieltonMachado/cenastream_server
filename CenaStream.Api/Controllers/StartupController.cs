@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
-using Jellyfin.Api.Models.StartupDtos;
+using CenaStream.Api.Models.StartupDtos;
 using MediaBrowser.Common.Api;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller.Configuration;
@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Jellyfin.Api.Controllers;
+namespace CenaStream.Api.Controllers;
 
 /// <summary>
 /// The startup wizard controller.

@@ -1,7 +1,7 @@
 using System;
 using System.Text.Json.Serialization;
 
-namespace Jellyfin.LiveTv.Listings.SchedulesDirectDtos
+namespace CenaStream.LiveTv.Listings.SchedulesDirectDtos
 {
     /// <summary>
     /// The token dto.

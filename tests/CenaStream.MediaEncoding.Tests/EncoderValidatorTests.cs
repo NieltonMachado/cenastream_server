@@ -3,7 +3,7 @@ using MediaBrowser.MediaEncoding.Encoder;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
 
-namespace Jellyfin.MediaEncoding.Tests
+namespace CenaStream.MediaEncoding.Tests
 {
     public class EncoderValidatorTests
     {

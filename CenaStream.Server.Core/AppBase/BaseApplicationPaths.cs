@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
 using MediaBrowser.Common.Configuration;
 
-namespace Emby.Server.Implementations.AppBase
+namespace CenaStream.Server.Core.AppBase
 {
     /// <summary>
     /// Provides a base class to hold common application paths used by both the UI and Server.

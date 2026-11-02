@@ -10,7 +10,7 @@ using MediaBrowser.Model.Globalization;
 using MediaBrowser.Model.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.ScheduledTasks.Tasks;
+namespace CenaStream.Server.Core.ScheduledTasks.Tasks;
 
 /// <summary>
 /// Plugin Update Task.

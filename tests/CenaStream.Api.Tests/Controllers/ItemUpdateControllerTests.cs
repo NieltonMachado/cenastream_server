@@ -1,6 +1,6 @@
 using System;
 using System.Threading.Tasks;
-using Jellyfin.Api.Controllers;
+using CenaStream.Api.Controllers;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.Movies;
@@ -14,7 +14,7 @@ using MediaBrowser.Model.IO;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Api.Tests.Controllers;
+namespace CenaStream.Api.Tests.Controllers;
 
 [Collection("LibraryManagerTests")]
 public sealed class ItemUpdateControllerTests : IDisposable

@@ -12,7 +12,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.ExternalId
+namespace CenaStream.Providers.Tests.ExternalId
 {
     public sealed class MusicBrainzExternalUrlProviderTests : IDisposable
     {

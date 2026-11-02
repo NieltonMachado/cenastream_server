@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Api.ModelBinders;
+namespace CenaStream.Api.ModelBinders;
 
 /// <summary>
 /// DateTime model binder.

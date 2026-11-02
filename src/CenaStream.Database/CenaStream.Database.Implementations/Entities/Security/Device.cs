@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Globalization;
 
-namespace Jellyfin.Database.Implementations.Entities.Security
+namespace CenaStream.Database.Implementations.Entities.Security
 {
     /// <summary>
     /// An entity representing a device.

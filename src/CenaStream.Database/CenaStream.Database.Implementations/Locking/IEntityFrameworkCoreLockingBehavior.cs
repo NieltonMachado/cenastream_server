@@ -2,7 +2,7 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace Jellyfin.Database.Implementations.Locking;
+namespace CenaStream.Database.Implementations.Locking;
 
 /// <summary>
 /// Defines a jellyfin locking behavior that can be configured.

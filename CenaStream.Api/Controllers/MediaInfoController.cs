@@ -4,11 +4,11 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Net.Mime;
 using System.Threading.Tasks;
-using Jellyfin.Api.Attributes;
-using Jellyfin.Api.Extensions;
-using Jellyfin.Api.Helpers;
-using Jellyfin.Api.Models.MediaInfoDtos;
-using Jellyfin.Extensions;
+using CenaStream.Api.Attributes;
+using CenaStream.Api.Extensions;
+using CenaStream.Api.Helpers;
+using CenaStream.Api.Models.MediaInfoDtos;
+using CenaStream.Extensions;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.Devices;
 using MediaBrowser.Controller.Entities;
@@ -20,7 +20,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Api.Controllers;
+namespace CenaStream.Api.Controllers;
 
 /// <summary>
 /// The media info controller.

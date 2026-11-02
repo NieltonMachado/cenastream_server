@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using MediaBrowser.Controller.Net;
 using Microsoft.AspNetCore.Http;
 
-namespace Jellyfin.Api.Middleware;
+namespace CenaStream.Api.Middleware;
 
 /// <summary>
 /// Handles WebSocket requests.

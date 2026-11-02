@@ -1,6 +1,6 @@
 using System;
 
-namespace Jellyfin.Api.Models.ApiKeyDtos;
+namespace CenaStream.Api.Models.ApiKeyDtos;
 
 /// <summary>
 /// An API key.

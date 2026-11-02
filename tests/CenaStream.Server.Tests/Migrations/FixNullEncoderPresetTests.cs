@@ -3,9 +3,9 @@ using System.IO;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
-using Emby.Server.Implementations;
-using Jellyfin.Server.Migrations.PreStartupRoutines;
-using Jellyfin.Server.Migrations.Routines;
+using CenaStream.Server.Core;
+using CenaStream.Server.Migrations.PreStartupRoutines;
+using CenaStream.Server.Migrations.Routines;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Model.Configuration;
 using MediaBrowser.Model.Entities;
@@ -13,7 +13,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Tests.Migrations;
+namespace CenaStream.Server.Tests.Migrations;
 
 public sealed class FixNullEncoderPresetTests : IDisposable
 {

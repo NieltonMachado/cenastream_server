@@ -1,6 +1,6 @@
 using System;
 
-namespace Emby.Naming.AudioBook
+namespace CenaStream.Naming.AudioBook
 {
     /// <summary>
     /// Represents a single video file.

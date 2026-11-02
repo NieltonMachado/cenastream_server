@@ -4,7 +4,7 @@
 
 using System;
 using System.Collections.Generic;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities;
 
 namespace MediaBrowser.Controller.Entities
 {

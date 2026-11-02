@@ -1,6 +1,6 @@
 using System;
 using System.IO;
-using Jellyfin.Api.Controllers;
+using CenaStream.Api.Controllers;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.MediaEncoding;
@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Api.Tests.Controllers;
+namespace CenaStream.Api.Tests.Controllers;
 
 // The legacy HLS endpoints build a file path from caller-supplied route values, and the audio
 // and video segment endpoints are not authenticated. These tests pin down that requests escaping

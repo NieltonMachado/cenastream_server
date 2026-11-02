@@ -1,9 +1,9 @@
 using System.Collections.Generic;
-using Jellyfin.Api.Attributes;
+using CenaStream.Api.Attributes;
 using Microsoft.OpenApi;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Jellyfin.Server.Filters
+namespace CenaStream.Server.Filters
 {
     /// <inheritdoc />
     public class FileRequestFilter : IOperationFilter

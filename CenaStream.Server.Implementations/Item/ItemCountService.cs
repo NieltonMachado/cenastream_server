@@ -4,17 +4,17 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Extensions;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Persistence;
 using MediaBrowser.Model.Dto;
 using Microsoft.EntityFrameworkCore;
 
-namespace Jellyfin.Server.Implementations.Item;
+namespace CenaStream.Server.Implementations.Item;
 
 /// <summary>
 /// Provides item counting and played-status query operations.

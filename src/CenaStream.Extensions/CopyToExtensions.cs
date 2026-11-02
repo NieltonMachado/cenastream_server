@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Jellyfin.Extensions
+namespace CenaStream.Extensions
 {
     /// <summary>
     /// Provides <c>CopyTo</c> extensions methods for <see cref="IReadOnlyList{T}" />.

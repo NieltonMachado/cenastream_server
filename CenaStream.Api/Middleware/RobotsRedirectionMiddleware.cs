@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Api.Middleware;
+namespace CenaStream.Api.Middleware;
 
 /// <summary>
 /// Redirect requests to robots.txt to web/robots.txt.

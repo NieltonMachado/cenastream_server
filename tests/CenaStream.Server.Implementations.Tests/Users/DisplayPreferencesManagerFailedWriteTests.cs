@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
-using Jellyfin.Server.Implementations.Tests.Item;
-using Jellyfin.Server.Implementations.Users;
+using CenaStream.Server.Implementations.Tests.Item;
+using CenaStream.Server.Implementations.Users;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Users;
+namespace CenaStream.Server.Implementations.Tests.Users;
 
 public sealed class DisplayPreferencesManagerFailedWriteTests : SqliteDbTestFixture
 {

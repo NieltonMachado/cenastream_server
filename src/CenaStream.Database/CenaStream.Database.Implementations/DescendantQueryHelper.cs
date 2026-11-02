@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.MatchCriteria;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.MatchCriteria;
 
-namespace Jellyfin.Database.Implementations;
+namespace CenaStream.Database.Implementations;
 
 /// <summary>
 /// Provides methods for querying item hierarchies.

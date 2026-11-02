@@ -2,7 +2,7 @@ using System;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Jellyfin.Extensions.Json.Converters
+namespace CenaStream.Extensions.Json.Converters
 {
     /// <summary>
     /// Converts a nullable struct or value to/from JSON.

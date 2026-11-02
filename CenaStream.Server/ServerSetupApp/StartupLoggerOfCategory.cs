@@ -2,7 +2,7 @@ using System;
 using System.Globalization;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.ServerSetupApp;
+namespace CenaStream.Server.ServerSetupApp;
 
 /// <summary>
 /// Startup logger for usage with DI that utilises an underlying logger from the DI.

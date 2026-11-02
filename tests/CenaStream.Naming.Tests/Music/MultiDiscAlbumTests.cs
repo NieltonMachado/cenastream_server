@@ -1,8 +1,8 @@
-using Emby.Naming.Audio;
-using Emby.Naming.Common;
+using CenaStream.Naming.Audio;
+using CenaStream.Naming.Common;
 using Xunit;
 
-namespace Jellyfin.Naming.Tests.Music
+namespace CenaStream.Naming.Tests.Music
 {
     public class MultiDiscAlbumTests
     {

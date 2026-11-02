@@ -7,7 +7,7 @@
 
   <PropertyGroup>
     <Authors>Jellyfin Contributors</Authors>
-    <PackageId>Jellyfin.Common</PackageId>
+    <PackageId>CenaStream.Common</PackageId>
     <VersionPrefix>13.0.0</VersionPrefix>
     <RepositoryUrl>https://github.com/jellyfin/jellyfin</RepositoryUrl>
     <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
@@ -54,7 +54,7 @@
 
   <ItemGroup>
     <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
-      <_Parameter1>Jellyfin.Common.Tests</_Parameter1>
+      <_Parameter1>CenaStream.Common.Tests</_Parameter1>
     </AssemblyAttribute>
   </ItemGroup>
 

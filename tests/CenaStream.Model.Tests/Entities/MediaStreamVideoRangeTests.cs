@@ -1,8 +1,8 @@
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 using MediaBrowser.Model.Entities;
 using Xunit;
 
-namespace Jellyfin.Model.Tests.Entities;
+namespace CenaStream.Model.Tests.Entities;
 
 public class MediaStreamVideoRangeTests
 {

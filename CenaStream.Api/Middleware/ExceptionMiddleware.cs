@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Api.Middleware;
+namespace CenaStream.Api.Middleware;
 
 /// <summary>
 /// Exception Middleware.

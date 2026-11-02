@@ -3,13 +3,13 @@ using System.Globalization;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Persistence;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Library.Validators;
+namespace CenaStream.Server.Core.Library.Validators;
 
 /// <summary>
 /// Class StudiosValidator.

@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Emby.Server.Implementations")]
+[assembly: AssemblyTitle("CenaStream.Server.Core")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Jellyfin Project")]
@@ -15,8 +15,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: NeutralResourcesLanguage("en")]
-[assembly: InternalsVisibleTo("Jellyfin.Server.Implementations.Tests")]
-[assembly: InternalsVisibleTo("Emby.Server.Implementations.Fuzz")]
+[assembly: InternalsVisibleTo("CenaStream.Server.Implementations.Tests")]
+[assembly: InternalsVisibleTo("CenaStream.Server.Core.Fuzz")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
 // to COM components.  If you need to access a type in this assembly from

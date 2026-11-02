@@ -1,9 +1,9 @@
 using System;
-using Jellyfin.MediaEncoding.Hls.Playlist;
-using Jellyfin.MediaEncoding.Keyframes;
+using CenaStream.MediaEncoding.Hls.Playlist;
+using CenaStream.MediaEncoding.Keyframes;
 using Xunit;
 
-namespace Jellyfin.MediaEncoding.Hls.Tests.Playlist
+namespace CenaStream.MediaEncoding.Hls.Tests.Playlist
 {
     public class DynamicHlsPlaylistGeneratorTests
     {

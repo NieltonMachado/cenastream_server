@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.IO;
 using SkiaSharp;
 
-namespace Jellyfin.Drawing.Skia;
+namespace CenaStream.Drawing.Skia;
 
 /// <summary>
 /// Class containing helper methods for working with SkiaSharp.

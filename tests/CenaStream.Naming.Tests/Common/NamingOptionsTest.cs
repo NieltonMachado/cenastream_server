@@ -1,7 +1,7 @@
-using Emby.Naming.Common;
+using CenaStream.Naming.Common;
 using Xunit;
 
-namespace Jellyfin.Naming.Tests.Common
+namespace CenaStream.Naming.Tests.Common
 {
     public class NamingOptionsTest
     {

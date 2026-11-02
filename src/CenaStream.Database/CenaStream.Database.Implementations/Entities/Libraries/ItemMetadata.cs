@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Jellyfin.Database.Implementations.Interfaces;
+using CenaStream.Database.Implementations.Interfaces;
 
-namespace Jellyfin.Database.Implementations.Entities.Libraries
+namespace CenaStream.Database.Implementations.Entities.Libraries
 {
     /// <summary>
     /// An abstract class that holds metadata.

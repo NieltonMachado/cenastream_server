@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Extensions.Json;
+using CenaStream.Extensions.Json;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.MediaEncoding;
@@ -19,7 +19,7 @@ using MediaBrowser.Model.IO;
 using MediaBrowser.Model.MediaInfo;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Library
+namespace CenaStream.Server.Core.Library
 {
     public class LiveStreamHelper
     {

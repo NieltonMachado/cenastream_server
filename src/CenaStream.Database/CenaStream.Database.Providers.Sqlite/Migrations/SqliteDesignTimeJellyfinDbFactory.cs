@@ -1,10 +1,10 @@
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Locking;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Locking;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Logging.Abstractions;
 
-namespace Jellyfin.Database.Providers.Sqlite.Migrations
+namespace CenaStream.Database.Providers.Sqlite.Migrations
 {
     /// <summary>
     /// The design time factory for <see cref="JellyfinDbContext"/>.

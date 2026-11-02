@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Server.Implementations.Item;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Database.Implementations;
+using CenaStream.Server.Implementations.Item;
+using CenaStream.Server.ServerSetupApp;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.Routines;
+namespace CenaStream.Server.Migrations.Routines;
 
 /// <summary>
 /// Collapses conflicting user data rows so every row an item holds for a user says the same thing.

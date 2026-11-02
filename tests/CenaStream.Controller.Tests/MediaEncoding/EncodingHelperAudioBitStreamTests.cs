@@ -10,7 +10,7 @@ using Moq;
 using Xunit;
 using IConfigurationManager = MediaBrowser.Common.Configuration.IConfigurationManager;
 
-namespace Jellyfin.Controller.Tests.MediaEncoding
+namespace CenaStream.Controller.Tests.MediaEncoding
 {
     public class EncodingHelperAudioBitStreamTests
     {

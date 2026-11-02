@@ -3,14 +3,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json.Serialization;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Common;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Playlists;
 using MediaBrowser.Model.Querying;
 
-namespace Emby.Server.Implementations.Playlists
+namespace CenaStream.Server.Core.Playlists
 {
     [RequiresSourceSerialisation]
     public class PlaylistsFolder : BasePluginFolder
@@ -27,7 +27,7 @@ namespace Emby.Server.Implementations.Playlists
         public override bool SupportsInheritedParentImages => false;
 
         [JsonIgnore]
-        public override CollectionType? CollectionType => Jellyfin.Data.Enums.CollectionType.playlists;
+        public override CollectionType? CollectionType => CenaStream.Data.Enums.CollectionType.playlists;
 
         protected override IEnumerable<BaseItem> GetEligibleChildrenForRecursiveChildren(User user)
         {

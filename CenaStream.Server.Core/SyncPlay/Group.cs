@@ -5,8 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Extensions;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Extensions;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Session;
 using MediaBrowser.Controller.SyncPlay;
@@ -17,7 +17,7 @@ using MediaBrowser.Controller.SyncPlay.Requests;
 using MediaBrowser.Model.SyncPlay;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.SyncPlay
+namespace CenaStream.Server.Core.SyncPlay
 {
     /// <summary>
     /// Class Group.

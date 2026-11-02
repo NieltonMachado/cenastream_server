@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Jellyfin.Api.Models.UserDtos;
+namespace CenaStream.Api.Models.UserDtos;
 
 /// <summary>
 /// The quick connect request body.

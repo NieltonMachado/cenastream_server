@@ -12,7 +12,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Controller.Tests.LibraryTaskScheduler
+namespace CenaStream.Controller.Tests.LibraryTaskScheduler
 {
     public class LimitedConcurrencyLibrarySchedulerTests
     {

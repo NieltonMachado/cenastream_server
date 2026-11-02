@@ -1,9 +1,9 @@
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Extensions;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Extensions;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 
-namespace Emby.Server.Implementations.Library.Search;
+namespace CenaStream.Server.Core.Library.Search;
 
 /// <summary>
 /// Builds the access filter that decides which items a search may return for a user.

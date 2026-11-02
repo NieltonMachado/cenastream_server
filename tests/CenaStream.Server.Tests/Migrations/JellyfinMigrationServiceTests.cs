@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Emby.Server.Implementations;
-using Emby.Server.Implementations.Configuration;
-using Emby.Server.Implementations.Serialization;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Server.Implementations.DatabaseConfiguration;
-using Jellyfin.Server.Implementations.Extensions;
-using Jellyfin.Server.Migrations;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Database.Implementations;
+using CenaStream.Server.Core;
+using CenaStream.Server.Core.Configuration;
+using CenaStream.Server.Core.Serialization;
+using CenaStream.Server.Implementations.DatabaseConfiguration;
+using CenaStream.Server.Implementations.Extensions;
+using CenaStream.Server.Migrations;
+using CenaStream.Server.ServerSetupApp;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Model.Configuration;
 using Microsoft.Data.Sqlite;
@@ -22,7 +22,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
 
-namespace Jellyfin.Server.Tests.Migrations;
+namespace CenaStream.Server.Tests.Migrations;
 
 /// <summary>
 /// Covers how the migration service treats the database of a server that has been set up before.

@@ -3,45 +3,45 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Server", "Jellyfin.Server\Jellyfin.Server.csproj", "{07E39F42-A2C6-4B32-AF8C-725F957A73FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Server", "CenaStream.Server\CenaStream.Server.csproj", "{07E39F42-A2C6-4B32-AF8C-725F957A73FF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.CodeAnalysis", "src\Jellyfin.CodeAnalysis\Jellyfin.CodeAnalysis.csproj", "{38D7E117-E622-4627-8582-868EBBE6F8D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.CodeAnalysis", "src\CenaStream.CodeAnalysis\CenaStream.CodeAnalysis.csproj", "{38D7E117-E622-4627-8582-868EBBE6F8D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Drawing", "src\Jellyfin.Drawing\Jellyfin.Drawing.csproj", "{08FFF49B-F175-4807-A2B5-73B0EBD9F716}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Drawing", "src\CenaStream.Drawing\CenaStream.Drawing.csproj", "{08FFF49B-F175-4807-A2B5-73B0EBD9F716}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaBrowser.Model", "MediaBrowser.Model\MediaBrowser.Model.csproj", "{7EEEB4BB-F3E8-48FC-B4C5-70F0FFF8329B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Data", "Jellyfin.Data\Jellyfin.Data.csproj", "{C2E4F5B8-6738-4A17-B64F-D3053DEFE4EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Data", "CenaStream.Data\CenaStream.Data.csproj", "{C2E4F5B8-6738-4A17-B64F-D3053DEFE4EE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CenaStream.Database", "Jellyfin.Database", "{90A0E47E-75DE-368A-06BD-CAF79EC23041}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CenaStream.Database", "CenaStream.Database", "{90A0E47E-75DE-368A-06BD-CAF79EC23041}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Database.Implementations", "src\Jellyfin.Database\Jellyfin.Database.Implementations\Jellyfin.Database.Implementations.csproj", "{BAD7CF8D-75C3-4A3F-BD5B-BF3BFD470F26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Database.Implementations", "src\CenaStream.Database\CenaStream.Database.Implementations\CenaStream.Database.Implementations.csproj", "{BAD7CF8D-75C3-4A3F-BD5B-BF3BFD470F26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Extensions", "src\Jellyfin.Extensions\Jellyfin.Extensions.csproj", "{EEDAC5AB-B2F4-4D7F-A2C7-C037EF1BBB0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Extensions", "src\CenaStream.Extensions\CenaStream.Extensions.csproj", "{EEDAC5AB-B2F4-4D7F-A2C7-C037EF1BBB0A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaBrowser.Controller", "MediaBrowser.Controller\MediaBrowser.Controller.csproj", "{17E1F4E6-8ABD-4FE5-9ECF-43D4B6087BA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Naming", "Emby.Naming\Emby.Naming.csproj", "{E5AF7B26-2239-4CE0-B477-0AA2018EDAA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Naming", "CenaStream.Naming\CenaStream.Naming.csproj", "{E5AF7B26-2239-4CE0-B477-0AA2018EDAA2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaBrowser.Common", "MediaBrowser.Common\MediaBrowser.Common.csproj", "{9142EEFA-7570-41E1-BFCC-468BB571AF2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.MediaEncoding.Keyframes", "src\Jellyfin.MediaEncoding.Keyframes\Jellyfin.MediaEncoding.Keyframes.csproj", "{12588CD6-D1D1-4071-822C-3B3C900E2DE4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.MediaEncoding.Keyframes", "src\CenaStream.MediaEncoding.Keyframes\CenaStream.MediaEncoding.Keyframes.csproj", "{12588CD6-D1D1-4071-822C-3B3C900E2DE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Server.Implementations.Legacy", "Emby.Server.Implementations\Emby.Server.Implementations.csproj", "{E383961B-9356-4D5D-8233-9A1079D03055}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Server.Implementations.Legacy", "CenaStream.Server.Core\CenaStream.Server.Core.csproj", "{E383961B-9356-4D5D-8233-9A1079D03055}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Api", "Jellyfin.Api\Jellyfin.Api.csproj", "{DFBEFB4C-DA19-4143-98B7-27320C7F7163}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Api", "CenaStream.Api\CenaStream.Api.csproj", "{DFBEFB4C-DA19-4143-98B7-27320C7F7163}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaBrowser.MediaEncoding", "MediaBrowser.MediaEncoding\MediaBrowser.MediaEncoding.csproj", "{960295EE-4AF4-4440-A525-B4C295B01A61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.MediaEncoding.Hls", "src\Jellyfin.MediaEncoding.Hls\Jellyfin.MediaEncoding.Hls.csproj", "{1E83C342-C84D-40B9-AE5A-769D2DC355BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.MediaEncoding.Hls", "src\CenaStream.MediaEncoding.Hls\CenaStream.MediaEncoding.Hls.csproj", "{1E83C342-C84D-40B9-AE5A-769D2DC355BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Networking", "src\Jellyfin.Networking\Jellyfin.Networking.csproj", "{8B6C1241-8188-4C34-BE01-06B325B9A01D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Networking", "src\CenaStream.Networking\CenaStream.Networking.csproj", "{8B6C1241-8188-4C34-BE01-06B325B9A01D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Server.Implementations", "Jellyfin.Server.Implementations\Jellyfin.Server.Implementations.csproj", "{A312970E-822A-43B0-9577-B77106AE81D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Server.Implementations", "CenaStream.Server.Implementations\CenaStream.Server.Implementations.csproj", "{A312970E-822A-43B0-9577-B77106AE81D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Database.Providers.Sqlite", "src\Jellyfin.Database\Jellyfin.Database.Providers.Sqlite\Jellyfin.Database.Providers.Sqlite.csproj", "{86694276-E23E-4D1E-8261-412875322D00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Database.Providers.Sqlite", "src\CenaStream.Database\CenaStream.Database.Providers.Sqlite\CenaStream.Database.Providers.Sqlite.csproj", "{86694276-E23E-4D1E-8261-412875322D00}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaBrowser.Providers", "MediaBrowser.Providers\MediaBrowser.Providers.csproj", "{442B5058-DCAF-4263-BB6A-F21E31120A1B}"
 EndProject
@@ -49,11 +49,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaBrowser.XbmcMetadata",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaBrowser.LocalMetadata", "MediaBrowser.LocalMetadata\MediaBrowser.LocalMetadata.csproj", "{7EF9F3E0-697D-42F3-A08F-19DEB5F84392}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Photos", "Emby.Photos\Emby.Photos.csproj", "{89AB4548-770D-41FD-A891-8DAFF44F452C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Photos", "CenaStream.Photos\CenaStream.Photos.csproj", "{89AB4548-770D-41FD-A891-8DAFF44F452C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Drawing.Skia", "src\Jellyfin.Drawing.Skia\Jellyfin.Drawing.Skia.csproj", "{154872D9-6C12-4007-96E3-8F70A58386CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.Drawing.Skia", "src\CenaStream.Drawing.Skia\CenaStream.Drawing.Skia.csproj", "{154872D9-6C12-4007-96E3-8F70A58386CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.LiveTv", "src\Jellyfin.LiveTv\Jellyfin.LiveTv.csproj", "{EE030E05-F76A-4D21-B58B-E5E7B024F846}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaStream.LiveTv", "src\CenaStream.LiveTv\CenaStream.LiveTv.csproj", "{EE030E05-F76A-4D21-B58B-E5E7B024F846}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

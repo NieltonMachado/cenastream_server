@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Jellyfin.Api">
-      <HintPath>Jellyfin.Api.dll</HintPath>
+    <Reference Include="CenaStream.Api">
+      <HintPath>CenaStream.Api.dll</HintPath>
     </Reference>
   </ItemGroup>
 

@@ -6,14 +6,14 @@
 using System;
 using System.Linq;
 using System.Linq.Expressions;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Extensions;
 using MediaBrowser.Controller.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Jellyfin.Server.Implementations.Item;
+namespace CenaStream.Server.Implementations.Item;
 
 /// <summary>
 /// Static class for methods which maps types of ordering to their respecting ordering functions.

@@ -10,14 +10,14 @@ using System.Reflection;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Emby.Server.Implementations.Session;
-using Jellyfin.Api.Models.SyncPlayDtos;
-using Jellyfin.Extensions.Json;
+using CenaStream.Api.Models.SyncPlayDtos;
+using CenaStream.Extensions.Json;
+using CenaStream.Server.Core.Session;
 using MediaBrowser.Controller.Net;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 
-namespace Jellyfin.Server.Integration.Tests;
+namespace CenaStream.Server.Integration.Tests;
 
 public sealed class SyncPlayLostWebSocketTests : IClassFixture<JellyfinApplicationFactory>
 {

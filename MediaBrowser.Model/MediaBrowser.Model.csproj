@@ -7,7 +7,7 @@
 
   <PropertyGroup>
     <Authors>Jellyfin Contributors</Authors>
-    <PackageId>Jellyfin.Model</PackageId>
+    <PackageId>CenaStream.Model</PackageId>
     <VersionPrefix>13.0.0</VersionPrefix>
     <RepositoryUrl>https://github.com/jellyfin/jellyfin</RepositoryUrl>
     <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
@@ -63,8 +63,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../Jellyfin.Data/Jellyfin.Data.csproj" />
-    <ProjectReference Include="../src/Jellyfin.Extensions/Jellyfin.Extensions.csproj" />
+    <ProjectReference Include="../CenaStream.Data/CenaStream.Data.csproj" />
+    <ProjectReference Include="../src/CenaStream.Extensions/CenaStream.Extensions.csproj" />
   </ItemGroup>
 
 </Project>

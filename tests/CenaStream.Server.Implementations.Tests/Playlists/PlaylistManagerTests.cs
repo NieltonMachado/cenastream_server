@@ -1,7 +1,7 @@
-using Emby.Server.Implementations.Playlists;
+using CenaStream.Server.Core.Playlists;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Playlists;
+namespace CenaStream.Server.Implementations.Tests.Playlists;
 
 public class PlaylistManagerTests
 {

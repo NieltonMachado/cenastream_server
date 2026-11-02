@@ -4,11 +4,11 @@ using System.Net.Mime;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Jellyfin.Extensions.Json;
+using CenaStream.Extensions.Json;
 using MediaBrowser.Model.LiveTv;
 using Xunit;
 
-namespace Jellyfin.Server.Integration.Tests.Controllers;
+namespace CenaStream.Server.Integration.Tests.Controllers;
 
 public sealed class LiveTvControllerTests : IClassFixture<JellyfinApplicationFactory>
 {

@@ -1,4 +1,4 @@
-namespace Jellyfin.Database.Implementations.Enums;
+namespace CenaStream.Database.Implementations.Enums;
 
 /// <summary>
 /// An enum representing the type of media file.

@@ -4,10 +4,10 @@ using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Linq;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Extensions;
 using MediaBrowser.Controller.Dto;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.Audio;
@@ -15,7 +15,7 @@ using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Playlists;
 using MusicAlbum = MediaBrowser.Controller.Entities.Audio.MusicAlbum;
 
-namespace Emby.Server.Implementations.Library
+namespace CenaStream.Server.Core.Library
 {
     public class MusicManager : IMusicManager
     {

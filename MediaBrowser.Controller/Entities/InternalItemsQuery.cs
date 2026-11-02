@@ -3,11 +3,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using CenaStream.Data;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
 using Diacritics.Extensions;
-using Jellyfin.Data;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
 using MediaBrowser.Controller.Dto;
 using MediaBrowser.Model.Entities;
 using MediaBrowser.Model.Querying;

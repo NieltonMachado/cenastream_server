@@ -1,6 +1,6 @@
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities;
 
-namespace Jellyfin.Data.Events.Users
+namespace CenaStream.Data.Events.Users
 {
     /// <summary>
     /// An event that occurs when a user is created.

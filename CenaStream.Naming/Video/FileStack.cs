@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
 
-namespace Emby.Naming.Video
+namespace CenaStream.Naming.Video
 {
     /// <summary>
     /// Object holding list of files paths with additional information.

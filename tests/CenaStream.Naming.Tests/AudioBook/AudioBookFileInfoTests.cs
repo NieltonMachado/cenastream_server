@@ -1,7 +1,7 @@
-using Emby.Naming.AudioBook;
+using CenaStream.Naming.AudioBook;
 using Xunit;
 
-namespace Jellyfin.Naming.Tests.AudioBook
+namespace CenaStream.Naming.Tests.AudioBook
 {
     public class AudioBookFileInfoTests
     {

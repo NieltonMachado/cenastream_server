@@ -1,9 +1,9 @@
 using System;
 using System.Linq;
-using Jellyfin.Data;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Data;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.Audio;
 using MediaBrowser.Controller.Entities.Movies;
@@ -12,7 +12,7 @@ using MediaBrowser.Controller.Playlists;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Controller.Tests.Entities;
+namespace CenaStream.Controller.Tests.Entities;
 
 [Collection("LibraryManagerTests")]
 public sealed class PlaylistTests : IDisposable

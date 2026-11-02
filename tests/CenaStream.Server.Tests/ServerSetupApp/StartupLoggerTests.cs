@@ -1,8 +1,8 @@
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Server.ServerSetupApp;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
 
-namespace Jellyfin.Server.Tests.ServerSetupApp;
+namespace CenaStream.Server.Tests.ServerSetupApp;
 
 public class StartupLoggerTests
 {

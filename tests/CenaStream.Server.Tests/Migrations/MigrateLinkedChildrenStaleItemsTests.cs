@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Locking;
-using Jellyfin.Database.Providers.Sqlite;
-using Jellyfin.Server.Migrations.Routines;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Locking;
+using CenaStream.Database.Providers.Sqlite;
+using CenaStream.Server.Migrations.Routines;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Entities;
@@ -20,7 +20,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Tests.Migrations;
+namespace CenaStream.Server.Tests.Migrations;
 
 /// <summary>
 /// Covers which items the stale file cleanup is allowed to delete. Resolving no library locations at

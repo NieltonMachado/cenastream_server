@@ -1,4 +1,4 @@
-namespace Jellyfin.Database.Implementations.Interfaces;
+namespace CenaStream.Database.Implementations.Interfaces;
 
 /// <summary>
 /// An interface abstracting an entity that has a concurrency token.

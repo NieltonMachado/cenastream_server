@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Jellyfin.Server.Implementations.Extensions;
+namespace CenaStream.Server.Implementations.Extensions;
 
 /// <summary>
 /// Provides <see cref="Expression"/> extension methods.

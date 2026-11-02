@@ -3,7 +3,7 @@ using System.ComponentModel;
 using MediaBrowser.Model.Drawing;
 using Xunit;
 
-namespace Jellyfin.Model.Drawing;
+namespace CenaStream.Model.Drawing;
 
 public static class ImageFormatExtensionsTests
 {

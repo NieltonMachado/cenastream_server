@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Devices;
@@ -16,7 +16,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.SessionManager;
+namespace CenaStream.Server.Implementations.Tests.SessionManager;
 
 [Collection("LibraryManagerTests")]
 public sealed class RewatchPlayStateTests : IDisposable
@@ -69,7 +69,7 @@ public sealed class RewatchPlayStateTests : IDisposable
         Assert.True(data.LastPlayedDate > _previousPlayDate);
     }
 
-    private static Emby.Server.Implementations.Session.SessionManager CreateSessionManager(UserItemData data)
+    private static CenaStream.Server.Core.Session.SessionManager CreateSessionManager(UserItemData data)
     {
         var userDataManager = new Mock<IUserDataManager>();
         userDataManager
@@ -80,8 +80,8 @@ public sealed class RewatchPlayStateTests : IDisposable
             .Callback<BaseItem, UserItemData, long?>((_, d, position) => d.PlaybackPositionTicks = position >= ResumeThresholdTicks ? position.Value : 0)
             .Returns(false);
 
-        return new Emby.Server.Implementations.Session.SessionManager(
-            NullLogger<Emby.Server.Implementations.Session.SessionManager>.Instance,
+        return new CenaStream.Server.Core.Session.SessionManager(
+            NullLogger<CenaStream.Server.Core.Session.SessionManager>.Instance,
             Mock.Of<IEventManager>(),
             userDataManager.Object,
             Mock.Of<IServerConfigurationManager>(),
@@ -96,7 +96,7 @@ public sealed class RewatchPlayStateTests : IDisposable
             Mock.Of<IHostApplicationLifetime>());
     }
 
-    private static void Invoke(Emby.Server.Implementations.Session.SessionManager sessionManager, string name, params object?[] args)
+    private static void Invoke(CenaStream.Server.Core.Session.SessionManager sessionManager, string name, params object?[] args)
     {
         var parameterTypes = Array.ConvertAll(args, a => a!.GetType());
         parameterTypes[1] = typeof(BaseItem);
@@ -105,7 +105,7 @@ public sealed class RewatchPlayStateTests : IDisposable
             parameterTypes[2] = typeof(long?);
         }
 
-        typeof(Emby.Server.Implementations.Session.SessionManager)
+        typeof(CenaStream.Server.Core.Session.SessionManager)
             .GetMethod(name, BindingFlags.Instance | BindingFlags.NonPublic, parameterTypes)!
             .Invoke(sessionManager, args);
     }

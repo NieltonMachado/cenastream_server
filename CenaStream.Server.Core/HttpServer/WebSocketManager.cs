@@ -13,7 +13,7 @@ using MediaBrowser.Controller.Net;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.HttpServer
+namespace CenaStream.Server.Core.HttpServer
 {
     public class WebSocketManager : IWebSocketManager
     {

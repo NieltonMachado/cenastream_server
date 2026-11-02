@@ -3,7 +3,7 @@ using System.Runtime.Versioning;
 using MediaBrowser.MediaEncoding.Encoder;
 using Xunit;
 
-namespace Jellyfin.MediaEncoding.Tests;
+namespace CenaStream.MediaEncoding.Tests;
 
 [SupportedOSPlatform("macos")]
 public class ApplePlatformHelperTests

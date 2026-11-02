@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Database.Providers.Sqlite;
+namespace CenaStream.Database.Providers.Sqlite;
 
 /// <summary>
 /// Injects a series of PRAGMA on each connection starts.

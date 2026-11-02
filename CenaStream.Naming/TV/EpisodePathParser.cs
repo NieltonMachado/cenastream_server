@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using Emby.Naming.Common;
+using CenaStream.Naming.Common;
 
-namespace Emby.Naming.TV
+namespace CenaStream.Naming.TV
 {
     /// <summary>
     /// Used to parse information about episode from path.

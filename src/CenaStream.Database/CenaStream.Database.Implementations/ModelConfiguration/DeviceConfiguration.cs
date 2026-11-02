@@ -1,8 +1,8 @@
-using Jellyfin.Database.Implementations.Entities.Security;
+using CenaStream.Database.Implementations.Entities.Security;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Jellyfin.Database.Implementations.ModelConfiguration
+namespace CenaStream.Database.Implementations.ModelConfiguration
 {
     /// <summary>
     /// FluentAPI configuration for the Device entity.

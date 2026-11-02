@@ -1,7 +1,7 @@
 using MediaBrowser.Common.Net;
 using Xunit;
 
-namespace Jellyfin.Networking.Tests.Configuration;
+namespace CenaStream.Networking.Tests.Configuration;
 
 public static class NetworkConfigurationTests
 {

@@ -3,9 +3,9 @@
 
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
-using Jellyfin.Extensions.Json.Converters;
+using CenaStream.Extensions.Json.Converters;
 
-namespace Jellyfin.Extensions.Tests.Json.Models
+namespace CenaStream.Extensions.Tests.Json.Models
 {
     /// <summary>
     /// The generic body <c>List</c> model.

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Api.ModelBinders;
+namespace CenaStream.Api.ModelBinders;
 
 /// <summary>
 /// Comma delimited collection model binder.

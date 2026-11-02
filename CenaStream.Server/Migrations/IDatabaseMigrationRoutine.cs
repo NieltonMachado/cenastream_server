@@ -1,8 +1,8 @@
 using System;
-using Jellyfin.Server.Implementations;
+using CenaStream.Server.Implementations;
 using Microsoft.EntityFrameworkCore;
 
-namespace Jellyfin.Server.Migrations;
+namespace CenaStream.Server.Migrations;
 
 /// <summary>
 /// Defines a migration that operates on the Database.

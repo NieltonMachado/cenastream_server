@@ -6,7 +6,7 @@ using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Providers;
 using MediaBrowser.Model.IO;
 
-namespace Emby.Server.Implementations.Library
+namespace CenaStream.Server.Core.Library
 {
     /// <summary>
     /// Class ResolverHelper.

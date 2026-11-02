@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
 using MediaBrowser.Controller.Drawing;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
@@ -16,7 +16,7 @@ using TagLib.IFD;
 using TagLib.IFD.Entries;
 using TagLib.IFD.Tags;
 
-namespace Emby.Photos;
+namespace CenaStream.Photos;
 
 /// <summary>
 /// Metadata provider for photos.

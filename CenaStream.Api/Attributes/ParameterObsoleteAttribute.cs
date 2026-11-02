@@ -1,6 +1,6 @@
 using System;
 
-namespace Jellyfin.Api.Attributes;
+namespace CenaStream.Api.Attributes;
 
 /// <summary>
 /// Attribute to mark a parameter as obsolete.

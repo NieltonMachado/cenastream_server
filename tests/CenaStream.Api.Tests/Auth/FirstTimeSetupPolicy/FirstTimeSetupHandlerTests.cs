@@ -4,11 +4,11 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Jellyfin.Api.Auth.DefaultAuthorizationPolicy;
-using Jellyfin.Api.Auth.FirstTimeSetupPolicy;
-using Jellyfin.Api.Constants;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Api.Auth.DefaultAuthorizationPolicy;
+using CenaStream.Api.Auth.FirstTimeSetupPolicy;
+using CenaStream.Api.Constants;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Library;
 using Microsoft.AspNetCore.Authorization;
@@ -17,7 +17,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Api.Tests.Auth.FirstTimeSetupPolicy
+namespace CenaStream.Api.Tests.Auth.FirstTimeSetupPolicy
 {
     public class FirstTimeSetupHandlerTests
     {

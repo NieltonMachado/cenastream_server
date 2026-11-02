@@ -1,4 +1,4 @@
-namespace Emby.Naming.TV
+namespace CenaStream.Naming.TV
 {
     /// <summary>
     /// Holder object for Series information.

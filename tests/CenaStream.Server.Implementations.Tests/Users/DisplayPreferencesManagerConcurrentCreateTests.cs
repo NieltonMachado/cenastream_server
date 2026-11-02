@@ -1,11 +1,11 @@
 using System;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Server.Implementations.Tests.Item;
-using Jellyfin.Server.Implementations.Users;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Server.Implementations.Tests.Item;
+using CenaStream.Server.Implementations.Users;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Users;
+namespace CenaStream.Server.Implementations.Tests.Users;
 
 /// <summary>
 /// Two first-ever requests for the same preferences can both find nothing and both insert; the unique index lets one

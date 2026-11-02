@@ -1,9 +1,9 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Data;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Devices;
@@ -19,7 +19,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.SessionManager;
+namespace CenaStream.Server.Implementations.Tests.SessionManager;
 
 public class SessionManagerTests
 {
@@ -28,8 +28,8 @@ public class SessionManagerTests
     [InlineData(null, typeof(ArgumentNullException))]
     public async Task GetAuthorizationToken_Should_ThrowException(string? deviceId, Type exceptionType)
     {
-        await using var sessionManager = new Emby.Server.Implementations.Session.SessionManager(
-            NullLogger<Emby.Server.Implementations.Session.SessionManager>.Instance,
+        await using var sessionManager = new CenaStream.Server.Core.Session.SessionManager(
+            NullLogger<CenaStream.Server.Core.Session.SessionManager>.Instance,
             Mock.Of<IEventManager>(),
             Mock.Of<IUserDataManager>(),
             Mock.Of<IServerConfigurationManager>(),
@@ -55,8 +55,8 @@ public class SessionManagerTests
     [MemberData(nameof(AuthenticateNewSessionInternal_Exception_TestData))]
     public async Task AuthenticateNewSessionInternal_Should_ThrowException(AuthenticationRequest authenticationRequest, Type exceptionType)
     {
-        await using var sessionManager = new Emby.Server.Implementations.Session.SessionManager(
-            NullLogger<Emby.Server.Implementations.Session.SessionManager>.Instance,
+        await using var sessionManager = new CenaStream.Server.Core.Session.SessionManager(
+            NullLogger<CenaStream.Server.Core.Session.SessionManager>.Instance,
             Mock.Of<IEventManager>(),
             Mock.Of<IUserDataManager>(),
             Mock.Of<IServerConfigurationManager>(),
@@ -217,7 +217,7 @@ public class SessionManagerTests
         Assert.Throws<SecurityException>(() => sessionManager.ReportCapabilities(attackerSession.Id, victimSession.Id, new ClientCapabilities()));
     }
 
-    private static Emby.Server.Implementations.Session.SessionManager CreateSessionManager(params User[] users)
+    private static CenaStream.Server.Core.Session.SessionManager CreateSessionManager(params User[] users)
     {
         var userManager = new Mock<IUserManager>();
         foreach (var user in users)
@@ -225,8 +225,8 @@ public class SessionManagerTests
             userManager.Setup(i => i.GetUserById(user.Id)).Returns(user);
         }
 
-        return new Emby.Server.Implementations.Session.SessionManager(
-            NullLogger<Emby.Server.Implementations.Session.SessionManager>.Instance,
+        return new CenaStream.Server.Core.Session.SessionManager(
+            NullLogger<CenaStream.Server.Core.Session.SessionManager>.Instance,
             Mock.Of<IEventManager>(),
             Mock.Of<IUserDataManager>(),
             Mock.Of<IServerConfigurationManager>(),

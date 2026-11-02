@@ -1,13 +1,13 @@
 using System;
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Jellyfin.Server.Implementations.Item;
+using CenaStream.Server.Implementations.Item;
 using MediaBrowser.Controller.Entities.TV;
 using Microsoft.Extensions.Configuration;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Data
+namespace CenaStream.Server.Implementations.Tests.Data
 {
     public class SearchPunctuationTests
     {

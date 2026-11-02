@@ -1,8 +1,8 @@
 #pragma warning disable CS1591
 
 using System.Collections.Generic;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Drawing;
 using MediaBrowser.Controller.Dto;
@@ -13,7 +13,7 @@ using MediaBrowser.Model.Entities;
 using MediaBrowser.Model.IO;
 using MediaBrowser.Model.Querying;
 
-namespace Emby.Server.Implementations.Images
+namespace CenaStream.Server.Core.Images
 {
     /// <summary>
     /// Class GenreImageProvider.

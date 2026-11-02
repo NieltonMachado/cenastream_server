@@ -2,7 +2,7 @@ using MediaBrowser.Common.Configuration;
 using MediaBrowser.Model.Configuration;
 using MediaBrowser.Model.LiveTv;
 
-namespace Jellyfin.LiveTv.Configuration;
+namespace CenaStream.LiveTv.Configuration;
 
 /// <summary>
 /// <see cref="IConfigurationManager"/> extensions for Live TV.

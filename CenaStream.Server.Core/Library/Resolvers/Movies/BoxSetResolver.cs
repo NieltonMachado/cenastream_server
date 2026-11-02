@@ -7,7 +7,7 @@ using MediaBrowser.Controller.Entities.Movies;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Model.Entities;
 
-namespace Emby.Server.Implementations.Library.Resolvers.Movies
+namespace CenaStream.Server.Core.Library.Resolvers.Movies
 {
     /// <summary>
     /// Class BoxSetResolver.

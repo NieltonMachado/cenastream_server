@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 
-namespace Jellyfin.Database.Implementations;
+namespace CenaStream.Database.Implementations;
 
 /// <summary>
 /// Wrapper for progress reporting on Partition helpers.

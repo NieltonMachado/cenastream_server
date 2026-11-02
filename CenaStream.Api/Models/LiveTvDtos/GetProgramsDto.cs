@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text.Json.Serialization;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Extensions.Json.Converters;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Extensions.Json.Converters;
 using MediaBrowser.Model.Entities;
 using MediaBrowser.Model.Querying;
 
-namespace Jellyfin.Api.Models.LiveTvDtos;
+namespace CenaStream.Api.Models.LiveTvDtos;
 
 /// <summary>
 /// Get programs dto.

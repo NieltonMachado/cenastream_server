@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Jellyfin.Data.Events;
+using CenaStream.Data.Events;
 using MediaBrowser.Controller.Net;
 using MediaBrowser.Model.Session;
 using MediaBrowser.Model.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Api.WebSocketListeners;
+namespace CenaStream.Api.WebSocketListeners;
 
 /// <summary>
 /// Class ScheduledTasksWebSocketListener.

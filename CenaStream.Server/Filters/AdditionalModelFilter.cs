@@ -4,8 +4,8 @@ using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
 using System.Text.Json.Nodes;
-using Jellyfin.Extensions;
-using Jellyfin.Server.Migrations;
+using CenaStream.Extensions;
+using CenaStream.Server.Migrations;
 using MediaBrowser.Common.Plugins;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Net;
@@ -16,7 +16,7 @@ using MediaBrowser.Model.SyncPlay;
 using Microsoft.OpenApi;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Jellyfin.Server.Filters
+namespace CenaStream.Server.Filters
 {
     /// <summary>
     /// Add models not directly used by the API, but used for discovery and websockets.

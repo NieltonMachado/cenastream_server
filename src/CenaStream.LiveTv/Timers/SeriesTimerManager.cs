@@ -6,7 +6,7 @@ using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.LiveTv;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv.Timers
+namespace CenaStream.LiveTv.Timers
 {
     public class SeriesTimerManager : ItemDataProvider<SeriesTimerInfo>
     {

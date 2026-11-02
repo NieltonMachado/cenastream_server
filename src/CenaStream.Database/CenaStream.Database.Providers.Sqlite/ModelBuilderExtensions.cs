@@ -1,9 +1,9 @@
 using System;
-using Jellyfin.Database.Providers.Sqlite.ValueConverters;
+using CenaStream.Database.Providers.Sqlite.ValueConverters;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Jellyfin.Database.Providers.Sqlite;
+namespace CenaStream.Database.Providers.Sqlite;
 
 /// <summary>
 /// Model builder extensions.

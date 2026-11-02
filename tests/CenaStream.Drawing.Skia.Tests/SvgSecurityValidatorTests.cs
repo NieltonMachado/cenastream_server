@@ -1,7 +1,7 @@
 using System.IO;
 using Xunit;
 
-namespace Jellyfin.Drawing.Skia.Tests;
+namespace CenaStream.Drawing.Skia.Tests;
 
 public static class SvgSecurityValidatorTests
 {

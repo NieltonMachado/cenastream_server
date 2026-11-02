@@ -8,9 +8,9 @@ using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Server.Implementations.StorageHelpers;
-using Jellyfin.Server.Implementations.SystemBackupService;
+using CenaStream.Database.Implementations;
+using CenaStream.Server.Implementations.StorageHelpers;
+using CenaStream.Server.Implementations.SystemBackupService;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.SystemBackupService;
@@ -20,7 +20,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Implementations.FullSystemBackup;
+namespace CenaStream.Server.Implementations.FullSystemBackup;
 
 /// <summary>
 /// Contains methods for creating and restoring backups.

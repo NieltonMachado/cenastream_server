@@ -1,13 +1,13 @@
 using System;
 using System.Linq;
-using Emby.Server.Implementations.Data;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Server.Implementations.Item;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Server.Core.Data;
+using CenaStream.Server.Implementations.Item;
 using MediaBrowser.Controller.Entities;
 using Xunit;
-using BaseItemKind = Jellyfin.Data.Enums.BaseItemKind;
+using BaseItemKind = CenaStream.Data.Enums.BaseItemKind;
 
-namespace Jellyfin.Server.Implementations.Tests.Item;
+namespace CenaStream.Server.Implementations.Tests.Item;
 
 /// <summary>
 /// Covers the children query the library scan runs against a folder: a version merged by hand is

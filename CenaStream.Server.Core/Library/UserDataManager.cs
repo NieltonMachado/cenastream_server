@@ -6,8 +6,8 @@ using System.Globalization;
 using System.Linq;
 using System.Threading;
 using BitFaster.Caching.Lru;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Dto;
 using MediaBrowser.Controller.Entities;
@@ -18,7 +18,7 @@ using Microsoft.EntityFrameworkCore;
 using AudioBook = MediaBrowser.Controller.Entities.AudioBook;
 using Book = MediaBrowser.Controller.Entities.Book;
 
-namespace Emby.Server.Implementations.Library
+namespace CenaStream.Server.Core.Library
 {
     /// <summary>
     /// Class UserDataManager.
@@ -303,7 +303,7 @@ namespace Emby.Server.Implementations.Library
             {
                 using var dbContext = _repository.CreateDbContext();
                 withLocalAlternates = dbContext.LinkedChildren
-                    .Where(lc => lc.ChildType == Jellyfin.Database.Implementations.Entities.LinkedChildType.LocalAlternateVersion)
+                    .Where(lc => lc.ChildType == CenaStream.Database.Implementations.Entities.LinkedChildType.LocalAlternateVersion)
                     .WhereOneOrMany(localProbeIds, lc => lc.ParentId)
                     .Select(lc => lc.ParentId)
                     .Distinct()

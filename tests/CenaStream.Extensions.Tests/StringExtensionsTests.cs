@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace Jellyfin.Extensions.Tests
+namespace CenaStream.Extensions.Tests
 {
     public class StringExtensionsTests
     {

@@ -1,15 +1,15 @@
 #nullable disable
 
 using System;
-using Emby.Naming.Common;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Naming.Common;
 using MediaBrowser.Controller.Drawing;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Resolvers;
 using MediaBrowser.Model.Entities;
 
-namespace Emby.Server.Implementations.Library.Resolvers
+namespace CenaStream.Server.Core.Library.Resolvers
 {
     /// <summary>
     /// Class PhotoAlbumResolver.

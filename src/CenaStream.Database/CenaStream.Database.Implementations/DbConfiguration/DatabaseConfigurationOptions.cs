@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Jellyfin.Database.Implementations.DbConfiguration;
+namespace CenaStream.Database.Implementations.DbConfiguration;
 
 /// <summary>
 /// Options to configure jellyfins managed database.

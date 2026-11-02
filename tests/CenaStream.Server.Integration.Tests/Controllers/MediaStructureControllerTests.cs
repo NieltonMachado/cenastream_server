@@ -4,12 +4,12 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Jellyfin.Api.Models.LibraryStructureDto;
-using Jellyfin.Extensions.Json;
+using CenaStream.Api.Models.LibraryStructureDto;
+using CenaStream.Extensions.Json;
 using MediaBrowser.Model.Configuration;
 using Xunit;
 
-namespace Jellyfin.Server.Integration.Tests.Controllers
+namespace CenaStream.Server.Integration.Tests.Controllers
 {
     public sealed class MediaStructureControllerTests : IClassFixture<JellyfinApplicationFactory>
     {

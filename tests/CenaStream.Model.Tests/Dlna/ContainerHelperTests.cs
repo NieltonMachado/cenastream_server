@@ -3,7 +3,7 @@ using MediaBrowser.Model.Dlna;
 using MediaBrowser.Model.Extensions;
 using Xunit;
 
-namespace Jellyfin.Model.Tests.Dlna;
+namespace CenaStream.Model.Tests.Dlna;
 
 public class ContainerHelperTests
 {

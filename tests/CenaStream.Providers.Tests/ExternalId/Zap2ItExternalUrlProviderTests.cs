@@ -3,7 +3,7 @@ using MediaBrowser.Model.Entities;
 using MediaBrowser.Providers.TV;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.ExternalId
+namespace CenaStream.Providers.Tests.ExternalId
 {
     public sealed class Zap2ItExternalUrlProviderTests
     {

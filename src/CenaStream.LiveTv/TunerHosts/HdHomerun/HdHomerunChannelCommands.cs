@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Jellyfin.LiveTv.TunerHosts.HdHomerun
+namespace CenaStream.LiveTv.TunerHosts.HdHomerun
 {
     public class HdHomerunChannelCommands : IHdHomerunChannelCommands
     {

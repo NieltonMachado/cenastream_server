@@ -4,12 +4,12 @@ using System;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Server.ServerSetupApp;
 using MediaBrowser.Controller;
 using Microsoft.Data.Sqlite;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.Routines;
+namespace CenaStream.Server.Migrations.Routines;
 
 /// <summary>
 /// The migration routine for checking if the current instance of Jellyfin is compatiable to be upgraded.

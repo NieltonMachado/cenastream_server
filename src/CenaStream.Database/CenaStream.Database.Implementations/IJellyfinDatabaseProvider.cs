@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations.DbConfiguration;
+using CenaStream.Database.Implementations.DbConfiguration;
 using Microsoft.EntityFrameworkCore;
 
-namespace Jellyfin.Database.Implementations;
+namespace CenaStream.Database.Implementations;
 
 /// <summary>
 /// Defines the type and extension points for multi database support.

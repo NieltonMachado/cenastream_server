@@ -4,7 +4,7 @@ using System.Buffers.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Jellyfin.Extensions.Json.Converters;
+namespace CenaStream.Extensions.Json.Converters;
 
 /// <summary>
 /// Converts a string to a boolean.

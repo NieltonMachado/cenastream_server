@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using BitFaster.Caching;
-using Emby.Server.Implementations.Localization;
+using CenaStream.Server.Core.Localization;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Model.Configuration;
 using Microsoft.Extensions.Logging;
@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Localization
+namespace CenaStream.Server.Implementations.Tests.Localization
 {
     public class LocalizationManagerTests
     {

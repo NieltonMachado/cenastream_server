@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Security.Cryptography.X509Certificates;
-using Jellyfin.Server.Helpers;
+using CenaStream.Server.Helpers;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Extensions;
 using MediaBrowser.Model.Net;
@@ -13,7 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Extensions;
+namespace CenaStream.Server.Extensions;
 
 /// <summary>
 /// Extensions for configuring the web host builder.

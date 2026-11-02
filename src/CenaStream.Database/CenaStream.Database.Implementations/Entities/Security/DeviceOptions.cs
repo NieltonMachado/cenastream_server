@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Jellyfin.Database.Implementations.Entities.Security
+namespace CenaStream.Database.Implementations.Entities.Security
 {
     /// <summary>
     /// An entity representing custom options for a device.

@@ -14,7 +14,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.TV;
+namespace CenaStream.Providers.Tests.TV;
 
 // put tests that mock the static LibraryManager in the same collection to avoid test interference
 [Collection("LibraryManagerTests")]

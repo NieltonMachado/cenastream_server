@@ -1,7 +1,7 @@
-using Jellyfin.Api;
+using CenaStream.Api;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Jellyfin.Server.Integration.Tests.Controllers
+namespace CenaStream.Server.Integration.Tests.Controllers
 {
     /// <summary>
     /// Base controller for testing infrastructure.

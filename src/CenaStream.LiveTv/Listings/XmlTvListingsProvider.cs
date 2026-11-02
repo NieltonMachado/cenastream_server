@@ -10,7 +10,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
 using Jellyfin.XmlTv;
 using Jellyfin.XmlTv.Entities;
 using Jellyfin.XmlTv.Enums;
@@ -23,7 +23,7 @@ using MediaBrowser.Model.IO;
 using MediaBrowser.Model.LiveTv;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv.Listings
+namespace CenaStream.LiveTv.Listings
 {
     public class XmlTvListingsProvider : IListingsProvider
     {

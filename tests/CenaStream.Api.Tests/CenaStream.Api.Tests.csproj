@@ -22,8 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../Jellyfin.Api/Jellyfin.Api.csproj" />
-    <ProjectReference Include="../../Jellyfin.Server.Implementations/Jellyfin.Server.Implementations.csproj" />
+    <ProjectReference Include="../../CenaStream.Api/CenaStream.Api.csproj" />
+    <ProjectReference Include="../../CenaStream.Server.Implementations/CenaStream.Server.Implementations.csproj" />
   </ItemGroup>
 
 </Project>

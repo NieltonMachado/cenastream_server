@@ -4,12 +4,12 @@ using System.Data.Common;
 using System.Linq;
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Emby.Naming.Common;
-using Emby.Server.Implementations.Data;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Extensions;
-using Jellyfin.Server.Implementations.Item;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Extensions;
+using CenaStream.Naming.Common;
+using CenaStream.Server.Core.Data;
+using CenaStream.Server.Implementations.Item;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Persistence;
 using MediaBrowser.Model.Configuration;
@@ -17,9 +17,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Moq;
 using Xunit;
-using ServerLibraryManager = Emby.Server.Implementations.Library.LibraryManager;
+using ServerLibraryManager = CenaStream.Server.Core.Library.LibraryManager;
 
-namespace Jellyfin.Server.Implementations.Tests.Item;
+namespace CenaStream.Server.Implementations.Tests.Item;
 
 public sealed class ArtistNameLookupTests : SqliteDbTestFixture
 {

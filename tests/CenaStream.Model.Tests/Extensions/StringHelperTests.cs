@@ -5,7 +5,7 @@ using FsCheck.Xunit;
 using MediaBrowser.Model.Extensions;
 using Xunit;
 
-namespace Jellyfin.Model.Tests.Extensions
+namespace CenaStream.Model.Tests.Extensions
 {
     public class StringHelperTests
     {

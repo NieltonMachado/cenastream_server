@@ -1,7 +1,7 @@
 using System;
-using Emby.Naming.Common;
+using CenaStream.Naming.Common;
 
-namespace Emby.Naming.Video
+namespace CenaStream.Naming.Video
 {
     /// <summary>
     /// Parse 3D format related flags.

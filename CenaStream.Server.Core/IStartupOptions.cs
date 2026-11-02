@@ -1,4 +1,4 @@
-namespace Emby.Server.Implementations
+namespace CenaStream.Server.Core
 {
     /// <summary>
     /// Specifies the contract for server startup options.

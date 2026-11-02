@@ -3,15 +3,15 @@ using System.Data.Common;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Entities.Security;
-using Jellyfin.Database.Implementations.Interfaces;
-using Jellyfin.Database.Implementations.Locking;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities.Security;
+using CenaStream.Database.Implementations.Interfaces;
+using CenaStream.Database.Implementations.Locking;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Database.Implementations;
+namespace CenaStream.Database.Implementations;
 
 /// <inheritdoc/>
 /// <summary>
@@ -238,7 +238,7 @@ public class JellyfinDbContext(DbContextOptions<JellyfinDbContext> options, ILog
     public DbSet<Rating> Ratings => Set<Rating>();
 
     /// <summary>
-    /// Repository for global::Jellyfin.Data.Entities.RatingSource - This is the entity to
+    /// Repository for global::CenaStream.Data.Entities.RatingSource - This is the entity to
     /// store review ratings, not age ratings.
     /// </summary>
     public DbSet<RatingSource> RatingSources => Set<RatingSource>();

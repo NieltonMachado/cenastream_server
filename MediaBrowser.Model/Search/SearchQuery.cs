@@ -1,7 +1,7 @@
 #pragma warning disable CS1591
 
 using System;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 
 namespace MediaBrowser.Model.Search
 {

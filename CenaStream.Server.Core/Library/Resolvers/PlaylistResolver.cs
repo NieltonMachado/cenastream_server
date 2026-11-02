@@ -4,15 +4,15 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Emby.Server.Implementations.Playlists;
-using Jellyfin.Data.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Extensions;
+using CenaStream.Server.Core.Playlists;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Playlists;
 using MediaBrowser.Controller.Resolvers;
 using MediaBrowser.LocalMetadata.Savers;
 
-namespace Emby.Server.Implementations.Library.Resolvers
+namespace CenaStream.Server.Core.Library.Resolvers
 {
     /// <summary>
     /// <see cref="IItemResolver"/> for <see cref="Playlist"/> library items.

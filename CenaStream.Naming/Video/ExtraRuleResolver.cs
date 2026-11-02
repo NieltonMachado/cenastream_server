@@ -1,10 +1,10 @@
 using System;
 using System.IO;
 using System.Text.RegularExpressions;
-using Emby.Naming.Audio;
-using Emby.Naming.Common;
+using CenaStream.Naming.Audio;
+using CenaStream.Naming.Common;
 
-namespace Emby.Naming.Video
+namespace CenaStream.Naming.Video
 {
     /// <summary>
     /// Resolve if file is extra for video.

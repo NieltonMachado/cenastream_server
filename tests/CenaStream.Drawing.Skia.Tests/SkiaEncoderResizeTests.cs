@@ -1,7 +1,7 @@
 using SkiaSharp;
 using Xunit;
 
-namespace Jellyfin.Drawing.Skia.Tests;
+namespace CenaStream.Drawing.Skia.Tests;
 
 /// <summary>
 /// Covers what <see cref="SkiaEncoder.ResizeImage"/> does either side of a resize: at matching

@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace Jellyfin.Extensions;
+namespace CenaStream.Extensions;
 
 /// <summary>
 /// Provides helper functions for <see cref="File" />.

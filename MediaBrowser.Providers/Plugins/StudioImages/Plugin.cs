@@ -49,7 +49,7 @@ namespace MediaBrowser.Providers.Plugins.StudioImages
         // TODO remove when plugin removed from server.
 
         /// <inheritdoc/>
-        public override string ConfigurationFileName => "Jellyfin.Plugin.StudioImages.xml";
+        public override string ConfigurationFileName => "CenaStream.Plugin.StudioImages.xml";
 
         /// <inheritdoc/>
         public string ImageResourceName => GetType().Namespace + ".jellyfin-plugin-studioimages.svg";

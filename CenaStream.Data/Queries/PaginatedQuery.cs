@@ -1,4 +1,4 @@
-namespace Jellyfin.Data.Queries
+namespace CenaStream.Data.Queries
 {
     /// <summary>
     /// An abstract class for paginated queries.

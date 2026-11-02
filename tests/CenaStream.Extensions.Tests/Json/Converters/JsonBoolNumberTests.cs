@@ -1,11 +1,11 @@
 using System.Text.Json;
+using CenaStream.Extensions.Json.Converters;
 using FsCheck;
 using FsCheck.Fluent;
 using FsCheck.Xunit;
-using Jellyfin.Extensions.Json.Converters;
 using Xunit;
 
-namespace Jellyfin.Extensions.Tests.Json.Converters
+namespace CenaStream.Extensions.Tests.Json.Converters
 {
     public class JsonBoolNumberTests
     {

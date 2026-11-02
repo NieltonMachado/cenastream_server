@@ -1,10 +1,10 @@
 using System;
 using System.Threading;
-using Emby.Server.Implementations.Data;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Locking;
-using Jellyfin.Database.Providers.Sqlite;
-using Jellyfin.Server.Implementations.Item;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Locking;
+using CenaStream.Database.Providers.Sqlite;
+using CenaStream.Server.Core.Data;
+using CenaStream.Server.Implementations.Item;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Configuration;
@@ -15,7 +15,7 @@ using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 
-namespace Jellyfin.Server.Implementations.Tests.Item;
+namespace CenaStream.Server.Implementations.Tests.Item;
 
 /// <summary>
 /// Base fixture for the item tests that run against the SQLite provider: one in-memory database per

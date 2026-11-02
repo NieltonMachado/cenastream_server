@@ -1,8 +1,8 @@
 using System.IO;
 using System.Text.RegularExpressions;
-using Emby.Naming.Common;
+using CenaStream.Naming.Common;
 
-namespace Emby.Naming.TV
+namespace CenaStream.Naming.TV
 {
     /// <summary>
     /// Used to resolve information about series from path.

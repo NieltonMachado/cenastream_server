@@ -5,7 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
 
 namespace MediaBrowser.Controller.Sorting
 {

@@ -14,7 +14,7 @@ using MediaBrowser.Model.MediaInfo;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
 
-namespace Jellyfin.MediaEncoding.Subtitles.Tests
+namespace CenaStream.MediaEncoding.Subtitles.Tests
 {
     public class SubtitleEncoderTests
     {
@@ -28,7 +28,7 @@ namespace Jellyfin.MediaEncoding.Subtitles.Tests
 
         static SubtitleEncoderTests()
         {
-            // Mirrors Jellyfin.Server startup so legacy code pages (e.g. Greek windows-1253) are available.
+            // Mirrors CenaStream.Server startup so legacy code pages (e.g. Greek windows-1253) are available.
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
         }
 

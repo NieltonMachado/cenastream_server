@@ -1,12 +1,12 @@
 using System.Globalization;
 using System.Threading.Tasks;
-using Jellyfin.Data.Events.Users;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Data.Events.Users;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller.Events;
 using MediaBrowser.Model.Activity;
 using MediaBrowser.Model.Globalization;
 
-namespace Jellyfin.Server.Implementations.Events.Consumers.Users
+namespace CenaStream.Server.Implementations.Events.Consumers.Users
 {
     /// <summary>
     /// Creates an entry in the activity log when a user is created.

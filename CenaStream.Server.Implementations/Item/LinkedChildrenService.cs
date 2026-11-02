@@ -5,16 +5,16 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations;
+using CenaStream.Extensions;
 using MediaBrowser.Controller.Entities.Audio;
 using MediaBrowser.Controller.Persistence;
 using Microsoft.EntityFrameworkCore;
-using DbLinkedChildType = Jellyfin.Database.Implementations.Entities.LinkedChildType;
+using DbLinkedChildType = CenaStream.Database.Implementations.Entities.LinkedChildType;
 using LinkedChildType = MediaBrowser.Controller.Entities.LinkedChildType;
 
-namespace Jellyfin.Server.Implementations.Item;
+namespace CenaStream.Server.Implementations.Item;
 
 /// <summary>
 /// Provides linked children query and manipulation operations.
@@ -184,7 +184,7 @@ public class LinkedChildrenService : ILinkedChildrenService
                 .Where(lc => lc.ParentId == parentId)
                 .Max(lc => (int?)lc.SortOrder) ?? -1) + 1;
 
-            context.LinkedChildren.Add(new Jellyfin.Database.Implementations.Entities.LinkedChildEntity
+            context.LinkedChildren.Add(new CenaStream.Database.Implementations.Entities.LinkedChildEntity
             {
                 ParentId = parentId,
                 ChildId = childId,

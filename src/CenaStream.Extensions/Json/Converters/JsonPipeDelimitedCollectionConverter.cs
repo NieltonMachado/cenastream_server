@@ -1,4 +1,4 @@
-namespace Jellyfin.Extensions.Json.Converters
+namespace CenaStream.Extensions.Json.Converters
 {
     /// <summary>
     /// Convert Pipe delimited string to array of type.

@@ -2,11 +2,11 @@
 
 using System;
 using System.Linq;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Item;
+namespace CenaStream.Server.Implementations.Tests.Item;
 
 /// <summary>
 /// Verifies that the alternate-version-aware query shapes used by the resume filter

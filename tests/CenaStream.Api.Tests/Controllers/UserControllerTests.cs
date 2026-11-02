@@ -4,8 +4,8 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoFixture.Xunit3;
-using Jellyfin.Api.Controllers;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Api.Controllers;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Devices;
@@ -21,7 +21,7 @@ using Moq;
 using Nikse.SubtitleEdit.Core.Common;
 using Xunit;
 
-namespace Jellyfin.Api.Tests.Controllers;
+namespace CenaStream.Api.Tests.Controllers;
 
 public class UserControllerTests
 {

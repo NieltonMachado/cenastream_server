@@ -1,4 +1,4 @@
-namespace Jellyfin.Api.Models.EnvironmentDtos;
+namespace CenaStream.Api.Models.EnvironmentDtos;
 
 /// <summary>
 /// Validate path object.

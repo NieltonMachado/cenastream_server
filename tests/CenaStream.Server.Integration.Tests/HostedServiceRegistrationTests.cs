@@ -1,9 +1,9 @@
-using Jellyfin.Server.Implementations.Users;
+using CenaStream.Server.Implementations.Users;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Xunit;
 
-namespace Jellyfin.Server.Integration.Tests;
+namespace CenaStream.Server.Integration.Tests;
 
 public sealed class HostedServiceRegistrationTests : IClassFixture<JellyfinApplicationFactory>
 {

@@ -1,8 +1,8 @@
 using System;
 using System.Linq;
 using System.Linq.Expressions;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller.Entities;
 
 namespace MediaBrowser.Controller.Persistence;

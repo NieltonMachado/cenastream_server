@@ -2,7 +2,7 @@ using System.Net;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Jellyfin.Server.Integration.Tests
+namespace CenaStream.Server.Integration.Tests
 {
     /// <summary>
     /// Defines the test for encoded querystrings in the url.

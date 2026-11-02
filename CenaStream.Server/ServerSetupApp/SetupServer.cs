@@ -7,10 +7,10 @@ using System.Linq;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Emby.Server.Implementations.Configuration;
-using Emby.Server.Implementations.Serialization;
-using Jellyfin.Networking.Manager;
-using Jellyfin.Server.Extensions;
+using CenaStream.Networking.Manager;
+using CenaStream.Server.Core.Configuration;
+using CenaStream.Server.Core.Serialization;
+using CenaStream.Server.Extensions;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller;
@@ -27,7 +27,7 @@ using Microsoft.Extensions.Primitives;
 using Serilog;
 using ILogger = Microsoft.Extensions.Logging.ILogger;
 
-namespace Jellyfin.Server.ServerSetupApp;
+namespace CenaStream.Server.ServerSetupApp;
 
 /// <summary>
 /// Creates a fake application pipeline that will only exist for as long as the main app is not started.
@@ -192,7 +192,7 @@ public sealed class SetupServer : IDisposable
                                         });
                                     });
 
-                                    var version = typeof(Emby.Server.Implementations.ApplicationHost).Assembly.GetName().Version!;
+                                    var version = typeof(CenaStream.Server.Core.ApplicationHost).Assembly.GetName().Version!;
                                     app.Run(async (context) =>
                                     {
                                         context.Response.StatusCode = (int)HttpStatusCode.ServiceUnavailable;

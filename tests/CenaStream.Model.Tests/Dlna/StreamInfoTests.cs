@@ -4,7 +4,7 @@ using System.Text;
 using MediaBrowser.Model.Dlna;
 using Xunit;
 
-namespace Jellyfin.Model.Tests.Dlna;
+namespace CenaStream.Model.Tests.Dlna;
 
 public class StreamInfoTests
 {

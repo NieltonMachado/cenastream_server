@@ -1,9 +1,9 @@
 using System;
 using System.Linq;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.TypedBaseItem
+namespace CenaStream.Server.Implementations.Tests.TypedBaseItem
 {
     public class BaseItemKindTests
     {

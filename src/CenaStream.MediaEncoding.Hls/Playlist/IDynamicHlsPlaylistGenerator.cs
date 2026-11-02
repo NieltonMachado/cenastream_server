@@ -1,4 +1,4 @@
-namespace Jellyfin.MediaEncoding.Hls.Playlist;
+namespace CenaStream.MediaEncoding.Hls.Playlist;
 
 /// <summary>
 /// Generator for dynamic HLS playlists where the segment lengths aren't known in advance.

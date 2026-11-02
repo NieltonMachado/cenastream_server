@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
-using Jellyfin.Api.ModelBinders;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Api.ModelBinders;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Model.Dto;
 using MediaBrowser.Model.Entities;
 using MediaBrowser.Model.Querying;
@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Jellyfin.Api.Controllers;
+namespace CenaStream.Api.Controllers;
 
 /// <summary>
 /// The trailers controller.

@@ -16,7 +16,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.SessionManager;
+namespace CenaStream.Server.Implementations.Tests.SessionManager;
 
 public class IdlePlaybackTests
 {
@@ -31,8 +31,8 @@ public class IdlePlaybackTests
             .Setup(manager => manager.PublishAsync(It.IsAny<PlaybackStopEventArgs>()))
             .Callback<PlaybackStopEventArgs>(eventArgs => playbackStopped.TrySetResult(eventArgs.PlaybackPositionTicks))
             .Returns(Task.CompletedTask);
-        await using var sessionManager = new Emby.Server.Implementations.Session.SessionManager(
-            NullLogger<Emby.Server.Implementations.Session.SessionManager>.Instance,
+        await using var sessionManager = new CenaStream.Server.Core.Session.SessionManager(
+            NullLogger<CenaStream.Server.Core.Session.SessionManager>.Instance,
             eventManager.Object,
             Mock.Of<IUserDataManager>(),
             Mock.Of<IServerConfigurationManager>(),
@@ -69,7 +69,7 @@ public class IdlePlaybackTests
             session.StopAutomaticProgress();
         }
 
-        var idlePlaybackCallback = typeof(Emby.Server.Implementations.Session.SessionManager)
+        var idlePlaybackCallback = typeof(CenaStream.Server.Core.Session.SessionManager)
             .GetMethod("CheckForIdlePlayback", BindingFlags.Instance | BindingFlags.NonPublic)!;
         idlePlaybackCallback.Invoke(sessionManager, new object?[] { null });
 

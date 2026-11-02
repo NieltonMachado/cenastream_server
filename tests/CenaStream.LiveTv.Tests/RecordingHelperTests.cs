@@ -1,9 +1,9 @@
 using System;
-using Jellyfin.LiveTv.Recordings;
+using CenaStream.LiveTv.Recordings;
 using MediaBrowser.Controller.LiveTv;
 using Xunit;
 
-namespace Jellyfin.LiveTv.Tests
+namespace CenaStream.LiveTv.Tests
 {
     public static class RecordingHelperTests
     {

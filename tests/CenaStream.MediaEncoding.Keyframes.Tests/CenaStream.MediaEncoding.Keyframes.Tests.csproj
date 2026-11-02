@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/Jellyfin.MediaEncoding.Keyframes/Jellyfin.MediaEncoding.Keyframes.csproj" />
+    <ProjectReference Include="../../src/CenaStream.MediaEncoding.Keyframes/CenaStream.MediaEncoding.Keyframes.csproj" />
   </ItemGroup>
 
   <ItemGroup>

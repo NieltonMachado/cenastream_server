@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using Jellyfin.Data.Enums;
-using Jellyfin.Data.Events;
-using Jellyfin.Data.Queries;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Data.Events;
+using CenaStream.Data.Queries;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Extensions;
 using MediaBrowser.Model.Activity;
 using MediaBrowser.Model.Querying;
 using Microsoft.EntityFrameworkCore;
 
-namespace Jellyfin.Server.Implementations.Activity;
+namespace CenaStream.Server.Implementations.Activity;
 
 /// <summary>
 /// Manages the storage and retrieval of <see cref="ActivityLog"/> instances.

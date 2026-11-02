@@ -1,10 +1,10 @@
 using System.Collections.Generic;
+using CenaStream.Server.Configuration;
+using CenaStream.Server.Core;
 using CommandLine;
-using Emby.Server.Implementations;
-using Jellyfin.Server.Configuration;
 using static MediaBrowser.Controller.Extensions.ConfigurationExtensions;
 
-namespace Jellyfin.Server
+namespace CenaStream.Server
 {
     /// <summary>
     /// Class used by CommandLine package when parsing the command line arguments.

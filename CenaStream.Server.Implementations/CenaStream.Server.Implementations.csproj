@@ -31,11 +31,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Jellyfin.Data\Jellyfin.Data.csproj" />
+    <ProjectReference Include="..\CenaStream.Data\CenaStream.Data.csproj" />
     <ProjectReference Include="..\MediaBrowser.Controller\MediaBrowser.Controller.csproj" />
     <ProjectReference Include="..\MediaBrowser.Model\MediaBrowser.Model.csproj" />
-    <ProjectReference Include="..\src\Jellyfin.Database\Jellyfin.Database.Implementations\Jellyfin.Database.Implementations.csproj" />
-    <ProjectReference Include="..\src\Jellyfin.Database\Jellyfin.Database.Providers.Sqlite\Jellyfin.Database.Providers.Sqlite.csproj" />
+    <ProjectReference Include="..\src\CenaStream.Database\CenaStream.Database.Implementations\CenaStream.Database.Implementations.csproj" />
+    <ProjectReference Include="..\src\CenaStream.Database\CenaStream.Database.Providers.Sqlite\CenaStream.Database.Providers.Sqlite.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Emby.Server.Implementations.Dto;
-using Emby.Server.Implementations.Playlists;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Server.Core.Dto;
+using CenaStream.Server.Core.Playlists;
 using MediaBrowser.Common;
 using MediaBrowser.Controller.Chapters;
 using MediaBrowser.Controller.Drawing;
@@ -19,7 +19,7 @@ using MediaBrowser.Model.Querying;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Dto;
+namespace CenaStream.Server.Implementations.Tests.Dto;
 
 public class DtoServiceImageInheritanceTests
 {

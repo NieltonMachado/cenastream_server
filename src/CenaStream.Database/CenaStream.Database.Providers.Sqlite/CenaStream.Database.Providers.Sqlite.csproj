@@ -25,7 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\MediaBrowser.Common\MediaBrowser.Common.csproj" />
-    <ProjectReference Include="..\Jellyfin.Database.Implementations\Jellyfin.Database.Implementations.csproj" />
+    <ProjectReference Include="..\CenaStream.Database.Implementations\CenaStream.Database.Implementations.csproj" />
   </ItemGroup>
 
 </Project>

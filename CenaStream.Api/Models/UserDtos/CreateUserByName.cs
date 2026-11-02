@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Jellyfin.Api.Models.UserDtos;
+namespace CenaStream.Api.Models.UserDtos;
 
 /// <summary>
 /// The create user by name request body.

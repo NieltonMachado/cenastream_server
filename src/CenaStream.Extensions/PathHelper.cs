@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace Jellyfin.Extensions;
+namespace CenaStream.Extensions;
 
 /// <summary>
 /// Helpers for safely composing filesystem paths from untrusted input.

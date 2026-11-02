@@ -14,7 +14,7 @@ using MediaBrowser.Model.Net;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Jellyfin.Api.Helpers;
+namespace CenaStream.Api.Helpers;
 
 /// <summary>
 /// Audio helper.

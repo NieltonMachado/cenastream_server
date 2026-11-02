@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
-using Jellyfin.Data.Enums;
-using Jellyfin.Extensions.Json.Converters;
+using CenaStream.Data.Enums;
+using CenaStream.Extensions.Json.Converters;
 using MediaBrowser.Model.Entities;
 
-namespace Jellyfin.Api.Models.PlaylistDtos;
+namespace CenaStream.Api.Models.PlaylistDtos;
 
 /// <summary>
 /// Create new playlist dto.

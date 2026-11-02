@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.LiveTv.TunerHosts;
+using CenaStream.LiveTv.TunerHosts;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Configuration;
@@ -16,7 +16,7 @@ using Microsoft.Extensions.Logging;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.LiveTv.Tests
+namespace CenaStream.LiveTv.Tests
 {
     public class M3UTunerHostTests
     {

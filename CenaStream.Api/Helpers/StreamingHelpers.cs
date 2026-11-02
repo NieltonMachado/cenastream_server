@@ -5,9 +5,9 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Api.Extensions;
-using Jellyfin.Data.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Api.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Extensions;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.Configuration;
@@ -20,7 +20,7 @@ using MediaBrowser.Model.Dto;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Net.Http.Headers;
 
-namespace Jellyfin.Api.Helpers;
+namespace CenaStream.Api.Helpers;
 
 /// <summary>
 /// The streaming helpers.

@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/Jellyfin.Drawing.Skia/Jellyfin.Drawing.Skia.csproj" />
+    <ProjectReference Include="../../src/CenaStream.Drawing.Skia/CenaStream.Drawing.Skia.csproj" />
   </ItemGroup>
 
 </Project>

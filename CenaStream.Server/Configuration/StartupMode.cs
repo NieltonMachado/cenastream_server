@@ -1,6 +1,6 @@
 using MediaBrowser.Model.Configuration;
 
-namespace Jellyfin.Server.Configuration;
+namespace CenaStream.Server.Configuration;
 
 /// <summary>
 /// Defines types for usage with the <see cref="StartupOptions.StartupMode"/>.

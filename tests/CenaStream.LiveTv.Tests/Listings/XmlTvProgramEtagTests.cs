@@ -1,9 +1,9 @@
 using System;
-using Jellyfin.LiveTv.Listings;
+using CenaStream.LiveTv.Listings;
 using MediaBrowser.Controller.LiveTv;
 using Xunit;
 
-namespace Jellyfin.LiveTv.Tests.Listings;
+namespace CenaStream.LiveTv.Tests.Listings;
 
 public class XmlTvProgramEtagTests
 {

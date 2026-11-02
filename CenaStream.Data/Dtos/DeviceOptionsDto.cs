@@ -1,4 +1,4 @@
-namespace Jellyfin.Data.Dtos;
+namespace CenaStream.Data.Dtos;
 
 /// <summary>
 /// A dto representing custom options for a device.

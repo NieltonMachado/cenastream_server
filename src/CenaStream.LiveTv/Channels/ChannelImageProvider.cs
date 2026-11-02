@@ -7,7 +7,7 @@ using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Providers;
 using MediaBrowser.Model.Entities;
 
-namespace Jellyfin.LiveTv.Channels
+namespace CenaStream.LiveTv.Channels
 {
     /// <summary>
     /// An image provider for channels.

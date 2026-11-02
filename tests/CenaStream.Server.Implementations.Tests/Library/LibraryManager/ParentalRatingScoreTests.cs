@@ -5,7 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Emby.Naming.Common;
+using CenaStream.Naming.Common;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.Movies;
@@ -20,12 +20,12 @@ using MediaBrowser.Model.Globalization;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Library.LibraryManager;
+namespace CenaStream.Server.Implementations.Tests.Library.LibraryManager;
 
 [Collection("LibraryManagerTests")]
 public sealed class ParentalRatingScoreTests : IDisposable
 {
-    private readonly Emby.Server.Implementations.Library.LibraryManager _libraryManager;
+    private readonly CenaStream.Server.Core.Library.LibraryManager _libraryManager;
     private readonly List<BaseItem> _saved = [];
     private readonly ILibraryManager? _previousLibraryManager;
     private readonly ILocalizationManager? _previousLocalizationManager;
@@ -40,7 +40,7 @@ public sealed class ParentalRatingScoreTests : IDisposable
             .Setup(p => p.SaveItems(It.IsAny<IReadOnlyList<BaseItem>>(), It.IsAny<CancellationToken>()))
             .Callback<IReadOnlyList<BaseItem>, CancellationToken>((items, _) => _saved.AddRange(items));
 
-        _libraryManager = fixture.Build<Emby.Server.Implementations.Library.LibraryManager>()
+        _libraryManager = fixture.Build<CenaStream.Server.Core.Library.LibraryManager>()
             .Do(s => s.AddParts(
                 fixture.Create<IEnumerable<IResolverIgnoreRule>>(),
                 [],

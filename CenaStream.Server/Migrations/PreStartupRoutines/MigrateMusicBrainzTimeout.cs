@@ -2,11 +2,11 @@ using System;
 using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
-using Emby.Server.Implementations;
+using CenaStream.Server.Core;
 using MediaBrowser.Providers.Plugins.MusicBrainz.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.PreStartupRoutines;
+namespace CenaStream.Server.Migrations.PreStartupRoutines;
 
 /// <inheritdoc />
 #pragma warning disable CS0618 // Type or member is obsolete
@@ -31,7 +31,7 @@ public class MigrateMusicBrainzTimeout : IMigrationRoutine
     /// <inheritdoc />
     public void Perform()
     {
-        string path = Path.Combine(_applicationPaths.PluginConfigurationsPath, "Jellyfin.Plugin.MusicBrainz.xml");
+        string path = Path.Combine(_applicationPaths.PluginConfigurationsPath, "CenaStream.Plugin.MusicBrainz.xml");
         if (!File.Exists(path))
         {
             _logger.LogDebug("No MusicBrainz plugin configuration file found, skipping");

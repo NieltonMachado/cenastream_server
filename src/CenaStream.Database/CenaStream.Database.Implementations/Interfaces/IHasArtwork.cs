@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Jellyfin.Database.Implementations.Entities.Libraries;
+using CenaStream.Database.Implementations.Entities.Libraries;
 
-namespace Jellyfin.Database.Implementations.Interfaces
+namespace CenaStream.Database.Implementations.Interfaces
 {
     /// <summary>
     /// An interface abstracting an entity that has artwork.

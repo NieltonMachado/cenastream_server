@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Jellyfin.Database.Implementations.DbConfiguration;
+using CenaStream.Database.Implementations.DbConfiguration;
 using MediaBrowser.Common.Configuration;
 
-namespace Jellyfin.Server.Implementations.DatabaseConfiguration;
+namespace CenaStream.Server.Implementations.DatabaseConfiguration;
 
 /// <summary>
 /// A configuration that stores database related settings.

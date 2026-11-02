@@ -8,7 +8,7 @@ using MediaBrowser.Providers.Movies;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.ExternalId
+namespace CenaStream.Providers.Tests.ExternalId
 {
     // put tests that mock the static LibraryManager in the same collection to avoid test interference
     [Collection("LibraryManagerTests")]

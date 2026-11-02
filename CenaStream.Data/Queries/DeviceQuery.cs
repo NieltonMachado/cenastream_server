@@ -1,6 +1,6 @@
 using System;
 
-namespace Jellyfin.Data.Queries
+namespace CenaStream.Data.Queries
 {
     /// <summary>
     /// A query to retrieve devices.

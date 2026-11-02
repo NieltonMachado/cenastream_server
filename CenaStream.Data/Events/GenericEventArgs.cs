@@ -1,6 +1,6 @@
 using System;
 
-namespace Jellyfin.Data.Events
+namespace CenaStream.Data.Events
 {
     /// <summary>
     /// Provides a generic EventArgs subclass that can hold any kind of object.

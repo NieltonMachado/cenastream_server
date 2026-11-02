@@ -1,4 +1,4 @@
-namespace Emby.Naming.Video
+namespace CenaStream.Naming.Video
 {
     /// <summary>
     /// Data class holding information about Stub type rule.

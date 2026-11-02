@@ -5,7 +5,7 @@ using MediaBrowser.MediaEncoding.Subtitles;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
 
-namespace Jellyfin.MediaEncoding.Subtitles.Tests
+namespace CenaStream.MediaEncoding.Subtitles.Tests
 {
     public class AssParserTests
     {

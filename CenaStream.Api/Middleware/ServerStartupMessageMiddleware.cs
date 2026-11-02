@@ -5,7 +5,7 @@ using MediaBrowser.Controller;
 using MediaBrowser.Model.Globalization;
 using Microsoft.AspNetCore.Http;
 
-namespace Jellyfin.Api.Middleware;
+namespace CenaStream.Api.Middleware;
 
 /// <summary>
 /// Shows a custom message during server startup.

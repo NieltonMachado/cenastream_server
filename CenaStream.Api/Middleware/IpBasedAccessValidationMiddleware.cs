@@ -6,7 +6,7 @@ using MediaBrowser.Common.Net;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Api.Middleware;
+namespace CenaStream.Api.Middleware;
 
 /// <summary>
 /// Validates the IP of requests coming from local networks wrt. remote access.

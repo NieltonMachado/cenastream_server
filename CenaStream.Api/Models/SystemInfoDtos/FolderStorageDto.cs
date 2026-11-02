@@ -1,6 +1,6 @@
 using MediaBrowser.Model.System;
 
-namespace Jellyfin.Api.Models.SystemInfoDtos;
+namespace CenaStream.Api.Models.SystemInfoDtos;
 
 /// <summary>
 /// Contains information about a specific folder.

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
-using Emby.Server.Implementations.Images;
+using CenaStream.Server.Core.Images;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Drawing;
 using MediaBrowser.Controller.Entities;
@@ -11,7 +11,7 @@ using MediaBrowser.Controller.Providers;
 using MediaBrowser.Model.Entities;
 using MediaBrowser.Model.IO;
 
-namespace Emby.Server.Implementations.Collections
+namespace CenaStream.Server.Core.Collections
 {
     /// <summary>
     /// A collection image provider.

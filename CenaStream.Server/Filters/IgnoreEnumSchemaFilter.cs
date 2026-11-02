@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text.Json.Nodes;
-using Jellyfin.Data.Attributes;
+using CenaStream.Data.Attributes;
 using Microsoft.OpenApi;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Jellyfin.Server.Filters;
+namespace CenaStream.Server.Filters;
 
 /// <summary>
 /// Filter to remove ignored enum values.

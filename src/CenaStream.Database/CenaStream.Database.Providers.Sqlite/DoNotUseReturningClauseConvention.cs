@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 
-namespace Jellyfin.Database.Providers.Sqlite;
+namespace CenaStream.Database.Providers.Sqlite;
 
 internal class DoNotUseReturningClauseConvention : IModelFinalizingConvention
 {

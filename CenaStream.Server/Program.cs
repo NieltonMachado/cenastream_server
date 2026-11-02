@@ -7,20 +7,20 @@ using System.Linq;
 using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
+using CenaStream.Database.Implementations;
+using CenaStream.Server.Core;
+using CenaStream.Server.Core.Configuration;
+using CenaStream.Server.Core.Serialization;
+using CenaStream.Server.Extensions;
+using CenaStream.Server.Helpers;
+using CenaStream.Server.Implementations.DatabaseConfiguration;
+using CenaStream.Server.Implementations.Extensions;
+using CenaStream.Server.Implementations.StorageHelpers;
+using CenaStream.Server.Implementations.SystemBackupService;
+using CenaStream.Server.Migrations;
+using CenaStream.Server.Migrations.Stages;
+using CenaStream.Server.ServerSetupApp;
 using CommandLine;
-using Emby.Server.Implementations;
-using Emby.Server.Implementations.Configuration;
-using Emby.Server.Implementations.Serialization;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Server.Extensions;
-using Jellyfin.Server.Helpers;
-using Jellyfin.Server.Implementations.DatabaseConfiguration;
-using Jellyfin.Server.Implementations.Extensions;
-using Jellyfin.Server.Implementations.StorageHelpers;
-using Jellyfin.Server.Implementations.SystemBackupService;
-using Jellyfin.Server.Migrations;
-using Jellyfin.Server.Migrations.Stages;
-using Jellyfin.Server.ServerSetupApp;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller;
@@ -36,7 +36,7 @@ using Serilog.Extensions.Logging;
 using static MediaBrowser.Controller.Extensions.ConfigurationExtensions;
 using ILogger = Microsoft.Extensions.Logging.ILogger;
 
-namespace Jellyfin.Server
+namespace CenaStream.Server
 {
     /// <summary>
     /// Class containing the entry point of the application.

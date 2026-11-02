@@ -9,11 +9,11 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using AsyncKeyedLock;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.LiveTv.Configuration;
-using Jellyfin.LiveTv.IO;
-using Jellyfin.LiveTv.Timers;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.LiveTv.Configuration;
+using CenaStream.LiveTv.IO;
+using CenaStream.LiveTv.Timers;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Dto;
@@ -32,7 +32,7 @@ using MediaBrowser.Model.MediaInfo;
 using MediaBrowser.Model.Providers;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv.Recordings;
+namespace CenaStream.LiveTv.Recordings;
 
 /// <inheritdoc cref="IRecordingsManager" />
 public sealed class RecordingsManager : IRecordingsManager, IDisposable

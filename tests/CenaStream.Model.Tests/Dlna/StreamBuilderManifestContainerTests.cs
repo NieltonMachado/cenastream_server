@@ -1,5 +1,5 @@
 using System;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 using MediaBrowser.Model.Dlna;
 using MediaBrowser.Model.Dto;
 using MediaBrowser.Model.Entities;
@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Model.Tests.Dlna;
+namespace CenaStream.Model.Tests.Dlna;
 
 public class StreamBuilderManifestContainerTests
 {

@@ -7,7 +7,7 @@ using MediaBrowser.Controller.Library;
 using MediaBrowser.Model.Entities;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Library.Validators;
+namespace CenaStream.Server.Core.Library.Validators;
 
 /// <summary>
 /// Ensures top-level library folders have a primary poster after scans.

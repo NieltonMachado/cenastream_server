@@ -1,12 +1,12 @@
 using System.Globalization;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller.Events;
 using MediaBrowser.Controller.Events.Session;
 using MediaBrowser.Model.Activity;
 using MediaBrowser.Model.Globalization;
 
-namespace Jellyfin.Server.Implementations.Events.Consumers.Session
+namespace CenaStream.Server.Implementations.Events.Consumers.Session
 {
     /// <summary>
     /// Creates an entry in the activity log when a session is started.

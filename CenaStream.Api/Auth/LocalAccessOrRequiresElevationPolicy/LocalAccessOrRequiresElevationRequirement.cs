@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 
-namespace Jellyfin.Api.Auth.LocalAccessOrRequiresElevationPolicy
+namespace CenaStream.Api.Auth.LocalAccessOrRequiresElevationPolicy
 {
     /// <summary>
     /// The local access or elevated privileges authorization requirement.

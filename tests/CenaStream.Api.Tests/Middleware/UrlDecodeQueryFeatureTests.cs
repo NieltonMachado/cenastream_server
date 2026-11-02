@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Http.Features;
 using Microsoft.Extensions.Primitives;
 using Xunit;
 
-namespace Jellyfin.Api.Middleware.Tests
+namespace CenaStream.Api.Middleware.Tests
 {
     public static class UrlDecodeQueryFeatureTests
     {

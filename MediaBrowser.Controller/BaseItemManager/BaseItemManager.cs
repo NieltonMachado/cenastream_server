@@ -1,5 +1,5 @@
 using System;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
 using MediaBrowser.Controller.Channels;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Entities;

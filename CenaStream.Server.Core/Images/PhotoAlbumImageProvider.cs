@@ -7,7 +7,7 @@ using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Providers;
 using MediaBrowser.Model.IO;
 
-namespace Emby.Server.Implementations.Images
+namespace CenaStream.Server.Core.Images
 {
     public class PhotoAlbumImageProvider : BaseFolderImageProvider<PhotoAlbum>
     {

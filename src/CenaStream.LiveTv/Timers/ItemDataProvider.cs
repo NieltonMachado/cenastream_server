@@ -7,10 +7,10 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Threading;
-using Jellyfin.Extensions.Json;
+using CenaStream.Extensions.Json;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv.Timers
+namespace CenaStream.LiveTv.Timers
 {
     public class ItemDataProvider<T>
         where T : class

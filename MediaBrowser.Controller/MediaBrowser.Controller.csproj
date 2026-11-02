@@ -7,7 +7,7 @@
 
   <PropertyGroup>
     <Authors>Jellyfin Contributors</Authors>
-    <PackageId>Jellyfin.Controller</PackageId>
+    <PackageId>CenaStream.Controller</PackageId>
     <VersionPrefix>13.0.0</VersionPrefix>
     <RepositoryUrl>https://github.com/jellyfin/jellyfin</RepositoryUrl>
     <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
@@ -22,10 +22,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../Emby.Naming/Emby.Naming.csproj" />
+    <ProjectReference Include="../CenaStream.Naming/CenaStream.Naming.csproj" />
     <ProjectReference Include="../MediaBrowser.Model/MediaBrowser.Model.csproj" />
     <ProjectReference Include="../MediaBrowser.Common/MediaBrowser.Common.csproj" />
-    <ProjectReference Include="../src/Jellyfin.MediaEncoding.Keyframes/Jellyfin.MediaEncoding.Keyframes.csproj" />
+    <ProjectReference Include="../src/CenaStream.MediaEncoding.Keyframes/CenaStream.MediaEncoding.Keyframes.csproj" />
   </ItemGroup>
 
   <ItemGroup>

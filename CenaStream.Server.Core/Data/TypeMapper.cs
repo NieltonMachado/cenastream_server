@@ -2,7 +2,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Linq;
 
-namespace Emby.Server.Implementations.Data
+namespace CenaStream.Server.Core.Data
 {
     /// <summary>
     /// Class TypeMapper.

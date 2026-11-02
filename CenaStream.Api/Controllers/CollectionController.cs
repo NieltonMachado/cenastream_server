@@ -1,9 +1,9 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
-using Jellyfin.Api.Constants;
-using Jellyfin.Api.Extensions;
-using Jellyfin.Api.ModelBinders;
+using CenaStream.Api.Constants;
+using CenaStream.Api.Extensions;
+using CenaStream.Api.ModelBinders;
 using MediaBrowser.Common.Api;
 using MediaBrowser.Controller.Collections;
 using MediaBrowser.Controller.Dto;
@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Jellyfin.Api.Controllers;
+namespace CenaStream.Api.Controllers;
 
 /// <summary>
 /// The collection controller.

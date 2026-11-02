@@ -1,11 +1,11 @@
-using Emby.Naming.Common;
-using Emby.Naming.Video;
+using CenaStream.Naming.Common;
+using CenaStream.Naming.Video;
 using MediaBrowser.Model.Entities;
 using Xunit;
 
-using MediaType = Emby.Naming.Common.MediaType;
+using MediaType = CenaStream.Naming.Common.MediaType;
 
-namespace Jellyfin.Naming.Tests.Video
+namespace CenaStream.Naming.Tests.Video
 {
     public class ExtraTests
     {

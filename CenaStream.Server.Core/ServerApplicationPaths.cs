@@ -1,8 +1,8 @@
 using System.IO;
-using Emby.Server.Implementations.AppBase;
+using CenaStream.Server.Core.AppBase;
 using MediaBrowser.Controller;
 
-namespace Emby.Server.Implementations
+namespace CenaStream.Server.Core
 {
     /// <summary>
     /// Extends BaseApplicationPaths to add paths that are only applicable on the server.

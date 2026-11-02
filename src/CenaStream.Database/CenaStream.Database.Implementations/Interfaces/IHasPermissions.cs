@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities;
 
-namespace Jellyfin.Database.Implementations.Interfaces;
+namespace CenaStream.Database.Implementations.Interfaces;
 
 /// <summary>
 /// An abstraction representing an entity that has permissions.

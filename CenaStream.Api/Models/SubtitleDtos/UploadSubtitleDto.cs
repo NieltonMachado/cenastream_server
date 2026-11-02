@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Jellyfin.Api.Models.SubtitleDtos;
+namespace CenaStream.Api.Models.SubtitleDtos;
 
 /// <summary>
 /// Upload subtitles dto.

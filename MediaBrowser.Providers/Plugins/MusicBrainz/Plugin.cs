@@ -65,7 +65,7 @@ public class Plugin : BasePlugin<PluginConfiguration>, IHasWebPages, IHasEmbedde
 
     /// <inheritdoc />
     // TODO remove when plugin removed from server.
-    public override string ConfigurationFileName => "Jellyfin.Plugin.MusicBrainz.xml";
+    public override string ConfigurationFileName => "CenaStream.Plugin.MusicBrainz.xml";
 
     /// <inheritdoc />
     public string ImageResourceName => GetType().Namespace + ".jellyfin-plugin-musicbrainz.svg";

@@ -2,7 +2,7 @@ using System;
 using System.Net;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using Jellyfin.Extensions.Json;
+using CenaStream.Extensions.Json;
 
 namespace MediaBrowser.Providers.Plugins.Omdb
 {

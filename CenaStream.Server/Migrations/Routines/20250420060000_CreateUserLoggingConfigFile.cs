@@ -5,7 +5,7 @@ using System.Linq;
 using MediaBrowser.Common.Configuration;
 using Newtonsoft.Json.Linq;
 
-namespace Jellyfin.Server.Migrations.Routines
+namespace CenaStream.Server.Migrations.Routines
 {
     /// <summary>
     /// Migration to initialize the user logging configuration file "logging.user.json".

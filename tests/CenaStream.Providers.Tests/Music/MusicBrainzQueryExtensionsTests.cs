@@ -10,7 +10,7 @@ using MetaBrainz.Common;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.Music;
+namespace CenaStream.Providers.Tests.Music;
 
 public static class MusicBrainzQueryExtensionsTests
 {

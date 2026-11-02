@@ -12,7 +12,7 @@ using MediaBrowser.Controller.Session;
 using MediaBrowser.Model.Session;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Session
+namespace CenaStream.Server.Core.Session
 {
     public sealed class WebSocketController : ISessionController, IAsyncDisposable, IDisposable
     {

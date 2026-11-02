@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using Jellyfin.Data.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Extensions;
 using MediaBrowser.Model.Dlna;
 using MediaBrowser.Model.Dto;
 
-namespace Jellyfin.Model.Tests.Dlna;
+namespace CenaStream.Model.Tests.Dlna;
 
 public class LegacyStreamInfo : StreamInfo
 {

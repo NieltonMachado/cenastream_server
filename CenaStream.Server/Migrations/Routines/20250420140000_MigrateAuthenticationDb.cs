@@ -2,16 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-using Emby.Server.Implementations.Data;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities.Security;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities.Security;
+using CenaStream.Server.Core.Data;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Library;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.Routines
+namespace CenaStream.Server.Migrations.Routines
 {
     /// <summary>
     /// A migration that moves data from the authentication database into the new schema.

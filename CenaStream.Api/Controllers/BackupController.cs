@@ -1,6 +1,6 @@
 using System.IO;
 using System.Threading.Tasks;
-using Jellyfin.Server.Implementations.SystemBackupService;
+using CenaStream.Server.Implementations.SystemBackupService;
 using MediaBrowser.Common.Api;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.SystemBackupService;
@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace Jellyfin.Api.Controllers;
+namespace CenaStream.Api.Controllers;
 
 /// <summary>
 /// The backup controller.

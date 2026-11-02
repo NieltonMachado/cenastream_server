@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Jellyfin.Api.Models.UserDtos;
+namespace CenaStream.Api.Models.UserDtos;
 
 /// <summary>
 /// Forgot Password Pin enter request body DTO.

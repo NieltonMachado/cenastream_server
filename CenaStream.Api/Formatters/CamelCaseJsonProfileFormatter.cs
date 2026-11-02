@@ -1,8 +1,8 @@
-using Jellyfin.Extensions.Json;
+using CenaStream.Extensions.Json;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Net.Http.Headers;
 
-namespace Jellyfin.Api.Formatters;
+namespace CenaStream.Api.Formatters;
 
 /// <summary>
 /// Camel Case Json Profile Formatter.

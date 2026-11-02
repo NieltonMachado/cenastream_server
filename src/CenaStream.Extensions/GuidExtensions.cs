@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace Jellyfin.Extensions;
+namespace CenaStream.Extensions;
 
 /// <summary>
 /// Guid specific extensions.

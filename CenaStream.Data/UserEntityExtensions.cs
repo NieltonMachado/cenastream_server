@@ -1,11 +1,11 @@
 using System;
 using System.ComponentModel;
 using System.Linq;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Database.Implementations.Interfaces;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Database.Implementations.Interfaces;
 
-namespace Jellyfin.Data;
+namespace CenaStream.Data;
 
 /// <summary>
 /// Contains extension methods for manipulation of <see cref="User"/> entities.

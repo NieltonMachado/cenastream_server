@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.MediaEncoding.Tests.Probing
+namespace CenaStream.MediaEncoding.Tests.Probing
 {
     public class ProbeExternalSourcesTests
     {

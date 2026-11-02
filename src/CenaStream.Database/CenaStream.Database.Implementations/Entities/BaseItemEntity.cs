@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Jellyfin.Database.Implementations.Entities;
+namespace CenaStream.Database.Implementations.Entities;
 
 public class BaseItemEntity
 {

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using MediaBrowser.Model.Configuration;
 using MediaBrowser.Model.Entities;
 
-namespace Jellyfin.Api.Models.LibraryDtos;
+namespace CenaStream.Api.Models.LibraryDtos;
 
 /// <summary>
 /// Library type options dto.

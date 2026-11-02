@@ -3,7 +3,7 @@ using System.IO;
 using MediaBrowser.Controller.IO;
 using Xunit;
 
-namespace Jellyfin.Controller.Tests.IO;
+namespace CenaStream.Controller.Tests.IO;
 
 public class FileSystemHelperTests
 {

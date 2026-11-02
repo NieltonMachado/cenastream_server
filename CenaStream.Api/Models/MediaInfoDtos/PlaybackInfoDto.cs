@@ -1,7 +1,7 @@
 using System;
 using MediaBrowser.Model.Dlna;
 
-namespace Jellyfin.Api.Models.MediaInfoDtos;
+namespace CenaStream.Api.Models.MediaInfoDtos;
 
 /// <summary>
 /// Playback info dto.

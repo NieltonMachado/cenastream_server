@@ -9,14 +9,14 @@ using System.Linq;
 using System.Reflection;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Jellyfin.Extensions;
-using Jellyfin.Extensions.Json;
+using CenaStream.Extensions;
+using CenaStream.Extensions.Json;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Model.Entities;
 using MediaBrowser.Model.Globalization;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Localization
+namespace CenaStream.Server.Core.Localization
 {
     /// <summary>
     /// Class LocalizationManager.
@@ -24,10 +24,10 @@ namespace Emby.Server.Implementations.Localization
     public class LocalizationManager : ILocalizationManager
     {
         private const string DefaultCulture = "en-US";
-        private const string RatingsPath = "Emby.Server.Implementations.Localization.Ratings.";
-        private const string CulturesPath = "Emby.Server.Implementations.Localization.iso6392.txt";
-        private const string CountriesPath = "Emby.Server.Implementations.Localization.countries.json";
-        private const string CoreResourcePrefix = "Emby.Server.Implementations.Localization.Core.";
+        private const string RatingsPath = "CenaStream.Server.Core.Localization.Ratings.";
+        private const string CulturesPath = "CenaStream.Server.Core.Localization.iso6392.txt";
+        private const string CountriesPath = "CenaStream.Server.Core.Localization.countries.json";
+        private const string CoreResourcePrefix = "CenaStream.Server.Core.Localization.Core.";
         private static readonly Assembly _assembly = typeof(LocalizationManager).Assembly;
         private static readonly string[] _unratedValues = ["n/a", "unrated", "not rated", "nr"];
 

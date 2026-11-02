@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading;
 using Xunit;
 
-namespace Jellyfin.Extensions.Tests;
+namespace CenaStream.Extensions.Tests;
 
 public static class FormattingStreamWriterTests
 {

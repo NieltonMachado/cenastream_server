@@ -1,12 +1,12 @@
 using System.Net;
-using Jellyfin.Networking.Manager;
+using CenaStream.Networking.Manager;
 using MediaBrowser.Common.Net;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Networking.Tests
+namespace CenaStream.Networking.Tests
 {
     public class NetworkManagerTests
     {

@@ -2,10 +2,10 @@ using System;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Locking;
-using Jellyfin.Database.Providers.Sqlite;
-using Jellyfin.Server.Implementations.Users;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Locking;
+using CenaStream.Database.Providers.Sqlite;
+using CenaStream.Server.Implementations.Users;
 using MediaBrowser.Common;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller;
@@ -21,7 +21,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Users
+namespace CenaStream.Server.Implementations.Tests.Users
 {
     public sealed class UserManagerNormalizedUsernameTests : IDisposable
     {

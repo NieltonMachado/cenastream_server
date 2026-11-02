@@ -1,7 +1,7 @@
-using Jellyfin.Api.Controllers;
+using CenaStream.Api.Controllers;
 using Xunit;
 
-namespace Jellyfin.Api.Tests.Controllers;
+namespace CenaStream.Api.Tests.Controllers;
 
 public static class ImageControllerTests
 {

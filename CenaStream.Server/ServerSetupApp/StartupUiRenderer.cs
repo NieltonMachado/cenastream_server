@@ -9,7 +9,7 @@ using Morestachio;
 using Morestachio.Framework.IO.SingleStream;
 using Morestachio.Rendering;
 
-namespace Jellyfin.Server.ServerSetupApp;
+namespace CenaStream.Server.ServerSetupApp;
 
 /// <summary>
 /// Compiles and renders the startup UI Morestachio template.

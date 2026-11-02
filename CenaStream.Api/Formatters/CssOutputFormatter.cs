@@ -1,7 +1,7 @@
 using System.Net.Mime;
 using Microsoft.AspNetCore.Mvc.Formatters;
 
-namespace Jellyfin.Api.Formatters;
+namespace CenaStream.Api.Formatters;
 
 /// <summary>
 /// Css output formatter.

@@ -5,4 +5,4 @@
 
 using System.Diagnostics.CodeAnalysis;
 
-[assembly: SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1649:File name should match first type name", Justification = "Migration files should follow the EFCore standard in regards to naming.", Scope = "namespaceanddescendants", Target = "~N:Jellyfin.Server.Migrations.Routines")]
+[assembly: SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1649:File name should match first type name", Justification = "Migration files should follow the EFCore standard in regards to naming.", Scope = "namespaceanddescendants", Target = "~N:CenaStream.Server.Migrations.Routines")]

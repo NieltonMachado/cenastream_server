@@ -5,7 +5,7 @@ using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Persistence;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Library.Validators;
+namespace CenaStream.Server.Core.Library.Validators;
 
 /// <summary>
 /// Class ArtistsPostScanTask.

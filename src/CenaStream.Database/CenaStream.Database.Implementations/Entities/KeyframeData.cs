@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Jellyfin.Database.Implementations.Entities;
+namespace CenaStream.Database.Implementations.Entities;
 
 /// <summary>
 /// Keyframe information for a specific file.

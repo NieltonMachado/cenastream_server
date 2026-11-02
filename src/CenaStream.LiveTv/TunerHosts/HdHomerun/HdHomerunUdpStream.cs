@@ -20,7 +20,7 @@ using MediaBrowser.Model.LiveTv;
 using MediaBrowser.Model.MediaInfo;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv.TunerHosts.HdHomerun
+namespace CenaStream.LiveTv.TunerHosts.HdHomerun
 {
     public class HdHomerunUdpStream : LiveStream, IDirectStreamProvider
     {

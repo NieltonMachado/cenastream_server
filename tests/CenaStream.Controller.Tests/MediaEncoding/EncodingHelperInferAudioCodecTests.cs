@@ -5,7 +5,7 @@ using Moq;
 using Xunit;
 using IConfiguration = Microsoft.Extensions.Configuration.IConfiguration;
 
-namespace Jellyfin.Controller.Tests.MediaEncoding;
+namespace CenaStream.Controller.Tests.MediaEncoding;
 
 public class EncodingHelperInferAudioCodecTests
 {

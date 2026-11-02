@@ -3,8 +3,8 @@ using System.Globalization;
 using System.IO;
 using System.Threading.Tasks;
 using System.Xml;
-using Jellyfin.Extensions;
-using Jellyfin.LiveTv.Recordings;
+using CenaStream.Extensions;
+using CenaStream.LiveTv.Recordings;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.LiveTv.Tests.Recordings;
+namespace CenaStream.LiveTv.Tests.Recordings;
 
 public sealed class RecordingsMetadataManagerTests
 {

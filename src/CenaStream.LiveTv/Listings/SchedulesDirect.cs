@@ -18,10 +18,10 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 using AsyncKeyedLock;
-using Jellyfin.Extensions;
-using Jellyfin.Extensions.Json;
-using Jellyfin.LiveTv.Guide;
-using Jellyfin.LiveTv.Listings.SchedulesDirectDtos;
+using CenaStream.Extensions;
+using CenaStream.Extensions.Json;
+using CenaStream.LiveTv.Guide;
+using CenaStream.LiveTv.Listings.SchedulesDirectDtos;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller.Authentication;
@@ -31,7 +31,7 @@ using MediaBrowser.Model.Entities;
 using MediaBrowser.Model.LiveTv;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv.Listings
+namespace CenaStream.LiveTv.Listings
 {
     public class SchedulesDirect : IListingsProvider, ISchedulesDirectService, IDisposable
     {

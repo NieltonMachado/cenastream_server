@@ -2,13 +2,13 @@
 
 #pragma warning disable CS1591
 
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Sorting;
 
-namespace Emby.Server.Implementations.Sorting
+namespace CenaStream.Server.Core.Sorting
 {
     public class IsPlayedComparer : IUserBaseItemComparer
     {

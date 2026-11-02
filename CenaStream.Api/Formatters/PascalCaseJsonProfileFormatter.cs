@@ -1,9 +1,9 @@
 using System.Net.Mime;
-using Jellyfin.Extensions.Json;
+using CenaStream.Extensions.Json;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Net.Http.Headers;
 
-namespace Jellyfin.Api.Formatters;
+namespace CenaStream.Api.Formatters;
 
 /// <summary>
 /// Pascal Case Json Profile Formatter.

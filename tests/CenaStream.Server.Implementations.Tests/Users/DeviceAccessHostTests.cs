@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Events;
-using Jellyfin.Data.Queries;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Entities.Security;
-using Jellyfin.Server.Implementations.Users;
+using CenaStream.Data.Events;
+using CenaStream.Data.Queries;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities.Security;
+using CenaStream.Server.Implementations.Users;
 using MediaBrowser.Controller.Devices;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Session;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Users;
+namespace CenaStream.Server.Implementations.Tests.Users;
 
 public class DeviceAccessHostTests
 {

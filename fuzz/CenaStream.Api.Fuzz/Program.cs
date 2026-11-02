@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
-using Jellyfin.Api.Middleware;
+using CenaStream.Api.Middleware;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.Extensions.Primitives;
 using SharpFuzz;
 
-namespace Jellyfin.Api.Fuzz
+namespace CenaStream.Api.Fuzz
 {
     public static class Program
     {

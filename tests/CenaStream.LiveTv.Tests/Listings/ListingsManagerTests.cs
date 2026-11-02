@@ -1,6 +1,6 @@
 using System;
-using Jellyfin.LiveTv.Configuration;
-using Jellyfin.LiveTv.Listings;
+using CenaStream.LiveTv.Configuration;
+using CenaStream.LiveTv.Listings;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.LiveTv;
 using MediaBrowser.Model.LiveTv;
@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.LiveTv.Tests.Listings;
+namespace CenaStream.LiveTv.Tests.Listings;
 
 public class ListingsManagerTests
 {

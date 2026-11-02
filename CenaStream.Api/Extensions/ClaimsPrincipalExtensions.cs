@@ -1,9 +1,9 @@
 using System;
 using System.Linq;
 using System.Security.Claims;
-using Jellyfin.Api.Constants;
+using CenaStream.Api.Constants;
 
-namespace Jellyfin.Api.Extensions;
+namespace CenaStream.Api.Extensions;
 
 /// <summary>
 /// Extensions for <see cref="ClaimsPrincipal"/>.

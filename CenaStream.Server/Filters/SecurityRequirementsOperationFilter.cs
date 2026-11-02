@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Jellyfin.Api.Auth.DefaultAuthorizationPolicy;
-using Jellyfin.Api.Constants;
-using Jellyfin.Extensions;
+using CenaStream.Api.Auth.DefaultAuthorizationPolicy;
+using CenaStream.Api.Constants;
+using CenaStream.Extensions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.OpenApi;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Jellyfin.Server.Filters;
+namespace CenaStream.Server.Filters;
 
 /// <summary>
 /// Security requirement operation filter.

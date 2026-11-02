@@ -1,4 +1,4 @@
-namespace Jellyfin.Server.Implementations.FullSystemBackup;
+namespace CenaStream.Server.Implementations.FullSystemBackup;
 
 /// <summary>
 /// Defines the optional contents of the backup archive.

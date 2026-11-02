@@ -17,9 +17,9 @@ with SQLite currently being the only supported provider, you need to run the Ent
 The example is made from the root folder of the project e.g for codespaces `/workspaces/jellyfin`
 
 ```cmd
-dotnet ef migrations add {MIGRATION_NAME} --project "src/Jellyfin.Database/Jellyfin.Database.Providers.Sqlite" --output-dir Migrations -- --migration-provider Jellyfin-SQLite
+dotnet ef migrations add {MIGRATION_NAME} --project "src/CenaStream.Database/CenaStream.Database.Providers.Sqlite" --output-dir Migrations -- --migration-provider Jellyfin-SQLite
 ```
 
 If you get the error: `Run "dotnet tool restore" to make the "dotnet-ef" command available.` Run `dotnet restore`.
 
-in the event that you get the error: `System.UnauthorizedAccessException: Access to the path '/src/Jellyfin.Database' is denied.` you have to restore as sudo and then run `ef migrations` as sudo too.
+in the event that you get the error: `System.UnauthorizedAccessException: Access to the path '/src/CenaStream.Database' is denied.` you have to restore as sudo and then run `ef migrations` as sudo too.

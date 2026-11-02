@@ -3,11 +3,11 @@ using System.Net.Http.Json;
 using System.Net.Mime;
 using System.Text;
 using System.Threading.Tasks;
-using Jellyfin.Extensions.Json;
+using CenaStream.Extensions.Json;
 using MediaBrowser.Model.Plugins;
 using Xunit;
 
-namespace Jellyfin.Server.Integration.Tests.Controllers;
+namespace CenaStream.Server.Integration.Tests.Controllers;
 
 public sealed class PluginsControllerTests : IClassFixture<JellyfinApplicationFactory>
 {

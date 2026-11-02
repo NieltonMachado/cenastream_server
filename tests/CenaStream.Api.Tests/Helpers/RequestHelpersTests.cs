@@ -2,14 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Security.Claims;
-using Jellyfin.Api.Constants;
-using Jellyfin.Api.Helpers;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Api.Constants;
+using CenaStream.Api.Helpers;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Controller.Net;
 using Xunit;
 
-namespace Jellyfin.Api.Tests.Helpers
+namespace CenaStream.Api.Tests.Helpers
 {
     public static class RequestHelpersTests
     {

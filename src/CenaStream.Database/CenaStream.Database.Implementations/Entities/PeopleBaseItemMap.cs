@@ -1,6 +1,6 @@
 using System;
 
-namespace Jellyfin.Database.Implementations.Entities;
+namespace CenaStream.Database.Implementations.Entities;
 
 /// <summary>
 /// Mapping table for People to BaseItems.

@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using MediaBrowser.Model.IO;
 using Xunit;
 
-namespace Jellyfin.Server.Integration.Tests
+namespace CenaStream.Server.Integration.Tests
 {
     public sealed class OpenApiSpecTests : IClassFixture<JellyfinApplicationFactory>
     {

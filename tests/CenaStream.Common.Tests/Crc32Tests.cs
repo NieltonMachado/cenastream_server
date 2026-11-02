@@ -3,7 +3,7 @@ using System.Text;
 using MediaBrowser.Common;
 using Xunit;
 
-namespace Jellyfin.Common.Tests
+namespace CenaStream.Common.Tests
 {
     public static class Crc32Tests
     {

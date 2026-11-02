@@ -3,15 +3,15 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Jellyfin.Data;
-using Jellyfin.Data.Dtos;
-using Jellyfin.Data.Events;
-using Jellyfin.Data.Queries;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Entities.Security;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Data;
+using CenaStream.Data.Dtos;
+using CenaStream.Data.Events;
+using CenaStream.Data.Queries;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities.Security;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Extensions;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.Devices;
 using MediaBrowser.Controller.Library;
@@ -21,7 +21,7 @@ using MediaBrowser.Model.Querying;
 using MediaBrowser.Model.Session;
 using Microsoft.EntityFrameworkCore;
 
-namespace Jellyfin.Server.Implementations.Devices
+namespace CenaStream.Server.Implementations.Devices
 {
     /// <summary>
     /// Manages the creation, updating, and retrieval of devices.

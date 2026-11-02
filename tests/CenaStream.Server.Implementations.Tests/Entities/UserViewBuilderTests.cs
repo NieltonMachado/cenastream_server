@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.Movies;
 using MediaBrowser.Controller.Library;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Entities;
+namespace CenaStream.Server.Implementations.Tests.Entities;
 
 public sealed class UserViewBuilderTests
 {

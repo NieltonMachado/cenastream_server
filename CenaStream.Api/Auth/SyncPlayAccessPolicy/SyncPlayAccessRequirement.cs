@@ -1,7 +1,7 @@
-using Jellyfin.Api.Auth.DefaultAuthorizationPolicy;
-using Jellyfin.Data.Enums;
+using CenaStream.Api.Auth.DefaultAuthorizationPolicy;
+using CenaStream.Data.Enums;
 
-namespace Jellyfin.Api.Auth.SyncPlayAccessPolicy
+namespace CenaStream.Api.Auth.SyncPlayAccessPolicy
 {
     /// <summary>
     /// The default authorization requirement.

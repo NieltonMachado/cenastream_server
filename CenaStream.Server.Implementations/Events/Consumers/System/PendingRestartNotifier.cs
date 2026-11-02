@@ -1,10 +1,10 @@
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Events.System;
+using CenaStream.Data.Events.System;
 using MediaBrowser.Controller.Events;
 using MediaBrowser.Controller.Session;
 
-namespace Jellyfin.Server.Implementations.Events.Consumers.System
+namespace CenaStream.Server.Implementations.Events.Consumers.System
 {
     /// <summary>
     /// Notifies users when there is a pending restart.

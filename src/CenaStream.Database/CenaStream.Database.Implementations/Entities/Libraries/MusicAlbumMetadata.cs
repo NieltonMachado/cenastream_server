@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Jellyfin.Database.Implementations.Entities.Libraries
+namespace CenaStream.Database.Implementations.Entities.Libraries
 {
     /// <summary>
     /// An entity holding the metadata for a music album.

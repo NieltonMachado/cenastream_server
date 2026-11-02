@@ -1,4 +1,4 @@
-namespace Jellyfin.Api.Constants;
+namespace CenaStream.Api.Constants;
 
 /// <summary>
 /// Internal claim types for authorization.

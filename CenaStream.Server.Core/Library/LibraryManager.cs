@@ -12,18 +12,18 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using BitFaster.Caching.Lru;
-using Emby.Naming.Common;
-using Emby.Naming.TV;
-using Emby.Naming.Video;
-using Emby.Server.Implementations.Library.Resolvers;
-using Emby.Server.Implementations.Playlists;
-using Emby.Server.Implementations.ScheduledTasks.Tasks;
-using Emby.Server.Implementations.Sorting;
-using Jellyfin.Data;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Data;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Extensions;
+using CenaStream.Naming.Common;
+using CenaStream.Naming.TV;
+using CenaStream.Naming.Video;
+using CenaStream.Server.Core.Library.Resolvers;
+using CenaStream.Server.Core.Playlists;
+using CenaStream.Server.Core.ScheduledTasks.Tasks;
+using CenaStream.Server.Core.Sorting;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Configuration;
@@ -51,12 +51,12 @@ using MediaBrowser.Model.Querying;
 using MediaBrowser.Model.Tasks;
 using Microsoft.Extensions.Logging;
 using Episode = MediaBrowser.Controller.Entities.TV.Episode;
-using EpisodeInfo = Emby.Naming.TV.EpisodeInfo;
+using EpisodeInfo = CenaStream.Naming.TV.EpisodeInfo;
 using Genre = MediaBrowser.Controller.Entities.Genre;
 using Person = MediaBrowser.Controller.Entities.Person;
-using VideoResolver = Emby.Naming.Video.VideoResolver;
+using VideoResolver = CenaStream.Naming.Video.VideoResolver;
 
-namespace Emby.Server.Implementations.Library
+namespace CenaStream.Server.Core.Library
 {
     /// <summary>
     /// Class LibraryManager.

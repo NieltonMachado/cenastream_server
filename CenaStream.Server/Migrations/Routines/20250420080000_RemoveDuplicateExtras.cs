@@ -2,12 +2,12 @@ using System;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using Emby.Server.Implementations.Data;
+using CenaStream.Server.Core.Data;
 using MediaBrowser.Controller;
 using Microsoft.Data.Sqlite;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.Routines;
+namespace CenaStream.Server.Migrations.Routines;
 
 /// <summary>
 /// Remove duplicate entries which were caused by a bug where a file was considered to be an "Extra" to itself.

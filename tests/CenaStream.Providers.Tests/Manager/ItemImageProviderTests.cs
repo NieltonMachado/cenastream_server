@@ -24,7 +24,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.Manager
+namespace CenaStream.Providers.Tests.Manager
 {
     public partial class ItemImageProviderTests
     {

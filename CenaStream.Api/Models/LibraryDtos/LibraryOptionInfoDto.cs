@@ -1,4 +1,4 @@
-namespace Jellyfin.Api.Models.LibraryDtos;
+namespace CenaStream.Api.Models.LibraryDtos;
 
 /// <summary>
 /// Library option info dto.

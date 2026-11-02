@@ -1,6 +1,6 @@
 using System;
 
-namespace Jellyfin.MediaEncoding.Hls.Playlist;
+namespace CenaStream.MediaEncoding.Hls.Playlist;
 
 /// <summary>
 /// Request class for the <see cref="IDynamicHlsPlaylistGenerator.CreateMainPlaylist(CreateMainPlaylistRequest)"/> method.

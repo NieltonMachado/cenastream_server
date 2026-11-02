@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Microsoft.OpenApi;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Jellyfin.Server.Filters;
+namespace CenaStream.Server.Filters;
 
 internal class RetryOnTemporarilyUnavailableFilter : IOperationFilter
 {

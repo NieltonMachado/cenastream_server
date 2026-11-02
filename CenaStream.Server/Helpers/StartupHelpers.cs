@@ -7,8 +7,8 @@ using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 using System.Text;
 using System.Threading.Tasks;
-using Emby.Server.Implementations;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Server.Core;
+using CenaStream.Server.ServerSetupApp;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Extensions;
 using MediaBrowser.Model.IO;
@@ -18,7 +18,7 @@ using Serilog;
 using Serilog.Extensions.Logging;
 using ILogger = Microsoft.Extensions.Logging.ILogger;
 
-namespace Jellyfin.Server.Helpers;
+namespace CenaStream.Server.Helpers;
 
 /// <summary>
 /// A class containing helper methods for server startup.
@@ -235,7 +235,7 @@ public static class StartupHelpers
 
         // Get a stream of the resource contents
         // NOTE: The .csproj name is used instead of the assembly name in the resource path
-        const string ResourcePath = "Jellyfin.Server.Resources.Configuration.logging.json";
+        const string ResourcePath = "CenaStream.Server.Resources.Configuration.logging.json";
         Stream resource = typeof(Program).Assembly.GetManifestResourceStream(ResourcePath)
                           ?? throw new InvalidOperationException($"Invalid resource path: '{ResourcePath}'");
         await using (resource.ConfigureAwait(false))

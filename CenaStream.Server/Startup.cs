@@ -6,19 +6,19 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Net.Mime;
 using System.Text;
-using Emby.Server.Implementations.EntryPoints;
-using Emby.Server.Implementations.Localization;
-using Jellyfin.Api.Middleware;
-using Jellyfin.Database.Implementations;
-using Jellyfin.LiveTv.Extensions;
-using Jellyfin.LiveTv.Recordings;
-using Jellyfin.MediaEncoding.Hls.Extensions;
-using Jellyfin.Networking;
-using Jellyfin.Networking.HappyEyeballs;
-using Jellyfin.Server.Extensions;
-using Jellyfin.Server.HealthChecks;
-using Jellyfin.Server.Implementations.Extensions;
-using Jellyfin.Server.Implementations.Users;
+using CenaStream.Api.Middleware;
+using CenaStream.Database.Implementations;
+using CenaStream.LiveTv.Extensions;
+using CenaStream.LiveTv.Recordings;
+using CenaStream.MediaEncoding.Hls.Extensions;
+using CenaStream.Networking;
+using CenaStream.Networking.HappyEyeballs;
+using CenaStream.Server.Core.EntryPoints;
+using CenaStream.Server.Core.Localization;
+using CenaStream.Server.Extensions;
+using CenaStream.Server.HealthChecks;
+using CenaStream.Server.Implementations.Extensions;
+using CenaStream.Server.Implementations.Users;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Extensions;
@@ -34,7 +34,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Primitives;
 using Prometheus;
 
-namespace Jellyfin.Server
+namespace CenaStream.Server
 {
     /// <summary>
     /// Startup configuration for the Kestrel webhost.

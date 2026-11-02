@@ -1,10 +1,10 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
-using Jellyfin.MediaEncoding.Keyframes;
+using CenaStream.MediaEncoding.Keyframes;
 using Microsoft.Extensions.Logging;
-using Extractor = Jellyfin.MediaEncoding.Keyframes.Matroska.MatroskaKeyframeExtractor;
+using Extractor = CenaStream.MediaEncoding.Keyframes.Matroska.MatroskaKeyframeExtractor;
 
-namespace Jellyfin.MediaEncoding.Hls.Extractors;
+namespace CenaStream.MediaEncoding.Hls.Extractors;
 
 /// <inheritdoc />
 public class MatroskaKeyframeExtractor : IKeyframeExtractor

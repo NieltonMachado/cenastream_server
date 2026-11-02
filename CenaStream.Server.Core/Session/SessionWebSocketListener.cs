@@ -4,8 +4,8 @@ using System.Linq;
 using System.Net.WebSockets;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Api.Extensions;
-using Jellyfin.Api.Helpers;
+using CenaStream.Api.Extensions;
+using CenaStream.Api.Helpers;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Net;
 using MediaBrowser.Controller.Net.WebSocketMessages.Outbound;
@@ -13,7 +13,7 @@ using MediaBrowser.Controller.Session;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Session
+namespace CenaStream.Server.Core.Session
 {
     /// <summary>
     /// Class SessionWebSocketListener.

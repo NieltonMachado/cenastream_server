@@ -2,9 +2,9 @@
 
 using System;
 using System.Globalization;
-using Jellyfin.Server.Migrations.Stages;
+using CenaStream.Server.Migrations.Stages;
 
-namespace Jellyfin.Server.Migrations;
+namespace CenaStream.Server.Migrations;
 
 /// <summary>
 /// Declares an class as an migration with its set metadata.

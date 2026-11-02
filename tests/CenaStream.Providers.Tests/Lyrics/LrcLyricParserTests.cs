@@ -3,7 +3,7 @@ using MediaBrowser.Model.Lyrics;
 using MediaBrowser.Providers.Lyric;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.Lyrics;
+namespace CenaStream.Providers.Tests.Lyrics;
 
 public static class LrcLyricParserTests
 {

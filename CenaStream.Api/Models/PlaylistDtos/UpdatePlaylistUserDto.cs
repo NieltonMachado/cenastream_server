@@ -1,4 +1,4 @@
-namespace Jellyfin.Api.Models.PlaylistDtos;
+namespace CenaStream.Api.Models.PlaylistDtos;
 
 /// <summary>
 /// Update existing playlist user dto. Fields set to `null` will not be updated and keep their current values.

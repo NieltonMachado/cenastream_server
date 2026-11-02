@@ -2,10 +2,10 @@ using System;
 using System.Globalization;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Server.ServerSetupApp;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Jellyfin.Server.Migrations.Stages;
+namespace CenaStream.Server.Migrations.Stages;
 
 internal class CodeMigration(Type migrationType, JellyfinMigrationAttribute metadata, JellyfinMigrationBackupAttribute? migrationBackupAttribute)
 {

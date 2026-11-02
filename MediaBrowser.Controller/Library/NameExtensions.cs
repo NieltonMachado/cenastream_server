@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
 
 namespace MediaBrowser.Controller.Library
 {

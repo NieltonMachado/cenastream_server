@@ -11,7 +11,7 @@ using MediaBrowser.Controller.SyncPlay.Requests;
 using MediaBrowser.Model.SyncPlay;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.SyncPlay
+namespace CenaStream.Server.Core.SyncPlay
 {
     /// <summary>
     /// Class SyncPlayManager.

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Jellyfin.Database.Implementations.Entities.Libraries
+namespace CenaStream.Database.Implementations.Entities.Libraries
 {
     /// <summary>
     /// An entity containing metadata for an <see cref="Episode"/>.

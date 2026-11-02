@@ -2,7 +2,7 @@ using System.Globalization;
 using MediaBrowser.Model.Drawing;
 using SkiaSharp;
 
-namespace Jellyfin.Drawing.Skia;
+namespace CenaStream.Drawing.Skia;
 
 /// <summary>
 /// Static helper class for drawing unplayed count indicators.

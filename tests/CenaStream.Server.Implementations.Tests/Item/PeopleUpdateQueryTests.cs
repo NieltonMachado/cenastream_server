@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Linq;
-using Emby.Server.Implementations.Data;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Server.Implementations.Item;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Server.Core.Data;
+using CenaStream.Server.Implementations.Item;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Persistence;
 using Microsoft.EntityFrameworkCore;
@@ -15,7 +15,7 @@ using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Item;
+namespace CenaStream.Server.Implementations.Tests.Item;
 
 public sealed class PeopleUpdateQueryTests : SqliteDbTestFixture
 {
@@ -69,7 +69,7 @@ public sealed class PeopleUpdateQueryTests : SqliteDbTestFixture
     [Fact]
     public void UpdatePeople_GeneratedSqlUsesPeopleNameIndex()
     {
-        ApplyMigration(new Jellyfin.Server.Implementations.Migrations.AddPeopleNameLowerIndex());
+        ApplyMigration(new CenaStream.Server.Implementations.Migrations.AddPeopleNameLowerIndex());
         _recorder.Commands.Clear();
         _people.UpdatePeople(_itemId, [
             new PersonInfo { Name = "Actor A", Type = PersonKind.Actor },

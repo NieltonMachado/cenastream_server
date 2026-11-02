@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
-using Jellyfin.Data.Enums;
-using Jellyfin.Extensions.Json.Converters;
+using CenaStream.Data.Enums;
+using CenaStream.Extensions.Json.Converters;
 using MediaBrowser.Model.Dlna;
 using MediaBrowser.Model.Session;
 

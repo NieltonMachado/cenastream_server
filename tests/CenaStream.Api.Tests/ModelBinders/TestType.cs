@@ -1,4 +1,4 @@
-namespace Jellyfin.Api.Tests.ModelBinders
+namespace CenaStream.Api.Tests.ModelBinders
 {
     public enum TestType
     {

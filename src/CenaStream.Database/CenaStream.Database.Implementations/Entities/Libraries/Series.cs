@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Jellyfin.Database.Implementations.Entities.Libraries
+namespace CenaStream.Database.Implementations.Entities.Libraries
 {
     /// <summary>
     /// An entity representing a series.

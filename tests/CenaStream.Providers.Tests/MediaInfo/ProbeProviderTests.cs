@@ -1,4 +1,4 @@
-using Emby.Naming.Common;
+using CenaStream.Naming.Common;
 using MediaBrowser.Controller.Chapters;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Entities;
@@ -19,7 +19,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.MediaInfo;
+namespace CenaStream.Providers.Tests.MediaInfo;
 
 public class ProbeProviderTests
 {

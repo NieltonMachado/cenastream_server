@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations.Locking;
+using CenaStream.Database.Implementations.Locking;
 using Microsoft.Data.Sqlite;
 using Microsoft.Extensions.Logging.Abstractions;
 using Polly.Utilities;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Locking;
+namespace CenaStream.Server.Implementations.Tests.Locking;
 
 /// <summary>
 /// The retries of <see cref="OptimisticLockBehavior"/> when the database stays locked. Polly's clock records the

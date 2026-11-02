@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using MediaBrowser.Model.Serialization;
 
-namespace Emby.Server.Implementations.AppBase
+namespace CenaStream.Server.Core.AppBase
 {
     /// <summary>
     /// Class ConfigurationHelper.

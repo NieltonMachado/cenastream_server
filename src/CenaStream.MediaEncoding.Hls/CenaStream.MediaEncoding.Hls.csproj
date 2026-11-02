@@ -9,13 +9,13 @@
     <ProjectReference Include="../../MediaBrowser.Common/MediaBrowser.Common.csproj" />
     <ProjectReference Include="../../MediaBrowser.Model/MediaBrowser.Model.csproj" />
     <ProjectReference Include="../../MediaBrowser.Controller/MediaBrowser.Controller.csproj" />
-    <ProjectReference Include="../Jellyfin.MediaEncoding.Keyframes/Jellyfin.MediaEncoding.Keyframes.csproj" />
+    <ProjectReference Include="../CenaStream.MediaEncoding.Keyframes/CenaStream.MediaEncoding.Keyframes.csproj" />
   </ItemGroup>
 
 
   <ItemGroup>
     <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
-      <_Parameter1>Jellyfin.MediaEncoding.Hls.Tests</_Parameter1>
+      <_Parameter1>CenaStream.MediaEncoding.Hls.Tests</_Parameter1>
     </AssemblyAttribute>
   </ItemGroup>
 

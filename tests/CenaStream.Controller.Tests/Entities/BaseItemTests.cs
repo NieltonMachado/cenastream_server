@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.Movies;
@@ -25,7 +25,7 @@ using MediaBrowser.Model.Querying;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Controller.Tests.Entities;
+namespace CenaStream.Controller.Tests.Entities;
 
 [Collection("LibraryManagerTests")]
 public class BaseItemTests

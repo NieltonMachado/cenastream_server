@@ -2,7 +2,7 @@
 
 using System;
 
-namespace Jellyfin.Database.Implementations.Entities;
+namespace CenaStream.Database.Implementations.Entities;
 
 public class MediaStreamInfo
 {

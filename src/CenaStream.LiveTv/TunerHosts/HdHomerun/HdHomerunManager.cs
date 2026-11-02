@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 using MediaBrowser.Common;
 using MediaBrowser.Controller.LiveTv;
 
-namespace Jellyfin.LiveTv.TunerHosts.HdHomerun
+namespace CenaStream.LiveTv.TunerHosts.HdHomerun
 {
     public sealed class HdHomerunManager : IDisposable
     {

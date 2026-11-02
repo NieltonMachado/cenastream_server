@@ -1,11 +1,11 @@
 using System.Linq;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 using MediaBrowser.Controller.Entities.Movies;
 using MediaBrowser.Controller.Providers;
 using MediaBrowser.Providers.Plugins.Omdb;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.Omdb
+namespace CenaStream.Providers.Tests.Omdb
 {
     public class OmdbProviderTests
     {

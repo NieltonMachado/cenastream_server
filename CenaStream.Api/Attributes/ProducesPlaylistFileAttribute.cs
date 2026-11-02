@@ -1,4 +1,4 @@
-namespace Jellyfin.Api.Attributes;
+namespace CenaStream.Api.Attributes;
 
 /// <summary>
 /// Produces file attribute of "image/*".

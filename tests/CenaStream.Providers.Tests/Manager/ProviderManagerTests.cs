@@ -28,7 +28,7 @@ using Xunit;
 // Allow Moq to see internal class
 [assembly: InternalsVisibleTo("DynamicProxyGenAssembly2")]
 
-namespace Jellyfin.Providers.Tests.Manager
+namespace CenaStream.Providers.Tests.Manager
 {
     public class ProviderManagerTests
     {

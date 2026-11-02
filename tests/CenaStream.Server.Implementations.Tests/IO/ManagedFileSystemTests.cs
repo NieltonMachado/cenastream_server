@@ -4,11 +4,11 @@ using System.IO;
 using System.Runtime.InteropServices;
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Emby.Server.Implementations.IO;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
+using CenaStream.Server.Core.IO;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.IO;
+namespace CenaStream.Server.Implementations.Tests.IO;
 
 public partial class ManagedFileSystemTests
 {

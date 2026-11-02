@@ -1,14 +1,14 @@
 using System.Linq;
-using Emby.Naming.Common;
-using Emby.Server.Implementations.Library.Resolvers.Audio;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Naming.Common;
+using CenaStream.Server.Core.Library.Resolvers.Audio;
 using MediaBrowser.Controller.Entities.Audio;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Model.IO;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Library;
+namespace CenaStream.Server.Implementations.Tests.Library;
 
 public class AudioResolverTests
 {

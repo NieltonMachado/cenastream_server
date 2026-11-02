@@ -13,7 +13,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.XbmcMetadata.Tests.Parsers
+namespace CenaStream.XbmcMetadata.Tests.Parsers
 {
     public class MusicVideoNfoParserTests
     {

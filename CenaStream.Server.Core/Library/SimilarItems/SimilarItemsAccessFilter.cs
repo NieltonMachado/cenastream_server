@@ -1,9 +1,9 @@
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 
-namespace Emby.Server.Implementations.Library.SimilarItems;
+namespace CenaStream.Server.Core.Library.SimilarItems;
 
 /// <summary>
 /// Builds the access filter that decides which items a similar-items lookup may return for a user.

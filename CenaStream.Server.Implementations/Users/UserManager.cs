@@ -8,14 +8,14 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using AsyncKeyedLock;
-using Jellyfin.Data;
-using Jellyfin.Data.Enums;
-using Jellyfin.Data.Events;
-using Jellyfin.Data.Events.Users;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Data;
+using CenaStream.Data.Enums;
+using CenaStream.Data.Events;
+using CenaStream.Data.Events.Users;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Extensions;
 using MediaBrowser.Common;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Common.Net;
@@ -31,7 +31,7 @@ using MediaBrowser.Model.Users;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Implementations.Users
+namespace CenaStream.Server.Implementations.Users
 {
     /// <summary>
     /// Manages the creation and retrieval of <see cref="User"/> instances.
@@ -244,7 +244,7 @@ namespace Jellyfin.Server.Implementations.Users
                     }
                     else if (dbUser.ProfileImage is null)
                     {
-                        dbUser.ProfileImage = new Jellyfin.Database.Implementations.Entities.ImageInfo(user.ProfileImage.Path)
+                        dbUser.ProfileImage = new CenaStream.Database.Implementations.Entities.ImageInfo(user.ProfileImage.Path)
                         {
                             LastModified = user.ProfileImage.LastModified
                         };

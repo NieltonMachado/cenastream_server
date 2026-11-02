@@ -1,10 +1,10 @@
 using System;
 using System.Linq;
-using Jellyfin.Api.Attributes;
+using CenaStream.Api.Attributes;
 using Microsoft.OpenApi;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Jellyfin.Server.Filters
+namespace CenaStream.Server.Filters
 {
     /// <summary>
     /// Mark parameter as deprecated if it has the <see cref="ParameterObsoleteAttribute"/>.

@@ -3,7 +3,7 @@ using MediaBrowser.Controller.Entities;
 using MediaBrowser.Model.Querying;
 using Xunit;
 
-namespace Jellyfin.Controller.Tests.Entities;
+namespace CenaStream.Controller.Tests.Entities;
 
 public class InternalItemsQueryTests
 {

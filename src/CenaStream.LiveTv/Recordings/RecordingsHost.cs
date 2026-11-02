@@ -1,10 +1,10 @@
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.LiveTv.Timers;
+using CenaStream.LiveTv.Timers;
 using MediaBrowser.Controller.LiveTv;
 using Microsoft.Extensions.Hosting;
 
-namespace Jellyfin.LiveTv.Recordings;
+namespace CenaStream.LiveTv.Recordings;
 
 /// <summary>
 /// <see cref="IHostedService"/> responsible for Live TV recordings.

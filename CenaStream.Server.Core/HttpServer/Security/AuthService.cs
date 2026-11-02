@@ -1,12 +1,12 @@
 #pragma warning disable CS1591
 
 using System.Threading.Tasks;
-using Jellyfin.Data;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Data;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Controller.Net;
 using Microsoft.AspNetCore.Http;
 
-namespace Emby.Server.Implementations.HttpServer.Security
+namespace CenaStream.Server.Core.HttpServer.Security
 {
     public class AuthService : IAuthService
     {

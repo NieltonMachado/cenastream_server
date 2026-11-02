@@ -1,9 +1,9 @@
 using System;
 using System.Threading.Tasks;
-using Jellyfin.Api.Helpers;
-using Jellyfin.Data.Enums;
-using Jellyfin.Data.Queries;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Api.Helpers;
+using CenaStream.Data.Enums;
+using CenaStream.Data.Queries;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Common.Api;
 using MediaBrowser.Model.Activity;
 using MediaBrowser.Model.Querying;
@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Api.Controllers;
+namespace CenaStream.Api.Controllers;
 
 /// <summary>
 /// Activity log controller.

@@ -1,9 +1,9 @@
 using System;
 using System.Threading.Tasks;
-using Jellyfin.Server.Implementations.Users;
+using CenaStream.Server.Implementations.Users;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Users
+namespace CenaStream.Server.Implementations.Tests.Users
 {
     public class UserManagerLockHelperTests
     {

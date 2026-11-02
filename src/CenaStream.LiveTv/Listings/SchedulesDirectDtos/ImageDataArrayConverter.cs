@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Jellyfin.LiveTv.Listings.SchedulesDirectDtos;
+namespace CenaStream.LiveTv.Listings.SchedulesDirectDtos;
 
 /// <summary>
 /// Converter for the <c>data</c> field in SD image responses.

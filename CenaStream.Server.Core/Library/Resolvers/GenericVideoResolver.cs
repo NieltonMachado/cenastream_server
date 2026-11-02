@@ -1,12 +1,12 @@
 #nullable disable
 
-using Emby.Naming.Common;
+using CenaStream.Naming.Common;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Providers;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Library.Resolvers
+namespace CenaStream.Server.Core.Library.Resolvers
 {
     /// <summary>
     /// Resolves a Path into an instance of the <see cref="Video"/> class.

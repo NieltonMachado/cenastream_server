@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Jellyfin.Server.Implementations.Migrations
+namespace CenaStream.Server.Implementations.Migrations
 {
     /// <inheritdoc />
     public partial class FixedCollation : Migration

@@ -4,11 +4,11 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Jellyfin.Api.Auth;
-using Jellyfin.Api.Constants;
-using Jellyfin.Data;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Api.Auth;
+using CenaStream.Api.Constants;
+using CenaStream.Data;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Controller.Authentication;
 using MediaBrowser.Controller.Net;
 using Microsoft.AspNetCore.Authentication;
@@ -19,7 +19,7 @@ using Microsoft.Extensions.Options;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Api.Tests.Auth
+namespace CenaStream.Api.Tests.Auth
 {
     public class CustomAuthenticationHandlerTests
     {

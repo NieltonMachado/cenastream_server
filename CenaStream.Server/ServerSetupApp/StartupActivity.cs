@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace Jellyfin.Server.ServerSetupApp;
+namespace CenaStream.Server.ServerSetupApp;
 
 /// <summary>
 /// A curated vocabulary of generic, non-identifying descriptions of what the server is doing during startup.

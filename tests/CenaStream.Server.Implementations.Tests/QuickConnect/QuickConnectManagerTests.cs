@@ -3,7 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Emby.Server.Implementations.QuickConnect;
+using CenaStream.Server.Core.QuickConnect;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.Authentication;
 using MediaBrowser.Controller.Configuration;
@@ -12,7 +12,7 @@ using MediaBrowser.Model.Configuration;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.QuickConnect
+namespace CenaStream.Server.Implementations.Tests.QuickConnect
 {
     public class QuickConnectManagerTests
     {

@@ -1,6 +1,6 @@
 #nullable disable
 
-namespace Jellyfin.LiveTv.TunerHosts.HdHomerun
+namespace CenaStream.LiveTv.TunerHosts.HdHomerun
 {
     internal class Channels
     {

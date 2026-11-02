@@ -1,9 +1,9 @@
 #pragma warning disable CS1591
 
 using System;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Database.Implementations.Enums;
 
-namespace Jellyfin.Data
+namespace CenaStream.Data
 {
     public static class DayOfWeekHelper
     {

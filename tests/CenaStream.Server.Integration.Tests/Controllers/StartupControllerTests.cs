@@ -5,12 +5,12 @@ using System.Net.Http.Json;
 using System.Net.Mime;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Jellyfin.Api.Models.StartupDtos;
-using Jellyfin.Extensions.Json;
+using CenaStream.Api.Models.StartupDtos;
+using CenaStream.Extensions.Json;
 using Xunit;
 using Xunit.v3.Priority;
 
-namespace Jellyfin.Server.Integration.Tests.Controllers
+namespace CenaStream.Server.Integration.Tests.Controllers
 {
     [TestCaseOrderer(typeof(PriorityOrderer))]
     public sealed class StartupControllerTests : IClassFixture<JellyfinApplicationFactory>

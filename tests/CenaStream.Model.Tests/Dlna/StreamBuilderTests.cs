@@ -5,8 +5,8 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Jellyfin.Data.Enums;
-using Jellyfin.Extensions.Json;
+using CenaStream.Data.Enums;
+using CenaStream.Extensions.Json;
 using MediaBrowser.Model.Dlna;
 using MediaBrowser.Model.Dto;
 using MediaBrowser.Model.Entities;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Model.Tests
+namespace CenaStream.Model.Tests
 {
     public class StreamBuilderTests
     {

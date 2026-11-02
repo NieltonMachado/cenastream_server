@@ -1,5 +1,5 @@
 using System;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities;
 
 namespace MediaBrowser.Model.Dto;
 

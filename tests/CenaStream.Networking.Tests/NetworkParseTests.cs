@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using Jellyfin.Networking.Manager;
+using CenaStream.Networking.Manager;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Model.Net;
@@ -14,7 +14,7 @@ using Moq;
 using Xunit;
 using IConfigurationManager = MediaBrowser.Common.Configuration.IConfigurationManager;
 
-namespace Jellyfin.Networking.Tests
+namespace CenaStream.Networking.Tests
 {
     public class NetworkParseTests
     {

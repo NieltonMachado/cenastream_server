@@ -1,15 +1,15 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Controller.Dto;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.Audio;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Model.Configuration;
 
-namespace Emby.Server.Implementations.Library.SimilarItems;
+namespace CenaStream.Server.Core.Library.SimilarItems;
 
 /// <summary>
 /// Provides similar items for music albums.

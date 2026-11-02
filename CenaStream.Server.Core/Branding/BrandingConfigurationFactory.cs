@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Model.Branding;
 
-namespace Emby.Server.Implementations.Branding
+namespace CenaStream.Server.Core.Branding
 {
     /// <summary>
     /// A configuration factory for <see cref="BrandingOptions"/>.

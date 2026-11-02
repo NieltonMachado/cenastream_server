@@ -18,7 +18,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.SessionManager;
+namespace CenaStream.Server.Implementations.Tests.SessionManager;
 
 public class PlayCommandQueueTests : IDisposable
 {
@@ -49,8 +49,8 @@ public class PlayCommandQueueTests : IDisposable
             .Returns(new List<BaseItem> { artist, song });
         BaseItem.LibraryManager = libraryManager.Object;
 
-        await using var sessionManager = new Emby.Server.Implementations.Session.SessionManager(
-            NullLogger<Emby.Server.Implementations.Session.SessionManager>.Instance,
+        await using var sessionManager = new CenaStream.Server.Core.Session.SessionManager(
+            NullLogger<CenaStream.Server.Core.Session.SessionManager>.Instance,
             Mock.Of<IEventManager>(),
             Mock.Of<IUserDataManager>(),
             Mock.Of<IServerConfigurationManager>(),

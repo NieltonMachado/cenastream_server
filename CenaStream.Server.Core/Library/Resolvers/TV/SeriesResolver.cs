@@ -5,10 +5,10 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Emby.Naming.Common;
-using Emby.Naming.TV;
-using Emby.Naming.Video;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Naming.Common;
+using CenaStream.Naming.TV;
+using CenaStream.Naming.Video;
 using MediaBrowser.Controller.Entities.TV;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Resolvers;
@@ -16,7 +16,7 @@ using MediaBrowser.Model.Entities;
 using MediaBrowser.Model.IO;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Library.Resolvers.TV
+namespace CenaStream.Server.Core.Library.Resolvers.TV
 {
     /// <summary>
     /// Class SeriesResolver.

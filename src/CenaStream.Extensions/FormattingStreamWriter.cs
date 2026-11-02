@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace Jellyfin.Extensions;
+namespace CenaStream.Extensions;
 
 /// <summary>
 /// A custom StreamWriter which supports setting a IFormatProvider.

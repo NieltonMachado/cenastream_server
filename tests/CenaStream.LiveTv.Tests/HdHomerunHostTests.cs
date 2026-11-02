@@ -6,13 +6,13 @@ using System.Threading;
 using System.Threading.Tasks;
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Jellyfin.LiveTv.TunerHosts.HdHomerun;
+using CenaStream.LiveTv.TunerHosts.HdHomerun;
 using MediaBrowser.Model.LiveTv;
 using Moq;
 using Moq.Protected;
 using Xunit;
 
-namespace Jellyfin.LiveTv.Tests
+namespace CenaStream.LiveTv.Tests
 {
     public class HdHomerunHostTests
     {

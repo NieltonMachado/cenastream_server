@@ -2,10 +2,10 @@ using System;
 using System.Collections.Concurrent;
 using System.Globalization;
 using System.IO;
-using Emby.Server.Implementations;
-using Jellyfin.Server.Extensions;
-using Jellyfin.Server.Helpers;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Server.Core;
+using CenaStream.Server.Extensions;
+using CenaStream.Server.Helpers;
+using CenaStream.Server.ServerSetupApp;
 using MediaBrowser.Common;
 using MediaBrowser.Common.Configuration;
 using Microsoft.AspNetCore.Hosting;
@@ -20,7 +20,7 @@ using Serilog;
 using Serilog.Core;
 using Serilog.Extensions.Logging;
 
-namespace Jellyfin.Server.Integration.Tests
+namespace CenaStream.Server.Integration.Tests
 {
     /// <summary>
     /// Factory for bootstrapping the Jellyfin application in memory for functional end to end tests.

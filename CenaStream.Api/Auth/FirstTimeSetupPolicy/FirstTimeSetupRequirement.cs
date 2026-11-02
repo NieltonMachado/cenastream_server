@@ -1,6 +1,6 @@
-using Jellyfin.Api.Auth.DefaultAuthorizationPolicy;
+using CenaStream.Api.Auth.DefaultAuthorizationPolicy;
 
-namespace Jellyfin.Api.Auth.FirstTimeSetupPolicy
+namespace CenaStream.Api.Auth.FirstTimeSetupPolicy
 {
     /// <summary>
     /// The authorization requirement, requiring incomplete first time setup or default privileges, for the authorization handler.

@@ -1,18 +1,18 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Emby.Server.Implementations.Data;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Server.Implementations.Item;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Server.Core.Data;
+using CenaStream.Server.Implementations.Item;
 using MediaBrowser.Controller.Entities;
 using Xunit;
-using BaseItemKind = Jellyfin.Data.Enums.BaseItemKind;
-using ItemSortBy = Jellyfin.Data.Enums.ItemSortBy;
-using LinkedChildType = Jellyfin.Database.Implementations.Entities.LinkedChildType;
+using BaseItemKind = CenaStream.Data.Enums.BaseItemKind;
+using ItemSortBy = CenaStream.Data.Enums.ItemSortBy;
+using LinkedChildType = CenaStream.Database.Implementations.Entities.LinkedChildType;
 
-namespace Jellyfin.Server.Implementations.Tests.Item;
+namespace CenaStream.Server.Implementations.Tests.Item;
 
 /// <summary>
 /// Covers ordering by <see cref="ItemSortBy.IsPlayed"/> and <see cref="ItemSortBy.IsUnplayed"/>, which

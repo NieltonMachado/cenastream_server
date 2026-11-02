@@ -2,7 +2,7 @@ using System;
 using MediaBrowser.Common.Plugins;
 using MediaBrowser.Model.Plugins;
 
-namespace Jellyfin.Api.Models;
+namespace CenaStream.Api.Models;
 
 /// <summary>
 /// The configuration page info.

@@ -1,4 +1,4 @@
-namespace Jellyfin.Data.Enums
+namespace CenaStream.Data.Enums
 {
     /// <summary>
     /// The base item kind.

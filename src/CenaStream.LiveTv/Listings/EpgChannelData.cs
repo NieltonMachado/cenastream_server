@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using MediaBrowser.Controller.LiveTv;
 
-namespace Jellyfin.LiveTv.Listings
+namespace CenaStream.LiveTv.Listings
 {
     internal class EpgChannelData
     {

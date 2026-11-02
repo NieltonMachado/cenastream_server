@@ -9,9 +9,9 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Extensions;
 using MediaBrowser.Controller.Dto;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.Audio;
@@ -29,7 +29,7 @@ using PlaylistsNET.Models;
 using Genre = MediaBrowser.Controller.Entities.Genre;
 using MusicAlbum = MediaBrowser.Controller.Entities.Audio.MusicAlbum;
 
-namespace Emby.Server.Implementations.Playlists
+namespace CenaStream.Server.Core.Playlists
 {
     public class PlaylistManager : IPlaylistManager
     {

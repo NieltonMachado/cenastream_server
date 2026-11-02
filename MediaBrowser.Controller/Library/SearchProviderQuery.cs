@@ -1,5 +1,5 @@
 using System;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 
 namespace MediaBrowser.Controller.Library;
 

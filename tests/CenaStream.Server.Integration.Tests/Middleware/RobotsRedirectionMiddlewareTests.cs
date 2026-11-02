@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Xunit;
 
-namespace Jellyfin.Server.Integration.Tests.Middleware
+namespace CenaStream.Server.Integration.Tests.Middleware
 {
     public sealed class RobotsRedirectionMiddlewareTests : IClassFixture<JellyfinApplicationFactory>
     {

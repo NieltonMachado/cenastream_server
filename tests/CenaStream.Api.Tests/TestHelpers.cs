@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Net;
 using System.Security.Claims;
-using Jellyfin.Api.Constants;
-using Jellyfin.Data;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Server.Implementations.Users;
+using CenaStream.Api.Constants;
+using CenaStream.Data;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Server.Implementations.Users;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Model.Configuration;
 using Microsoft.AspNetCore.Http;
 using Moq;
-using AccessSchedule = Jellyfin.Database.Implementations.Entities.AccessSchedule;
+using AccessSchedule = CenaStream.Database.Implementations.Entities.AccessSchedule;
 
-namespace Jellyfin.Api.Tests
+namespace CenaStream.Api.Tests
 {
     public static class TestHelpers
     {

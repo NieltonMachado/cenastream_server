@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Database.Implementations;
+using CenaStream.Server.ServerSetupApp;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.Routines;
+namespace CenaStream.Server.Migrations.Routines;
 
 /// <summary>
 /// Fixes incorrect OwnerId relationships where video/movie items are children of other video/movie items.
@@ -309,8 +309,8 @@ public class FixIncorrectOwnerIdRelationships : IAsyncMigrationRoutine
         // Find all alternate version relationships where child's PrimaryVersionId is not set
         // ChildType 2 = LocalAlternateVersion, ChildType 3 = LinkedAlternateVersion
         var alternateVersionLinks = await context.LinkedChildren
-            .Where(lc => (lc.ChildType == Jellyfin.Database.Implementations.Entities.LinkedChildType.LocalAlternateVersion
-                       || lc.ChildType == Jellyfin.Database.Implementations.Entities.LinkedChildType.LinkedAlternateVersion))
+            .Where(lc => (lc.ChildType == CenaStream.Database.Implementations.Entities.LinkedChildType.LocalAlternateVersion
+                       || lc.ChildType == CenaStream.Database.Implementations.Entities.LinkedChildType.LinkedAlternateVersion))
             .Join(
                 context.BaseItems,
                 lc => lc.ChildId,

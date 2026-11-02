@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 using MediaBrowser.Controller.Entities.Audio;
 using LinkedChildType = MediaBrowser.Controller.Entities.LinkedChildType;
 

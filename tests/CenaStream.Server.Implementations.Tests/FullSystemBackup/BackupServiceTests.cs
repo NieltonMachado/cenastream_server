@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Locking;
-using Jellyfin.Database.Providers.Sqlite;
-using Jellyfin.Server.Implementations.FullSystemBackup;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Locking;
+using CenaStream.Database.Providers.Sqlite;
+using CenaStream.Server.Implementations.FullSystemBackup;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.SystemBackupService;
@@ -19,9 +19,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
-using BaseItemKind = Jellyfin.Data.Enums.BaseItemKind;
+using BaseItemKind = CenaStream.Data.Enums.BaseItemKind;
 
-namespace Jellyfin.Server.Implementations.Tests.FullSystemBackup;
+namespace CenaStream.Server.Implementations.Tests.FullSystemBackup;
 
 /// <summary>
 /// Tests for <see cref="BackupService"/>, in particular that a single row of corrupt

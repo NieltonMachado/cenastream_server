@@ -43,7 +43,7 @@ namespace MediaBrowser.Providers.Plugins.Tmdb
         // TODO remove when plugin removed from server.
 
         /// <inheritdoc/>
-        public override string ConfigurationFileName => "Jellyfin.Plugin.Tmdb.xml";
+        public override string ConfigurationFileName => "CenaStream.Plugin.Tmdb.xml";
 
         /// <inheritdoc/>
         public string ImageResourceName => GetType().Namespace + ".jellyfin-plugin-tmdb.svg";

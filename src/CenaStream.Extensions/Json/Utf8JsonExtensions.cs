@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace Jellyfin.Extensions.Json;
+namespace CenaStream.Extensions.Json;
 
 /// <summary>
 /// Extensions for Utf8JsonReader and Utf8JsonWriter.

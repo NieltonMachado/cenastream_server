@@ -3,10 +3,10 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Xml.Linq;
-using Emby.Server.Implementations;
+using CenaStream.Server.Core;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Migrations.PreStartupRoutines;
+namespace CenaStream.Server.Migrations.PreStartupRoutines;
 
 /// <inheritdoc />
 #pragma warning disable CS0618 // Type or member is obsolete

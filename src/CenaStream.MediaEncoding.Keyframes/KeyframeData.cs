@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Jellyfin.MediaEncoding.Keyframes;
+namespace CenaStream.MediaEncoding.Keyframes;
 
 /// <summary>
 /// Keyframe information for a specific file.

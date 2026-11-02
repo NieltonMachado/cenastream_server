@@ -6,9 +6,9 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Emby.Naming.Audio;
-using Emby.Naming.Common;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Naming.Audio;
+using CenaStream.Naming.Common;
 using MediaBrowser.Controller.Entities.Audio;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Providers;
@@ -16,7 +16,7 @@ using MediaBrowser.Controller.Resolvers;
 using MediaBrowser.Model.IO;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Library.Resolvers.Audio
+namespace CenaStream.Server.Core.Library.Resolvers.Audio
 {
     /// <summary>
     /// The music album resolver.

@@ -8,7 +8,7 @@ using MediaBrowser.Model.Globalization;
 using MediaBrowser.Model.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv.Channels
+namespace CenaStream.LiveTv.Channels
 {
     /// <summary>
     /// The "Refresh Channels" scheduled task.

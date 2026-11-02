@@ -1,14 +1,14 @@
 using System.Threading.Tasks;
-using Jellyfin.Api.Extensions;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Api.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Extensions;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.SyncPlay;
 using Microsoft.AspNetCore.Authorization;
 
-namespace Jellyfin.Api.Auth.SyncPlayAccessPolicy
+namespace CenaStream.Api.Auth.SyncPlayAccessPolicy
 {
     /// <summary>
     /// Default authorization handler.

@@ -5,7 +5,7 @@ using MediaBrowser.Providers.Plugins.Tmdb.TV;
 using TMDbLib.Objects.Search;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.Tmdb;
+namespace CenaStream.Providers.Tests.Tmdb;
 
 public class TmdbMissingEpisodeProviderTests
 {

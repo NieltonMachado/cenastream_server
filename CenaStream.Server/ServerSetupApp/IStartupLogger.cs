@@ -1,7 +1,7 @@
 using System;
 using ILogger = Microsoft.Extensions.Logging.ILogger;
 
-namespace Jellyfin.Server.ServerSetupApp;
+namespace CenaStream.Server.ServerSetupApp;
 
 /// <summary>
 /// Defines the Startup Logger. This logger acts an an aggregate logger that will push though all log messages to both the attached logger as well as the startup UI.

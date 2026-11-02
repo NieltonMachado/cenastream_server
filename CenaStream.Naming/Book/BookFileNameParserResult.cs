@@ -1,4 +1,4 @@
-namespace Emby.Naming.Book
+namespace CenaStream.Naming.Book
 {
     /// <summary>
     /// Data object used to pass metadata parsed from a book filename.

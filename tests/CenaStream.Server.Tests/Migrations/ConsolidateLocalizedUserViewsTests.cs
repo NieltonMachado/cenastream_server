@@ -4,13 +4,13 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Locking;
-using Jellyfin.Database.Providers.Sqlite;
-using Jellyfin.Server.Migrations.Routines;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Locking;
+using CenaStream.Database.Providers.Sqlite;
+using CenaStream.Server.Migrations.Routines;
+using CenaStream.Server.ServerSetupApp;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Configuration;
@@ -23,7 +23,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Tests.Migrations;
+namespace CenaStream.Server.Tests.Migrations;
 
 /// <summary>
 /// Covers the references a database carried up from 10.x can still hold against a view the migration
@@ -83,8 +83,8 @@ public sealed class ConsolidateLocalizedUserViewsTests : IDisposable
         {
             context.BaseItems.Add(StaleView());
             context.BaseItems.Add(new BaseItemEntity { Id = movieId, Type = "Movie" });
-            context.LinkedChildren.Add(new LinkedChildEntity { ParentId = _staleId, SortOrder = 0, ChildId = movieId, ChildType = Jellyfin.Database.Implementations.Entities.LinkedChildType.Manual });
-            context.LinkedChildren.Add(new LinkedChildEntity { ParentId = movieId, SortOrder = 0, ChildId = _staleId, ChildType = Jellyfin.Database.Implementations.Entities.LinkedChildType.Manual });
+            context.LinkedChildren.Add(new LinkedChildEntity { ParentId = _staleId, SortOrder = 0, ChildId = movieId, ChildType = CenaStream.Database.Implementations.Entities.LinkedChildType.Manual });
+            context.LinkedChildren.Add(new LinkedChildEntity { ParentId = movieId, SortOrder = 0, ChildId = _staleId, ChildType = CenaStream.Database.Implementations.Entities.LinkedChildType.Manual });
             await context.SaveChangesAsync(Ct);
         }
 

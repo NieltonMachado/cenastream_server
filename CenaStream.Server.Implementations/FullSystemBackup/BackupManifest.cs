@@ -1,6 +1,6 @@
 using System;
 
-namespace Jellyfin.Server.Implementations.FullSystemBackup;
+namespace CenaStream.Server.Implementations.FullSystemBackup;
 
 /// <summary>
 /// Manifest type for backups internal structure.

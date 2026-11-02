@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Jellyfin.Data;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Data;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Controller.Authentication;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Net;
@@ -11,7 +11,7 @@ using MediaBrowser.Model.Dto;
 using MediaBrowser.Model.Session;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Api.WebSocketListeners;
+namespace CenaStream.Api.WebSocketListeners;
 
 /// <summary>
 /// Class SessionInfoWebSocketListener.

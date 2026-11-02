@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Database.Implementations.Locking;
+namespace CenaStream.Database.Implementations.Locking;
 
 /// <summary>
 /// Default lock behavior. Defines no explicit application locking behavior.

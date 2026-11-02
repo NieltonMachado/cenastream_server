@@ -12,7 +12,7 @@ using MediaBrowser.Model.ApiClient;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Networking;
+namespace CenaStream.Networking;
 
 /// <summary>
 /// <see cref="BackgroundService"/> responsible for responding to auto-discovery messages.

@@ -2,16 +2,16 @@ using System.Globalization;
 using System.Security.Claims;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
-using Jellyfin.Api.Constants;
-using Jellyfin.Data;
-using Jellyfin.Database.Implementations.Enums;
+using CenaStream.Api.Constants;
+using CenaStream.Data;
+using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Controller.Authentication;
 using MediaBrowser.Controller.Net;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace Jellyfin.Api.Auth
+namespace CenaStream.Api.Auth
 {
     /// <summary>
     /// Custom authentication handler wrapping the legacy authentication.

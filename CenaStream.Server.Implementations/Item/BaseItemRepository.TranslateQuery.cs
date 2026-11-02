@@ -10,18 +10,18 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Linq.Expressions;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.MatchCriteria;
-using Jellyfin.Extensions;
-using Jellyfin.Server.Implementations.Extensions;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.MatchCriteria;
+using CenaStream.Extensions;
+using CenaStream.Server.Implementations.Extensions;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Model.Entities;
 using Microsoft.EntityFrameworkCore;
-using BaseItemEntity = Jellyfin.Database.Implementations.Entities.BaseItemEntity;
+using BaseItemEntity = CenaStream.Database.Implementations.Entities.BaseItemEntity;
 
-namespace Jellyfin.Server.Implementations.Item;
+namespace CenaStream.Server.Implementations.Item;
 
 public sealed partial class BaseItemRepository
 {

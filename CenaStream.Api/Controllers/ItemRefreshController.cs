@@ -1,9 +1,9 @@
 using System;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using Jellyfin.Api.Constants;
-using Jellyfin.Api.Extensions;
-using Jellyfin.Api.Helpers;
+using CenaStream.Api.Constants;
+using CenaStream.Api.Extensions;
+using CenaStream.Api.Helpers;
 using MediaBrowser.Common.Api;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Jellyfin.Api.Controllers;
+namespace CenaStream.Api.Controllers;
 
 /// <summary>
 /// Item Refresh Controller.

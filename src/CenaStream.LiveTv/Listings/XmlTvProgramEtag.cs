@@ -8,7 +8,7 @@ using System.Security.Cryptography;
 using System.Text;
 using MediaBrowser.Controller.LiveTv;
 
-namespace Jellyfin.LiveTv.Listings
+namespace CenaStream.LiveTv.Listings
 {
     internal static class XmlTvProgramEtag
     {

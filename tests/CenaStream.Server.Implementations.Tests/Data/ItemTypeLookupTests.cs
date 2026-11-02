@@ -1,11 +1,11 @@
 using System;
 using System.Linq;
-using Emby.Server.Implementations.Data;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
+using CenaStream.Server.Core.Data;
 using MediaBrowser.Controller.Entities;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Data;
+namespace CenaStream.Server.Implementations.Tests.Data;
 
 public class ItemTypeLookupTests
 {

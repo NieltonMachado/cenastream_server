@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Jellyfin.Server.Implementations.StorageHelpers;
+using CenaStream.Server.Implementations.StorageHelpers;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Updates;
 using MediaBrowser.Controller;
@@ -11,7 +11,7 @@ using MediaBrowser.Model.System;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Hosting;
 
-namespace Emby.Server.Implementations;
+namespace CenaStream.Server.Core;
 
 /// <inheritdoc />
 public class SystemManager : ISystemManager

@@ -1,10 +1,10 @@
 using System;
-using Jellyfin.MediaEncoding.Hls.Cache;
-using Jellyfin.MediaEncoding.Hls.Extractors;
-using Jellyfin.MediaEncoding.Hls.Playlist;
+using CenaStream.MediaEncoding.Hls.Cache;
+using CenaStream.MediaEncoding.Hls.Extractors;
+using CenaStream.MediaEncoding.Hls.Playlist;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Jellyfin.MediaEncoding.Hls.Extensions;
+namespace CenaStream.MediaEncoding.Hls.Extensions;
 
 /// <summary>
 /// Extensions for the <see cref="IServiceCollection"/> interface.

@@ -1,4 +1,4 @@
-namespace Jellyfin.Api.Models.UserViewDtos;
+namespace CenaStream.Api.Models.UserViewDtos;
 
 /// <summary>
 /// Special view option dto.

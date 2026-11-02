@@ -11,8 +11,8 @@ using System.Text;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Extensions;
-using Jellyfin.Extensions.Json;
+using CenaStream.Extensions;
+using CenaStream.Extensions.Json;
 using MediaBrowser.Common;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller;
@@ -23,7 +23,7 @@ using MediaBrowser.Model.Dto;
 using MediaBrowser.Model.IO;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv.IO
+namespace CenaStream.LiveTv.IO
 {
     public class EncodedRecorder : IRecorder
     {

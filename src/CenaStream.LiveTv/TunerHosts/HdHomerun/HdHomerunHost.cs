@@ -12,9 +12,9 @@ using System.Net.Http.Json;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Extensions;
-using Jellyfin.Extensions.Json;
-using Jellyfin.Extensions.Json.Converters;
+using CenaStream.Extensions;
+using CenaStream.Extensions.Json;
+using CenaStream.Extensions.Json.Converters;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller;
@@ -29,7 +29,7 @@ using MediaBrowser.Model.MediaInfo;
 using MediaBrowser.Model.Net;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv.TunerHosts.HdHomerun
+namespace CenaStream.LiveTv.TunerHosts.HdHomerun
 {
     public class HdHomerunHost : BaseTunerHost, ITunerHost, IConfigurableTunerHost
     {

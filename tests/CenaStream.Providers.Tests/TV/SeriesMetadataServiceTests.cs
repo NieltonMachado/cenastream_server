@@ -7,7 +7,7 @@ using MediaBrowser.Providers.TV;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.TV;
+namespace CenaStream.Providers.Tests.TV;
 
 /// <summary>
 /// Covers reconciling missing episodes against the episodes the user has, which cannot be done on episode

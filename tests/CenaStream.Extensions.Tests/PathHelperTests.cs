@@ -1,8 +1,8 @@
 using System.IO;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
 using Xunit;
 
-namespace Jellyfin.Extensions.Tests
+namespace CenaStream.Extensions.Tests
 {
     public static class PathHelperTests
     {

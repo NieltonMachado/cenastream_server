@@ -1,16 +1,16 @@
 using System.Threading.Tasks;
-using Jellyfin.Api.Constants;
-using Jellyfin.Api.Extensions;
-using Jellyfin.Data;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Api.Constants;
+using CenaStream.Api.Extensions;
+using CenaStream.Data;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Extensions;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller.Library;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 
-namespace Jellyfin.Api.Auth.DefaultAuthorizationPolicy
+namespace CenaStream.Api.Auth.DefaultAuthorizationPolicy
 {
     /// <summary>
     /// Default authorization handler.

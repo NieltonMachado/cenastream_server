@@ -9,22 +9,22 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Emby.Server.Implementations.Data;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Extensions;
-using Jellyfin.Server.Implementations.Item;
-using Jellyfin.Server.ServerSetupApp;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Extensions;
+using CenaStream.Server.Core.Data;
+using CenaStream.Server.Implementations.Item;
+using CenaStream.Server.ServerSetupApp;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Model.Entities;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using BaseItemEntity = Jellyfin.Database.Implementations.Entities.BaseItemEntity;
-using Chapter = Jellyfin.Database.Implementations.Entities.Chapter;
+using BaseItemEntity = CenaStream.Database.Implementations.Entities.BaseItemEntity;
+using Chapter = CenaStream.Database.Implementations.Entities.Chapter;
 
-namespace Jellyfin.Server.Migrations.Routines;
+namespace CenaStream.Server.Migrations.Routines;
 
 /// <summary>
 /// The migration routine for migrating the userdata database to EF Core.

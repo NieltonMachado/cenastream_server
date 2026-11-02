@@ -4,9 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
-using Jellyfin.Data.Queries;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Extensions;
+using CenaStream.Data.Queries;
+using CenaStream.Database.Implementations;
+using CenaStream.Extensions;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Devices;
@@ -16,7 +16,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Net.Http.Headers;
 
-namespace Jellyfin.Server.Implementations.Security
+namespace CenaStream.Server.Implementations.Security
 {
     public class AuthorizationContext : IAuthorizationContext
     {

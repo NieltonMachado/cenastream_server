@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Jellyfin.Api.Models.LibraryDtos;
+namespace CenaStream.Api.Models.LibraryDtos;
 
 /// <summary>
 /// Media Update Info Dto.

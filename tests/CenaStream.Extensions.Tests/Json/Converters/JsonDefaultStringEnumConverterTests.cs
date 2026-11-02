@@ -1,9 +1,9 @@
 using System.Text.Json;
-using Jellyfin.Data.Enums;
-using Jellyfin.Extensions.Json.Converters;
+using CenaStream.Data.Enums;
+using CenaStream.Extensions.Json.Converters;
 using Xunit;
 
-namespace Jellyfin.Extensions.Tests.Json.Converters;
+namespace CenaStream.Extensions.Tests.Json.Converters;
 
 public class JsonDefaultStringEnumConverterTests
 {

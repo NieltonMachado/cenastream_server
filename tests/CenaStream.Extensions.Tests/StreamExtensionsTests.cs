@@ -4,7 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Jellyfin.Extensions.Tests;
+namespace CenaStream.Extensions.Tests;
 
 public class StreamExtensionsTests
 {

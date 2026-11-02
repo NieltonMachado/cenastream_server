@@ -1,12 +1,12 @@
 using System;
 using System.IO;
-using Emby.Server.Implementations.Data;
-using Jellyfin.Data;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Extensions.Json;
-using Jellyfin.Server.Implementations.Users;
+using CenaStream.Data;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Extensions.Json;
+using CenaStream.Server.Core.Data;
+using CenaStream.Server.Implementations.Users;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Model.Configuration;
@@ -17,7 +17,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using JsonSerializer = System.Text.Json.JsonSerializer;
 
-namespace Jellyfin.Server.Migrations.Routines;
+namespace CenaStream.Server.Migrations.Routines;
 
 /// <summary>
 /// The migration routine for migrating the user database to EF Core.
@@ -106,8 +106,8 @@ public class MigrateUserDb : IMigrationRoutine
                     ? (UserPolicy?)_xmlSerializer.DeserializeFromFile(typeof(UserPolicy), policyPath) ?? new UserPolicy()
                     : new UserPolicy();
                 policy.AuthenticationProviderId = policy.AuthenticationProviderId?.Replace(
-                    "Emby.Server.Implementations.Library",
-                    "Jellyfin.Server.Implementations.Users",
+                    "CenaStream.Server.Core.Library",
+                    "CenaStream.Server.Implementations.Users",
                     StringComparison.Ordinal)
                     ?? typeof(DefaultAuthenticationProvider).FullName;
 

@@ -12,7 +12,7 @@ using Microsoft.Extensions.Logging;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.MediaEncoding.Tests.Encoder;
+namespace CenaStream.MediaEncoding.Tests.Encoder;
 
 public class ProcessWrapperTests
 {

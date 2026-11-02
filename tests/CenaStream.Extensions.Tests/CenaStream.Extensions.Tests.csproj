@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="../../MediaBrowser.Model/MediaBrowser.Model.csproj" />
-    <ProjectReference Include="../../src/Jellyfin.Extensions/Jellyfin.Extensions.csproj" />
+    <ProjectReference Include="../../src/CenaStream.Extensions/CenaStream.Extensions.csproj" />
   </ItemGroup>
 
 </Project>

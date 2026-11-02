@@ -2,7 +2,7 @@ using MediaBrowser.Controller.Drawing;
 using MediaBrowser.Model.Drawing;
 using Xunit;
 
-namespace Jellyfin.Controller.Tests.Drawing;
+namespace CenaStream.Controller.Tests.Drawing;
 
 public static class ImageHelperTests
 {

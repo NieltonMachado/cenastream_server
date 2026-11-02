@@ -1,5 +1,5 @@
 using System;
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.IO;
 using MediaBrowser.Controller.MediaEncoding;
@@ -12,7 +12,7 @@ using Xunit;
 
 using IConfiguration = Microsoft.Extensions.Configuration.IConfiguration;
 
-namespace Jellyfin.Controller.Tests.MediaEncoding;
+namespace CenaStream.Controller.Tests.MediaEncoding;
 
 public class EncodingHelperDoviTests
 {

@@ -12,11 +12,11 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data;
-using Jellyfin.Data.Enums;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Extensions;
+using CenaStream.Data;
+using CenaStream.Data.Enums;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Extensions;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.Channels;
 using MediaBrowser.Controller.Chapters;
@@ -1410,7 +1410,7 @@ namespace MediaBrowser.Controller.Entities
         /// "- Greyscale" / "- Colorized"). It prefers a structural delimiter ('-', '_', '.') so a
         /// token shared by the descriptors but separated only by spaces (e.g. a common "2160p ") is
         /// kept in the label, falling back to a space only when no structural delimiter is shared. The
-        /// separators mirror the version delimiters recognised by the naming layer (Emby.Naming
+        /// separators mirror the version delimiters recognised by the naming layer (CenaStream.Naming
         /// VideoFlagDelimiters), except that a dot between digits is a decimal point rather than a
         /// delimiter, so numeric version labels stay whole.
         /// </summary>

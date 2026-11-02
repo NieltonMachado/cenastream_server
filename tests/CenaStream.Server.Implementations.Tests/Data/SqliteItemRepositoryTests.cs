@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Emby.Server.Implementations.Data;
-using Jellyfin.Server.Implementations.Item;
+using CenaStream.Server.Core.Data;
+using CenaStream.Server.Implementations.Item;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Persistence;
@@ -12,7 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Data
+namespace CenaStream.Server.Implementations.Tests.Data
 {
     public class SqliteItemRepositoryTests
     {

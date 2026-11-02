@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Xunit;
 
-namespace Jellyfin.Extensions.Tests
+namespace CenaStream.Extensions.Tests
 {
     public static class CopyToExtensionsTests
     {

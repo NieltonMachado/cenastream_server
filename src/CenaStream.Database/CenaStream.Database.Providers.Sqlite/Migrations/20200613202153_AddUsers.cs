@@ -4,7 +4,7 @@
 using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Jellyfin.Server.Implementations.Migrations
+namespace CenaStream.Server.Implementations.Migrations
 {
     public partial class AddUsers : Migration
     {

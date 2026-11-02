@@ -1,9 +1,9 @@
 using System;
 using System.IO;
-using Emby.Naming.Common;
-using Jellyfin.Extensions;
+using CenaStream.Extensions;
+using CenaStream.Naming.Common;
 
-namespace Emby.Naming.AudioBook
+namespace CenaStream.Naming.AudioBook
 {
     /// <summary>
     /// Resolve specifics (path, container, partNumber, chapterNumber) about audiobook file.

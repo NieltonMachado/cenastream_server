@@ -1,6 +1,6 @@
 using System;
 
-namespace Jellyfin.Server.Migrations;
+namespace CenaStream.Server.Migrations;
 
 /// <summary>
 /// Marks an <see cref="JellyfinMigrationAttribute"/> migration and instructs the <see cref="JellyfinMigrationService"/> to perform a backup.

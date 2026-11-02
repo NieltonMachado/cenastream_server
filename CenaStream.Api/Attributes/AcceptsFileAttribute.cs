@@ -2,7 +2,7 @@
 
 using System;
 
-namespace Jellyfin.Api.Attributes;
+namespace CenaStream.Api.Attributes;
 
 /// <summary>
 /// Internal produces image attribute.

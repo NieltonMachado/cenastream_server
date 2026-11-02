@@ -1,7 +1,7 @@
 #pragma warning disable SA1300 // Lowercase required for backwards compat.
 using System.ComponentModel;
 
-namespace Jellyfin.Data.Enums;
+namespace CenaStream.Data.Enums;
 
 /// <summary>
 /// Media streaming protocol.

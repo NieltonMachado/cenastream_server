@@ -12,7 +12,7 @@
     <ServerGarbageCollection>false</ServerGarbageCollection>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <ApplicationIcon>Jellyfin.Server.ico</ApplicationIcon>
+    <ApplicationIcon>CenaStream.Server.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Jellyfin.Server.ico" />
+    <Content Include="CenaStream.Server.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -59,13 +59,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Jellyfin.Drawing\Jellyfin.Drawing.csproj" />
-    <ProjectReference Include="..\Emby.Server.Implementations\Emby.Server.Implementations.csproj" />
-    <ProjectReference Include="..\src\Jellyfin.Drawing.Skia\Jellyfin.Drawing.Skia.csproj" />
-    <ProjectReference Include="..\src\Jellyfin.LiveTv\Jellyfin.LiveTv.csproj" />
-    <ProjectReference Include="..\Jellyfin.Server.Implementations\Jellyfin.Server.Implementations.csproj" />
-    <ProjectReference Include="..\src\Jellyfin.MediaEncoding.Hls\Jellyfin.MediaEncoding.Hls.csproj" />
-    <ProjectReference Include="..\src\Jellyfin.Database\Jellyfin.Database.Implementations\Jellyfin.Database.Implementations.csproj" />
+    <ProjectReference Include="..\src\CenaStream.Drawing\CenaStream.Drawing.csproj" />
+    <ProjectReference Include="..\CenaStream.Server.Core\CenaStream.Server.Core.csproj" />
+    <ProjectReference Include="..\src\CenaStream.Drawing.Skia\CenaStream.Drawing.Skia.csproj" />
+    <ProjectReference Include="..\src\CenaStream.LiveTv\CenaStream.LiveTv.csproj" />
+    <ProjectReference Include="..\CenaStream.Server.Implementations\CenaStream.Server.Implementations.csproj" />
+    <ProjectReference Include="..\src\CenaStream.MediaEncoding.Hls\CenaStream.MediaEncoding.Hls.csproj" />
+    <ProjectReference Include="..\src\CenaStream.Database\CenaStream.Database.Implementations\CenaStream.Database.Implementations.csproj" />
   </ItemGroup>
 
   <ItemGroup>

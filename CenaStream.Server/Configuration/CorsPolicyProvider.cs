@@ -4,7 +4,7 @@ using MediaBrowser.Controller.Configuration;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Http;
 
-namespace Jellyfin.Server.Configuration
+namespace CenaStream.Server.Configuration
 {
     /// <summary>
     /// Cors policy provider.

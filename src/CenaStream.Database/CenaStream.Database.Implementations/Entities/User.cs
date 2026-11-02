@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Database.Implementations.Interfaces;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Database.Implementations.Interfaces;
 
-namespace Jellyfin.Database.Implementations.Entities
+namespace CenaStream.Database.Implementations.Entities
 {
     /// <summary>
     /// An entity representing a user.

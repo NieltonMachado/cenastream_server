@@ -1,4 +1,4 @@
-namespace Jellyfin.Database.Implementations;
+namespace CenaStream.Database.Implementations;
 
 /// <summary>
 /// Defines the key of the database provider.

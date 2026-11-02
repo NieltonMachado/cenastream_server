@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
-using Emby.Naming.Common;
+using CenaStream.Naming.Common;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Entities;
@@ -22,7 +22,7 @@ using Microsoft.Extensions.Logging;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.MediaInfo;
+namespace CenaStream.Providers.Tests.MediaInfo;
 
 public class MediaInfoResolverTests
 {

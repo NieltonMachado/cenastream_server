@@ -9,9 +9,9 @@ using System.Runtime.Loader;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Emby.Server.Implementations.Library;
-using Jellyfin.Extensions.Json;
-using Jellyfin.Extensions.Json.Converters;
+using CenaStream.Extensions.Json;
+using CenaStream.Extensions.Json.Converters;
+using CenaStream.Server.Core.Library;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Common.Plugins;
@@ -24,7 +24,7 @@ using MediaBrowser.Model.Updates;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace Emby.Server.Implementations.Plugins
+namespace CenaStream.Server.Core.Plugins
 {
     /// <summary>
     /// Defines the <see cref="PluginManager" />.

@@ -7,10 +7,10 @@ using System.Net.Http.Json;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Api.Models.LibraryStructureDto;
-using Jellyfin.Data;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.Extensions.Json;
+using CenaStream.Api.Models.LibraryStructureDto;
+using CenaStream.Data;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.Extensions.Json;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
@@ -21,7 +21,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 using Xunit.v3.Priority;
 
-namespace Jellyfin.Server.Integration.Tests.Controllers;
+namespace CenaStream.Server.Integration.Tests.Controllers;
 
 [TestCaseOrderer(typeof(PriorityOrderer))]
 public sealed class LibraryStructureControllerTests : IClassFixture<JellyfinApplicationFactory>

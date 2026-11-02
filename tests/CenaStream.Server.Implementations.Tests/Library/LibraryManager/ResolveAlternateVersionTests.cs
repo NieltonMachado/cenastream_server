@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Emby.Naming.Common;
+using CenaStream.Naming.Common;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.Movies;
@@ -18,14 +18,14 @@ using MediaBrowser.Model.IO;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Library.LibraryManager;
+namespace CenaStream.Server.Implementations.Tests.Library.LibraryManager;
 
 public sealed class ResolveAlternateVersionTests : IDisposable
 {
     private const string PrimaryPath = "/movies/Up/Up.mkv";
     private const string AlternatePath = "/movies/Up/Up - 1080p.mkv";
 
-    private readonly Emby.Server.Implementations.Library.LibraryManager _libraryManager;
+    private readonly CenaStream.Server.Core.Library.LibraryManager _libraryManager;
     private readonly Mock<IItemPersistenceService> _persistenceServiceMock;
     private readonly Folder _staleParent;
     private readonly ILibraryManager? _previousLibraryManager;
@@ -44,7 +44,7 @@ public sealed class ResolveAlternateVersionTests : IDisposable
             .Setup(f => f.GetFileInfo(It.IsAny<string>()))
             .Returns<string>(path => new FileSystemMetadata { FullName = path });
 
-        _libraryManager = fixture.Build<Emby.Server.Implementations.Library.LibraryManager>()
+        _libraryManager = fixture.Build<CenaStream.Server.Core.Library.LibraryManager>()
             .Do(s => s.AddParts(
                 fixture.Create<IEnumerable<IResolverIgnoreRule>>(),
                 [],

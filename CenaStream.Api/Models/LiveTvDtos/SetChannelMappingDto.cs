@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Jellyfin.Api.Models.LiveTvDtos;
+namespace CenaStream.Api.Models.LiveTvDtos;
 
 /// <summary>
 /// Set channel mapping dto.

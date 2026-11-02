@@ -6,7 +6,7 @@ using MediaBrowser.Model.Entities;
 using MediaBrowser.XbmcMetadata.Savers;
 using Xunit;
 
-namespace Jellyfin.XbmcMetadata.Tests.Location
+namespace CenaStream.XbmcMetadata.Tests.Location
 {
     public class MovieNfoLocationTests
     {

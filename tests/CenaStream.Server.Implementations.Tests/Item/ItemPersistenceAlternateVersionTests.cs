@@ -2,7 +2,7 @@ using System;
 using System.Globalization;
 using System.Linq;
 using System.Threading;
-using Jellyfin.Server.Implementations.Item;
+using CenaStream.Server.Implementations.Item;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Entities;
@@ -13,9 +13,9 @@ using MediaBrowser.Model.Configuration;
 using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
-using DbLinkedChildType = Jellyfin.Database.Implementations.Entities.LinkedChildType;
+using DbLinkedChildType = CenaStream.Database.Implementations.Entities.LinkedChildType;
 
-namespace Jellyfin.Server.Implementations.Tests.Item;
+namespace CenaStream.Server.Implementations.Tests.Item;
 
 /// <summary>
 /// Covers the invariant that a video linked as an alternate version also carries the

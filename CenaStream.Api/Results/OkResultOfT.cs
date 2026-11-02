@@ -2,7 +2,7 @@
 
 using Microsoft.AspNetCore.Mvc;
 
-namespace Jellyfin.Api.Results;
+namespace CenaStream.Api.Results;
 
 /// <summary>
 /// Ok result with type specified.

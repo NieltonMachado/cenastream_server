@@ -6,11 +6,11 @@ using System.Text;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Emby.Server.Implementations.HttpServer;
+using CenaStream.Server.Core.HttpServer;
 using Microsoft.Extensions.Logging.Abstractions;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.HttpServer
+namespace CenaStream.Server.Implementations.Tests.HttpServer
 {
     public class WebSocketConnectionTests
     {

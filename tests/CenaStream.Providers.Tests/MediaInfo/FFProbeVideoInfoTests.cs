@@ -10,7 +10,7 @@ using MediaBrowser.Providers.MediaInfo;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Providers.Tests.MediaInfo;
+namespace CenaStream.Providers.Tests.MediaInfo;
 
 public class FFProbeVideoInfoTests
 {

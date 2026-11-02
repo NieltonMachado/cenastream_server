@@ -1,6 +1,6 @@
 using MediaBrowser.Model.Configuration;
 
-namespace Jellyfin.Api.Models.LibraryStructureDto;
+namespace CenaStream.Api.Models.LibraryStructureDto;
 
 /// <summary>
 /// Add virtual folder dto.

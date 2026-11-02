@@ -1,4 +1,4 @@
-namespace Emby.Naming.Common
+namespace CenaStream.Naming.Common
 {
     /// <summary>
     /// Type of audiovisual media.

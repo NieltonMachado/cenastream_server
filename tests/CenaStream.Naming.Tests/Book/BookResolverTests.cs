@@ -1,7 +1,7 @@
-using Emby.Naming.Book;
+using CenaStream.Naming.Book;
 using Xunit;
 
-namespace Jellyfin.Naming.Tests.Book;
+namespace CenaStream.Naming.Tests.Book;
 
 public class BookResolverTests
 {

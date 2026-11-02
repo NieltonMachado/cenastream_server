@@ -1,10 +1,10 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations;
+using CenaStream.Database.Implementations;
 using MediaBrowser.Controller.Library;
 
-namespace Emby.Server.Implementations.Data;
+namespace CenaStream.Server.Core.Data;
 
 /// <summary>
 /// Refreshes the database statistics after every library scan.

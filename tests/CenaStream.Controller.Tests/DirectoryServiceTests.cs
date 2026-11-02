@@ -6,7 +6,7 @@ using MediaBrowser.Model.IO;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Controller.Tests
+namespace CenaStream.Controller.Tests
 {
     public class DirectoryServiceTests
     {

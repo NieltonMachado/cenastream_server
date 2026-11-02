@@ -1,9 +1,9 @@
-using Jellyfin.Database.Providers.Sqlite.Migrations;
-using Jellyfin.Server.Implementations.Migrations;
+using CenaStream.Database.Providers.Sqlite.Migrations;
+using CenaStream.Server.Implementations.Migrations;
 using Microsoft.EntityFrameworkCore;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.EfMigrations;
+namespace CenaStream.Server.Implementations.Tests.EfMigrations;
 
 public class EfMigrationTests
 {

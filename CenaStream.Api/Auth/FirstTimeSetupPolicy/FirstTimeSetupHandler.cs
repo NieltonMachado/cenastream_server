@@ -1,10 +1,10 @@
 using System.Threading.Tasks;
-using Jellyfin.Api.Constants;
-using Jellyfin.Api.Extensions;
+using CenaStream.Api.Constants;
+using CenaStream.Api.Extensions;
 using MediaBrowser.Common.Configuration;
 using Microsoft.AspNetCore.Authorization;
 
-namespace Jellyfin.Api.Auth.FirstTimeSetupPolicy
+namespace CenaStream.Api.Auth.FirstTimeSetupPolicy
 {
     /// <summary>
     /// Authorization handler for requiring first time setup or default privileges.

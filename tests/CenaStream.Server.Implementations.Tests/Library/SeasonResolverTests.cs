@@ -1,5 +1,5 @@
-using Emby.Naming.Common;
-using Emby.Server.Implementations.Library.Resolvers.TV;
+using CenaStream.Naming.Common;
+using CenaStream.Server.Core.Library.Resolvers.TV;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Entities.TV;
 using MediaBrowser.Model.Configuration;
@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 using Moq;
 using Xunit;
 
-namespace Jellyfin.Server.Implementations.Tests.Library
+namespace CenaStream.Server.Implementations.Tests.Library
 {
     public class SeasonResolverTests
     {

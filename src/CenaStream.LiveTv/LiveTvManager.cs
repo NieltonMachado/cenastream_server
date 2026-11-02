@@ -8,12 +8,12 @@ using System.Globalization;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Data;
-using Jellyfin.Data.Enums;
-using Jellyfin.Data.Events;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Database.Implementations.Enums;
-using Jellyfin.LiveTv.Configuration;
+using CenaStream.Data;
+using CenaStream.Data.Enums;
+using CenaStream.Data.Events;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Enums;
+using CenaStream.LiveTv.Configuration;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.Channels;
 using MediaBrowser.Controller.Configuration;
@@ -29,7 +29,7 @@ using MediaBrowser.Model.LiveTv;
 using MediaBrowser.Model.Querying;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.LiveTv
+namespace CenaStream.LiveTv
 {
     /// <summary>
     /// Class LiveTvManager.

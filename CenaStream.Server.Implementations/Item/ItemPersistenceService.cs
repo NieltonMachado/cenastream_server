@@ -6,9 +6,9 @@ using System.Globalization;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Database.Implementations.Entities;
-using Jellyfin.Extensions;
+using CenaStream.Database.Implementations;
+using CenaStream.Database.Implementations.Entities;
+using CenaStream.Extensions;
 using MediaBrowser.Controller;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.Audio;
@@ -17,10 +17,10 @@ using MediaBrowser.Controller.Playlists;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using BaseItemDto = MediaBrowser.Controller.Entities.BaseItem;
-using DbLinkedChildType = Jellyfin.Database.Implementations.Entities.LinkedChildType;
+using DbLinkedChildType = CenaStream.Database.Implementations.Entities.LinkedChildType;
 using LinkedChildType = MediaBrowser.Controller.Entities.LinkedChildType;
 
-namespace Jellyfin.Server.Implementations.Item;
+namespace CenaStream.Server.Implementations.Item;
 
 /// <summary>
 /// Handles item persistence operations (save, delete, update).

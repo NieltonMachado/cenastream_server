@@ -5,10 +5,10 @@ using System.Net;
 using System.Net.Http.Json;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Emby.Server.Implementations.Serialization;
-using Jellyfin.Api.Models.StartupDtos;
-using Jellyfin.Database.Implementations;
-using Jellyfin.Extensions.Json;
+using CenaStream.Api.Models.StartupDtos;
+using CenaStream.Database.Implementations;
+using CenaStream.Extensions.Json;
+using CenaStream.Server.Core.Serialization;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Model.Configuration;
 using Microsoft.Data.Sqlite;
@@ -18,7 +18,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 
-namespace Jellyfin.Server.Integration.Tests;
+namespace CenaStream.Server.Integration.Tests;
 
 /// <summary>
 /// Covers starting a server that has been set up before after its database has been deleted.

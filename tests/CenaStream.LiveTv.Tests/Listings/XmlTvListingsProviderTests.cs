@@ -6,14 +6,14 @@ using System.Threading;
 using System.Threading.Tasks;
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Jellyfin.LiveTv.Listings;
+using CenaStream.LiveTv.Listings;
 using MediaBrowser.Controller.LiveTv;
 using MediaBrowser.Model.LiveTv;
 using Moq;
 using Moq.Protected;
 using Xunit;
 
-namespace Jellyfin.LiveTv.Tests.Listings;
+namespace CenaStream.LiveTv.Tests.Listings;
 
 public class XmlTvListingsProviderTests
 {

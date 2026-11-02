@@ -5,7 +5,7 @@ using MediaBrowser.Common.Configuration;
 using MediaBrowser.Model.System;
 using Microsoft.Extensions.Logging;
 
-namespace Jellyfin.Server.Implementations.StorageHelpers;
+namespace CenaStream.Server.Implementations.StorageHelpers;
 
 /// <summary>
 /// Contains methods to help with checking for storage and returning storage data for jellyfin folders.

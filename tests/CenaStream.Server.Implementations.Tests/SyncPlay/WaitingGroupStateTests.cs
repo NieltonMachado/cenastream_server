@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Jellyfin.Database.Implementations.Entities;
+using CenaStream.Database.Implementations.Entities;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Session;
@@ -14,9 +14,9 @@ using MediaBrowser.Model.SyncPlay;
 using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Xunit;
-using SyncPlayGroup = Emby.Server.Implementations.SyncPlay.Group;
+using SyncPlayGroup = CenaStream.Server.Core.SyncPlay.Group;
 
-namespace Jellyfin.Server.Implementations.Tests.SyncPlay;
+namespace CenaStream.Server.Implementations.Tests.SyncPlay;
 
 public class WaitingGroupStateTests
 {

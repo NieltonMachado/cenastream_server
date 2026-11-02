@@ -1,4 +1,4 @@
-using Jellyfin.Data.Enums;
+using CenaStream.Data.Enums;
 
 #nullable disable
 namespace MediaBrowser.Model.Session
