@@ -1,6 +1,5 @@
 using System.Threading.Tasks;
 using CenaStream.Api.Constants;
-using CenaStream.Api.Extensions;
 using MediaBrowser.Common.Configuration;
 using Microsoft.AspNetCore.Authorization;
 

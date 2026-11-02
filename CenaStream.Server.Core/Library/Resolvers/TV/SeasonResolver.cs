@@ -6,7 +6,6 @@ using System.IO;
 using System.Linq;
 using CenaStream.Naming.Common;
 using CenaStream.Naming.TV;
-using CenaStream.Server.Core.Library;
 using MediaBrowser.Controller.Entities.TV;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Model.Entities;

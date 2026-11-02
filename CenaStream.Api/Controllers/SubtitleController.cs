@@ -12,7 +12,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using CenaStream.Api.Attributes;
 using CenaStream.Api.Extensions;
-using CenaStream.Api.Helpers;
 using CenaStream.Api.Models.SubtitleDtos;
 using MediaBrowser.Common.Api;
 using MediaBrowser.Common.Configuration;

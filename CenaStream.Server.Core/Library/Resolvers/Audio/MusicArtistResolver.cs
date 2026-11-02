@@ -10,7 +10,6 @@ using MediaBrowser.Controller.Entities.Audio;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Providers;
 using MediaBrowser.Controller.Resolvers;
-using MediaBrowser.Model.Entities;
 using Microsoft.Extensions.Logging;
 
 namespace CenaStream.Server.Core.Library.Resolvers.Audio

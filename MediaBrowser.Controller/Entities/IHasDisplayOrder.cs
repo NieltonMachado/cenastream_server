@@ -1,7 +1,5 @@
 #nullable disable
 
-using CenaStream.Data.Enums;
-
 namespace MediaBrowser.Controller.Entities
 {
     /// <summary>

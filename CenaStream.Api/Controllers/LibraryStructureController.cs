@@ -6,8 +6,6 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using CenaStream.Api.Extensions;
-using CenaStream.Api.Helpers;
 using CenaStream.Api.ModelBinders;
 using CenaStream.Api.Models.LibraryStructureDto;
 using CenaStream.Data;

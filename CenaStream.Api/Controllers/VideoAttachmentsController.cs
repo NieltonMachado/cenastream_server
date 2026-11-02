@@ -5,7 +5,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using CenaStream.Api.Attributes;
 using CenaStream.Api.Extensions;
-using CenaStream.Api.Helpers;
 using MediaBrowser.Common.Extensions;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Library;

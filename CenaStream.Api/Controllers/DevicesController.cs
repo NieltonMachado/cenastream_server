@@ -1,11 +1,8 @@
 using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
-using CenaStream.Api.Attributes;
 using CenaStream.Api.Helpers;
-using CenaStream.Api.ModelBinders;
 using CenaStream.Data.Dtos;
 using CenaStream.Data.Queries;
 using MediaBrowser.Common.Api;

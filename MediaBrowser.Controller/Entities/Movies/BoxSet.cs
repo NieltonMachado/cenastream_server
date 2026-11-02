@@ -13,7 +13,6 @@ using CenaStream.Database.Implementations.Entities;
 using CenaStream.Database.Implementations.Enums;
 using MediaBrowser.Controller.Dto;
 using MediaBrowser.Controller.Providers;
-using MediaBrowser.Model.Querying;
 
 namespace MediaBrowser.Controller.Entities.Movies
 {

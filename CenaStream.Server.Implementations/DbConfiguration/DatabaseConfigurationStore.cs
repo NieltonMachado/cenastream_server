@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using CenaStream.Database.Implementations.DbConfiguration;
 using MediaBrowser.Common.Configuration;
 

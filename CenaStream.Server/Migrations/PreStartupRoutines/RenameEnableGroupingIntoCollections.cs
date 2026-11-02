@@ -1,7 +1,6 @@
 using System;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Xml.Linq;
 using CenaStream.Server.Core;
 using Microsoft.Extensions.Logging;

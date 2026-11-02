@@ -1,5 +1,4 @@
 using System;
-using System.Globalization;
 using System.Xml;
 using CenaStream.Naming.TV;
 using MediaBrowser.Common.Configuration;

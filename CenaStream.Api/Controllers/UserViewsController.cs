@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System.Linq;
-using CenaStream.Api.Extensions;
 using CenaStream.Api.Helpers;
 using CenaStream.Api.ModelBinders;
 using CenaStream.Api.Models.UserViewDtos;

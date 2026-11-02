@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace CenaStream.Database.Implementations.DbConfiguration;
 
 /// <summary>

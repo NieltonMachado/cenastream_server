@@ -4,7 +4,6 @@ using System.Linq;
 using System.Net.WebSockets;
 using System.Threading;
 using System.Threading.Tasks;
-using CenaStream.Api.Extensions;
 using CenaStream.Api.Helpers;
 using MediaBrowser.Controller.Library;
 using MediaBrowser.Controller.Net;

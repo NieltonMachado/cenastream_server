@@ -1,8 +1,6 @@
-using System;
 using System.Threading;
 using System.Threading.Tasks;
 using CenaStream.Database.Implementations;
-using MediaBrowser.Controller.Configuration;
 using Microsoft.EntityFrameworkCore;
 
 namespace CenaStream.Server.Migrations.Routines;

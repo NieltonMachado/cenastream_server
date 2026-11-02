@@ -7,7 +7,6 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using CenaStream.Data.Events;
-using CenaStream.LiveTv.Recordings;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Controller.LiveTv;
 using MediaBrowser.Model.LiveTv;

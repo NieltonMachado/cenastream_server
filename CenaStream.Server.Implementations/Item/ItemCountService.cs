@@ -7,7 +7,6 @@ using System.Linq;
 using CenaStream.Data.Enums;
 using CenaStream.Database.Implementations;
 using CenaStream.Database.Implementations.Entities;
-using CenaStream.Database.Implementations.Enums;
 using CenaStream.Extensions;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Persistence;

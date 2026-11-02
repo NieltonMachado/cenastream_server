@@ -1,7 +1,3 @@
-using System;
-using CenaStream.Server.Implementations;
-using Microsoft.EntityFrameworkCore;
-
 namespace CenaStream.Server.Migrations;
 
 /// <summary>

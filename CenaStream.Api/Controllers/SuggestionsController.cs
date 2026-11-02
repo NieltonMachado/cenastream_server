@@ -1,6 +1,5 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-using CenaStream.Api.Extensions;
 using CenaStream.Api.Helpers;
 using CenaStream.Api.ModelBinders;
 using CenaStream.Data.Enums;

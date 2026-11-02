@@ -2,7 +2,6 @@ using System;
 using CenaStream.Data.Enums;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Sorting;
-using MediaBrowser.Model.Querying;
 
 namespace CenaStream.Server.Core.Sorting
 {
